@@ -2,33 +2,67 @@
 
 > **From Pixels to Molecules:** A Video-to-Scent Translation Pipeline powered by Multimodal LLMs.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Gemini](https://img.shields.io/badge/AI-Google%20Gemini%201.5-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini%202.5%20Flash-orange?style=flat-square&logo=google)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Research%20Preview-purple?style=flat-square)
 
 ## 📖 Overview
 
-**VLM2SMELL** is a research framework designed to bridge the gap between **Visual Perception** and **Olfactory Inference**. By leveraging the sequence understanding capabilities of modern Visual Language Models (VLMs like Gemini 1.5 Pro/Flash), this system transforms raw video footage into structured chemical and sensory olfactory profiles.
+**VLM2SMELL** is a pioneering research framework designed to bridge the gap between **Visual Perception** and **Olfactory Inference**. By leveraging the advanced sequence understanding capabilities of modern Visual Language Models (specifically **Gemini 2.5 Flash**), this system transforms raw video footage into structured chemical and sensory olfactory profiles.
 
 Unlike traditional frame-by-frame analysis, VLM2SMELL treats video as a **continuous temporal sequence**, allowing it to:
-1.  **Extract Visual Ground Truth**: Identify objects, states, and thermal cues.
-2.  **Infer Olfactory Events**: Detect activities that release scent (e.g., *slicing lemon*, *frying steak*).
-3.  **Map to Chemistry**: Translate semantic descriptions into specific odorant molecules (e.g., *Limonene*, *Maillard reaction products*).
+1.  **Extract Visual Ground Truth**: Identify objects, states, and thermal cues over time.
+2.  **Infer Olfactory Events**: Detect activities that release scent (e.g., *slicing lemon*, *frying steak*, *rain on asphalt*).
+3.  **Map to Chemistry**: Translate semantic descriptions into specific odorant molecules (e.g., *Limonene*, *Maillard reaction products*, *Geosmin*).
 
-This project is designed for **HCI researchers** (e.g., for CHI submissions) exploring multi-sensory digital experiences.
+This project is tailored for **HCI researchers** and developers exploring multi-sensory digital experiences, immersive environments, and digital scent technologies.
 
 ---
 
 ## 🚀 Key Features
 
-*   **Sequence-First Architecture**: Analyzes full video sequences to capture temporal context (e.g., "whole onion" $\to$ "chopped onion" $\to$ "sautéed onion").
-*   **Visual-Olfactory Separation (VOS)**: Strictly enforces a two-step logic (Visual Evidence $\to$ Chemical Inference) to minimize hallucinations.
-*   **Chemical Mapping**: Outputs structured data including **Scent Category**, **Descriptors**, and **Candidate Molecules**.
-*   **Ground Truth Preservation**: Automatically extracts and saves indexed frames for verification against the generated JSON report.
+*   **Sequence-First Architecture**: Analyzes full video sequences to capture temporal context (e.g., understanding the transition from "whole onion" $\to$ "chopped onion" $\to$ "sautéed onion").
+*   **Visual-Olfactory Separation (VOS)**: Strictly enforces a two-step logic (Visual Evidence $\to$ Chemical Inference) to minimize hallucinations and ground predictions in visual facts.
+*   **Chemical Mapping**: Outputs structured data including **Scent Category**, **Descriptors**, **Intensity**, and **Candidate Molecules**.
+*   **Ground Truth Preservation**: Automatically extracts and saves indexed frames for manual verification against the generated JSON report.
+*   **Gemini 2.5 Flash Integration**: Utilizes the latest efficient multimodal model from Google for fast and accurate long-context understanding.
 
 ---
 
-## 🛠️ Installation
+## ⚡ Quick Start
+
+Get up and running in minutes!
+
+1.  **Clone & Install**:
+    ```bash
+    git clone https://github.com/yourusername/VLM2SMELL.git
+    cd VLM2SMELL
+    pip install -r requirements.txt
+    ```
+
+2.  **Configure API Key**:
+    Create a `.env` file and add your Google Gemini API Key:
+    ```env
+    GOOGLE_API_KEY=your_actual_api_key_here
+    ```
+
+3.  **Run Analysis**:
+    ```bash
+    python3 main.py "test video 1.mp4"
+    ```
+    *Check the generated `.json` file for the smell report!*
+
+---
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+*   Python 3.9 or higher
+*   A Google Cloud Project with the Gemini API enabled
+*   An API Key from [Google AI Studio](https://aistudio.google.com/)
+
+### Detailed Steps
 
 1.  **Clone the repository:**
     ```bash
@@ -37,62 +71,75 @@ This project is designed for **HCI researchers** (e.g., for CHI submissions) exp
     ```
 
 2.  **Install dependencies:**
+    It is recommended to use a virtual environment.
     ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
     pip install -r requirements.txt
     ```
 
-3.  **Set up API Key:**
-    Create a `.env` file in the root directory and add your Google Gemini API key:
-    ```env
-    GOOGLE_API_KEY=your_api_key_here
+3.  **Environment Configuration:**
+    Create a `.env` file in the root directory. You can use the provided example or create a new one.
+    ```bash
+    echo "GOOGLE_API_KEY=your_api_key_here" > .env
     ```
 
 ---
 
 ## 💻 Usage
 
-Run the analysis pipeline on any video file:
+The core script `main.py` handles the entire pipeline: frame extraction, VLM inference, and report generation.
 
 ```bash
-python3 main.py "path/to/video.mp4" [FPS]
+python3 main.py [video_path] [FPS] [options]
 ```
 
 ### Arguments
-*   `video_path`: Path to the input video file (Required).
-*   `FPS`: (Optional) Frames per second to extract. Default is `4`. Higher FPS = finer granularity but higher token cost.
-*   `--output`: (Optional) Custom path for the output JSON file.
+
+| Argument | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `video_path` | `str` | **Required** | Path to the input video file (e.g., `videos/cooking.mp4`). |
+| `FPS` | `int` | `4` | Frames Per Second to extract. Higher FPS = finer detail but higher API cost/latency. |
+| `--output` | `str` | `Auto-generated` | Custom path for the output JSON file. |
+| `--fps` | `int` | `4` | Alternative flag to specify FPS. |
 
 ### Examples
 
-**Standard Analysis (4 FPS):**
+**1. Standard Analysis (Default 4 FPS):**
+Good for general activities.
 ```bash
-python3 main.py "test video 1.mp4"
+python3 main.py "input_video.mp4"
 ```
 
-**High-Frequency Analysis (10 FPS):**
+**2. High-Frequency Analysis (10 FPS):**
+Better for fast-paced actions like chopping or rapid chemical reactions.
 ```bash
-python3 main.py "test video 1.mp4" 10
+python3 main.py "input_video.mp4" 10
 ```
 
-**Custom Output Name:**
+**3. Custom Output Filename:**
 ```bash
-python3 main.py "test video 1.mp4" --output "lemon_analysis.json"
+python3 main.py "input_video.mp4" --output "results/lemon_analysis.json"
 ```
 
 ---
 
 ## 📂 Output Structure
 
-The system generates a comprehensive JSON report containing:
+The system generates a comprehensive **JSON report** and a folder of **extracted frames**.
 
-1.  **`visual_timeline`**: Key events and state changes (e.g., "0.5s: Lemon is sliced").
-2.  **`frame_log`**: Detailed frame-by-frame analysis.
+### 1. JSON Report
+The JSON file contains a structured analysis of the video.
 
-**Example Output Snippet:**
+*   **`meta`**: Metadata about the analysis (source video, timestamp, model used).
+*   **`visual_timeline`**: High-level event log (e.g., "0.5s: Lemon is sliced").
+*   **`frame_log`**: Detailed periodic analysis.
+
+**Example Snippet:**
 ```json
 {
   "timestamp": 2.5,
-  "scene": "Kitchen counter",
+  "scene": "Kitchen counter close-up",
   "objects": [
     {
       "name": "Lemon",
@@ -102,38 +149,61 @@ The system generates a comprehensive JSON report containing:
   ],
   "scent": {
     "category": "Citrus",
-    "descriptors": ["Fresh", "Zesty", "Acidic"],
+    "descriptors": ["Fresh", "Zesty", "Acidic", "Sharp"],
     "molecules": ["Limonene", "Citral", "beta-Pinene"],
     "intensity": "High",
-    "reasoning": "Mechanical action (squeezing) ruptures oil glands in peel."
+    "reasoning": "Mechanical action (squeezing) ruptures oil glands in the flavedo (peel), releasing volatile oils."
   }
 }
 ```
+
+### 2. Temporary Frames
+A folder named `temp_frames/<video_name>_<timestamp>` is created containing the extracted JPEG images.
+> **Note:** These are preserved to serve as the **Ground Truth** for verification. You can manually inspect `frame_000XX.jpg` to verify the VLM's description.
 
 ---
 
 ## 🏗️ Architecture
 
+The system follows a linear pipeline optimized for multimodal understanding.
+
 ```mermaid
 graph LR
-    A[Input Video] --> B[Frame Extraction]
-    B --> C[Temp Sequence Folder]
-    C --> D[VLM Client (Gemini 1.5)]
-    D --> E{Analysis Pipeline}
-    E --> F[Visual Understanding]
-    E --> G[Chemical Translation]
-    F & G --> H[JSON Report]
+    A[Input Video] -->|OpenCV| B[Frame Extraction]
+    B -->|JPEGs| C[Sequence Batching]
+    C -->|API Request| D[Gemini 2.5 Flash]
+    D -->|System Prompt| E{VOS Analysis Engine}
+    E -->|Visual| F[Object/State Tracking]
+    E -->|Olfactory| G[Chemical Inference]
+    F & G -->|Pydantic| H[JSON Report]
 ```
 
-1.  **Frame Extraction (`video_processor.py`)**: Converts video into a strictly ordered sequence of images (Ground Truth).
-2.  **Sequence Analysis (`vlm_client.py`)**: Sends the entire sequence to the VLM with a specialized system prompt enforcing the VOS protocol.
-3.  **Data Validation (`schemas.py`)**: Ensures output adheres to strict Pydantic models.
+1.  **Frame Extraction (`video_processor.py`)**: Converts video into a strictly ordered sequence of images.
+2.  **Sequence Analysis (`vlm_client.py`)**: Sends the image sequence to Gemini 2.5 Flash with a specialized system prompt enforcing the VOS (Visual-Olfactory Separation) protocol.
+3.  **Data Validation (`schemas.py`)**: Ensures output adheres to strict Pydantic models for reliable parsing.
+
+---
+
+## ❓ Troubleshooting
+
+*   **Error: `Video file not found`**
+    *   Ensure the path to your video file is correct. Use absolute paths if unsure.
+*   **Error: `Google API key not found`**
+    *   Make sure you have created the `.env` file in the root directory and defined `GOOGLE_API_KEY`.
+*   **Error: `429 Resource Exhausted`**
+    *   You may have hit the rate limit for the Gemini API. Wait a minute and try again, or check your quota in Google AI Studio.
+*   **Analysis is too slow?**
+    *   Try reducing the FPS (e.g., use `1` or `2` FPS).
+    *   Ensure your video is not excessively long (recommended < 2 minutes).
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! We are especially looking for:
+*   Improved system prompts for better chemical accuracy.
+*   Support for other VLM models (e.g., GPT-4o, Claude 3.5).
+*   Real-time processing capabilities.
 
 1.  Fork the Project
 2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -141,10 +211,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
+---
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Note**: This project uses Google's Generative AI. Ensure you comply with their usage policies and rate limits.
+**Note**: This project uses Google's Generative AI. Ensure you comply with their [usage policies](https://policies.google.com/terms/generative-ai/use-policy).
