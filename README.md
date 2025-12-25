@@ -171,8 +171,8 @@ The system follows a strict **Two-Step VOS (Visual-Olfactory Separation)** pipel
 graph LR
     A[Input Video] -->|OpenCV| B[Frame Extraction]
     B -->|JPEGs| C[Step 1: Visual Analysis]
-    C -->|Gemini VLM| D[Visual Report (JSON)]
-    D -->|Step 2: Semantic Translation| E[Gemini LLM]
+    C -->|Gemini 2.5 Flash| D[Visual Report (JSON)]
+    D -->|Step 2: Semantic Translation| E[Gemini 2.5 Flash]
     E -->|Chemical Inference| F[Final JSON Report]
 ```
 
