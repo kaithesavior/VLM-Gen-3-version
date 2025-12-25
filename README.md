@@ -176,13 +176,13 @@ graph LR
     E -->|Chemical Inference| F[Final JSON Report]
 ```
 
-1.  **Step 1: Visual Understanding (VLM)**:
+1.  **Step 1: Visual Understanding via VLM**
     *   **Input**: Sequence of video frames.
     *   **Model**: Gemini 2.5 Flash (Vision + Text).
     *   **Task**: Identify scenes, objects, actions, and physical state changes. *Strictly forbidden from inferring smells.*
     *   **Output**: Pure visual semantic data.
 
-2.  **Step 2: Semantic-to-Chemical Translation (LLM)**:
+2.  **Step 2: Semantic-to-Chemical Translation via LLM**
     *   **Input**: The structured visual report from Step 1.
     *   **Model**: Gemini 2.5 Flash (Text-only mode).
     *   **Task**: Map visual triggers (e.g., "sliced lemon") to olfactory data (e.g., "Limonene", "Citrus").
