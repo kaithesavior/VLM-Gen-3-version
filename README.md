@@ -165,22 +165,28 @@ A folder named `temp_frames/<video_name>_<timestamp>` is created containing the 
 
 ## 🏗️ Architecture
 
-The system follows a linear pipeline optimized for multimodal understanding.
+The system follows a strict **Two-Step VOS (Visual-Olfactory Separation)** pipeline to ensure accuracy and minimize hallucinations.
 
 ```mermaid
 graph LR
     A[Input Video] -->|OpenCV| B[Frame Extraction]
-    B -->|JPEGs| C[Sequence Batching]
-    C -->|API Request| D[Gemini 2.5 Flash]
-    D -->|System Prompt| E{VOS Analysis Engine}
-    E -->|Visual| F[Object/State Tracking]
-    E -->|Olfactory| G[Chemical Inference]
-    F & G -->|Pydantic| H[JSON Report]
+    B -->|JPEGs| C[Step 1: Visual Analysis]
+    C -->|Gemini VLM| D[Visual Report (JSON)]
+    D -->|Step 2: Semantic Translation| E[Gemini LLM]
+    E -->|Chemical Inference| F[Final JSON Report]
 ```
 
-1.  **Frame Extraction (`video_processor.py`)**: Converts video into a strictly ordered sequence of images.
-2.  **Sequence Analysis (`vlm_client.py`)**: Sends the image sequence to Gemini 2.5 Flash with a specialized system prompt enforcing the VOS (Visual-Olfactory Separation) protocol.
-3.  **Data Validation (`schemas.py`)**: Ensures output adheres to strict Pydantic models for reliable parsing.
+1.  **Step 1: Visual Understanding (VLM)**:
+    *   **Input**: Sequence of video frames.
+    *   **Model**: Gemini 2.5 Flash (Vision + Text).
+    *   **Task**: Identify scenes, objects, actions, and physical state changes. *Strictly forbidden from inferring smells.*
+    *   **Output**: Pure visual semantic data.
+
+2.  **Step 2: Semantic-to-Chemical Translation (LLM)**:
+    *   **Input**: The structured visual report from Step 1.
+    *   **Model**: Gemini 2.5 Flash (Text-only mode).
+    *   **Task**: Map visual triggers (e.g., "sliced lemon") to olfactory data (e.g., "Limonene", "Citrus").
+    *   **Output**: The final JSON report with populated `scent` fields.
 
 ---
 

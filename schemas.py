@@ -31,3 +31,18 @@ class VideoAnalysisReport(BaseModel):
     meta: dict
     visual_timeline: List[TimelineEvent]
     frame_log: List[FrameAnalysis]
+
+# --- VOS Step 1 Specific Schemas ---
+
+class VisualFrameAnalysis(BaseModel):
+    """Visual-only analysis for Step 1 (No Scent)"""
+    timestamp: float
+    frame_id: str
+    scene: str
+    objects: List[VisualObject]
+
+class VisualAnalysisReport(BaseModel):
+    """Intermediate output for Step 1"""
+    meta: dict
+    visual_timeline: List[TimelineEvent]
+    frame_log: List[VisualFrameAnalysis]
