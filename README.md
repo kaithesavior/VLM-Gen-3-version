@@ -169,11 +169,11 @@ The system follows a strict **Two-Step VOS (Visual-Olfactory Separation)** pipel
 
 ```mermaid
 graph LR
-    A[Input Video] -->|OpenCV| B[Frame Extraction]
-    B -->|JPEGs| C[Step 1: Visual Analysis]
-    C -->|Gemini 2.5 Flash| D[Visual Report (JSON)]
-    D -->|Step 2: Semantic Translation| E[Gemini 2.5 Flash]
-    E -->|Chemical Inference| F[Final JSON Report]
+    A["Input Video"] -->|OpenCV| B["Frame Extraction"]
+    B -->|JPEGs| C["Step 1: Visual Analysis"]
+    C -->|"Gemini 2.5 Flash"| D["Visual Report (JSON)"]
+    D -->|"Step 2: Semantic Translation"| E["Gemini 2.5 Flash"]
+    E -->|"Chemical Inference"| F["Final JSON Report"]
 ```
 
 1.  **Step 1: Visual Understanding via VLM**
