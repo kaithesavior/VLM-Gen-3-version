@@ -1,0 +1,1416 @@
+{
+  "meta": {
+    "source_video": "test video 1.mp4",
+    "generated_at": "2025-12-25T12:53:20.901855"
+  },
+  "visual_timeline": [
+    {
+      "time": "0.0s-0.9s",
+      "event": "Setup",
+      "change": "A whole lemon is stationary on a wooden cutting board. A hand with a knife hovers above."
+    },
+    {
+      "time": "1.0s-3.9s",
+      "event": "Initiate Cut",
+      "change": "The knife lowers and begins to press into the top surface of the lemon."
+    },
+    {
+      "time": "4.0s-10.9s",
+      "event": "Slicing",
+      "change": "The knife steadily cuts through the lemon, revealing the internal flesh and some juice droplets."
+    },
+    {
+      "time": "11.0s-15.9s",
+      "event": "Separation",
+      "change": "The lemon is fully sliced into two halves, and the knife is slowly withdrawn, allowing the halves to separate slightly on the board."
+    },
+    {
+      "time": "16.0s-26.0s",
+      "event": "Post-Slice",
+      "change": "Two distinct lemon halves rest on the cutting board. The knife and hand move out of the primary view."
+    }
+  ],
+  "frame_log": [
+    {
+      "timestamp": 0.0,
+      "frame_id": "frame_0000",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "whole, yellow, textured skin",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "hovering",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "held by hand, poised to cut",
+          "location": "above the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "faint",
+          "subtle"
+        ],
+        "molecules": [
+          "Limonene"
+        ],
+        "intensity": "Low",
+        "reasoning": "Intact rind offers minimal volatile release from surface waxes and dormant oil glands, resulting in a very faint scent."
+      }
+    },
+    {
+      "timestamp": 1.0,
+      "frame_id": "frame_0004",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "whole, yellow, textured skin",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "lowering knife",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "descending towards lemon",
+          "location": "approaching the lemon's top"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "faint",
+          "subtle"
+        ],
+        "molecules": [
+          "Limonene"
+        ],
+        "intensity": "Low",
+        "reasoning": "The lemon remains largely intact; any volatile release is minimal, originating from the intact rind's surface."
+      }
+    },
+    {
+      "timestamp": 2.0,
+      "frame_id": "frame_0008",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "whole, yellow, textured skin",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "positioning knife",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "touching lemon surface",
+          "location": "top of the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "faint",
+          "mild"
+        ],
+        "molecules": [
+          "Limonene"
+        ],
+        "intensity": "Low",
+        "reasoning": "Initial contact with the rind may slightly abrade the surface, allowing a negligible release of essential oils from superficial glands."
+      }
+    },
+    {
+      "timestamp": 3.0,
+      "frame_id": "frame_0012",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "whole, yellow, textured skin, slight indentation from knife",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "applying pressure to knife",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "pressing into lemon",
+          "location": "partially embedded in lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "zesty",
+          "fresh",
+          "sharp"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)"
+        ],
+        "intensity": "Medium",
+        "reasoning": "Initial cellular rupture of the flavedo (outer rind) oil glands by the knife pressure releases a more noticeable burst of primary and some secondary essential oils."
+      }
+    },
+    {
+      "timestamp": 4.0,
+      "frame_id": "frame_0016",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "partially sliced, yellow skin, inner white pith and light yellow flesh visible",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "cutting",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "cutting through lemon",
+          "location": "about 1/4 of the way through the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "intense",
+          "bright",
+          "zesty",
+          "tart"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "High",
+        "reasoning": "Increased cellular rupture from deeper knife penetration into the flavedo and albedo releases a greater volume of essential oils and juice, intensifying the citrus aroma."
+      }
+    },
+    {
+      "timestamp": 5.0,
+      "frame_id": "frame_0020",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "partially sliced, yellow skin, inner white pith and light yellow flesh visible",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "cutting",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "cutting deeper into lemon",
+          "location": "about 1/3 of the way through the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "intense",
+          "bright",
+          "zesty",
+          "tart",
+          "sharp"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene"
+        ],
+        "intensity": "High",
+        "reasoning": "Continued slicing exposes more of the internal structure, rupturing more juice vesicles and essential oil glands, leading to sustained high volatile release."
+      }
+    },
+    {
+      "timestamp": 6.0,
+      "frame_id": "frame_0024",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "partially sliced, yellow skin, inner white pith and light yellow flesh visible",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "cutting",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "cutting deeper into lemon",
+          "location": "nearly halfway through the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "intense",
+          "bright",
+          "zesty",
+          "tart",
+          "sharp",
+          "tangy"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "The knife further penetrates the lemon, causing extensive cellular damage and the widespread release of fresh juice and aromatic compounds from the internal pulp and remaining oil glands."
+      }
+    },
+    {
+      "timestamp": 7.0,
+      "frame_id": "frame_0028",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "halfway sliced, yellow skin, inner white pith and light yellow flesh visible",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "cutting",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "cutting through lemon",
+          "location": "about halfway through the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "intense",
+          "bright",
+          "zesty",
+          "tart",
+          "sharp",
+          "tangy"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "As the lemon is bisected, the maximum internal surface area of the pulp and remaining rind is exposed, leading to a concentrated release of volatile oils and juice aromatics."
+      }
+    },
+    {
+      "timestamp": 8.0,
+      "frame_id": "frame_0032",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "more than halfway sliced, yellow skin, inner white pith and light yellow flesh visible",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "cutting",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "cutting deeper into lemon",
+          "location": "more than halfway through the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "intense",
+          "bright",
+          "zesty",
+          "tart",
+          "sharp",
+          "tangy"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "The extensive rupture of cells across the increasing cut surface continues to flood the air with a high concentration of fresh lemon volatiles."
+      }
+    },
+    {
+      "timestamp": 9.0,
+      "frame_id": "frame_0036",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "almost fully sliced, yellow skin, inner white pith and light yellow flesh visible",
+          "thermal_cue": "none",
+          "interaction": "being cut",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "cutting",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "almost fully through lemon",
+          "location": "almost at the bottom of the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "very intense",
+          "sharp",
+          "tangy",
+          "fresh",
+          "zesty"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene",
+          "Sabinene"
+        ],
+        "intensity": "High",
+        "reasoning": "Reaching the final stages of the cut maximizes the direct exposure of all layers – flavedo, albedo, and juice vesicles – to the air, resulting in the peak volatile release."
+      }
+    },
+    {
+      "timestamp": 10.0,
+      "frame_id": "frame_0040",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "sliced into two halves, still held together by the knife, juice visible around the cut",
+          "thermal_cue": "none",
+          "interaction": "being separated by knife",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "holding knife steady",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "fully through lemon",
+          "location": "fully bisecting the lemon"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "very intense",
+          "sharp",
+          "tangy",
+          "fresh",
+          "zesty",
+          "acidic"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene",
+          "Sabinene"
+        ],
+        "intensity": "High",
+        "reasoning": "The complete bisection of the lemon maximizes the exposed surface area of the pulp and rind, leading to a peak and sustained release of all stored volatile compounds."
+      }
+    },
+    {
+      "timestamp": 11.0,
+      "frame_id": "frame_0044",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon",
+          "visual_state": "sliced into two halves, slightly separated by the knife, juice visible",
+          "thermal_cue": "none",
+          "interaction": "being separated by knife",
+          "location": "center of cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "lifting knife slightly",
+          "location": "above the lemon"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "lifting from lemon",
+          "location": "between the two halves, moving upwards"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "strong",
+          "fresh",
+          "tart",
+          "zesty",
+          "acidic"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene",
+          "Sabinene"
+        ],
+        "intensity": "High",
+        "reasoning": "The physical separation further exposes the internal structure, maintaining a high rate of volatile emission, though the initial burst from the cutting action has settled."
+      }
+    },
+    {
+      "timestamp": 12.0,
+      "frame_id": "frame_0048",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, some juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, some juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "lifting knife",
+          "location": "above the lemon halves"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "lifting away from lemon",
+          "location": "above the lemon halves, moving upwards"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "strong",
+          "fresh",
+          "tart",
+          "zesty",
+          "acidic"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "With the halves now separated, a significant surface area of the aromatic fruit is exposed to the air, allowing continued evaporation of volatile compounds."
+      }
+    },
+    {
+      "timestamp": 13.0,
+      "frame_id": "frame_0052",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "lifting knife further",
+          "location": "above the lemon halves"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "moving upwards and away",
+          "location": "above and between the lemon halves"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "strong",
+          "fresh",
+          "tart",
+          "zesty",
+          "acidic"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "The freshly exposed surfaces of the lemon halves continue to release a robust bouquet of volatiles as the knife is fully withdrawn."
+      }
+    },
+    {
+      "timestamp": 14.0,
+      "frame_id": "frame_0056",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "moving knife away",
+          "location": "upper left, mostly out of focus"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "moving away from scene",
+          "location": "upper left, partially out of frame"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "strong",
+          "fresh",
+          "tart",
+          "zesty",
+          "acidic"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "The cut surfaces remain exposed, actively releasing aromatic compounds into the immediate environment, sustaining a strong scent."
+      }
+    },
+    {
+      "timestamp": 15.0,
+      "frame_id": "frame_0060",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "moving away",
+          "location": "upper left, blurred"
+        },
+        {
+          "name": "knife",
+          "visual_state": "metallic blade, dark handle (partially visible)",
+          "thermal_cue": "none",
+          "interaction": "moving away from scene",
+          "location": "upper left, blurred"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "strong",
+          "fresh",
+          "tart",
+          "zesty",
+          "acidic"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene",
+          "beta-Pinene",
+          "Gamma-Terpinene"
+        ],
+        "intensity": "High",
+        "reasoning": "Despite the knife and hand receding, the maximum exposure of the lemon's interior continues to facilitate the rapid evaporation of volatile compounds."
+      }
+    },
+    {
+      "timestamp": 16.0,
+      "frame_id": "frame_0064",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "hand",
+          "visual_state": "visible, fair skin tone",
+          "thermal_cue": "none",
+          "interaction": "partially visible, receding",
+          "location": "upper left, blurred"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellowing"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "Medium",
+        "reasoning": "Volatile compounds continue to evaporate from the extensive exposed surface area, maintaining a significant but slightly decreasing olfactory presence as the most volatile components dissipate."
+      }
+    },
+    {
+      "timestamp": 17.0,
+      "frame_id": "frame_0068",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellowing"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "Medium",
+        "reasoning": "Evaporation of citrus essential oils from the exposed pulp and rind continues, creating a noticeable but less sharp aroma as initial highly volatile compounds diminish."
+      }
+    },
+    {
+      "timestamp": 18.0,
+      "frame_id": "frame_0072",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellowing"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "Medium",
+        "reasoning": "The rate of volatile release stabilizes as the surface layer of juice and oils gradually evaporates, maintaining a consistent medium intensity."
+      }
+    },
+    {
+      "timestamp": 19.0,
+      "frame_id": "frame_0076",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellowing"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "Medium",
+        "reasoning": "Ongoing passive diffusion of essential oils from the exposed cellular structures into the ambient air maintains the citrus aroma."
+      }
+    },
+    {
+      "timestamp": 20.0,
+      "frame_id": "frame_0080",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellowing"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "Medium",
+        "reasoning": "The concentration of volatile organic compounds in the immediate vicinity remains elevated due to the continuously evaporating exposed lemon surface."
+      }
+    },
+    {
+      "timestamp": 21.0,
+      "frame_id": "frame_0084",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellowing"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool",
+          "alpha-Pinene"
+        ],
+        "intensity": "Medium",
+        "reasoning": "Volatilization from the cut lemon surfaces persists, ensuring a discernible citrus scent in the area."
+      }
+    },
+    {
+      "timestamp": 22.0,
+      "frame_id": "frame_0088",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "fading slightly"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool"
+        ],
+        "intensity": "Medium",
+        "reasoning": "As time progresses, the most volatile compounds have largely dissipated, leading to a gentle reduction in overall intensity, though still prominent."
+      }
+    },
+    {
+      "timestamp": 23.0,
+      "frame_id": "frame_0092",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "fading slightly"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool"
+        ],
+        "intensity": "Medium",
+        "reasoning": "The ongoing evaporation from the large exposed surface area ensures the persistence of key citrus volatiles, albeit at a gradually decreasing rate."
+      }
+    },
+    {
+      "timestamp": 24.0,
+      "frame_id": "frame_0096",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "fading slightly"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool"
+        ],
+        "intensity": "Medium",
+        "reasoning": "Continued exposure of the fruit's interior to air results in a steady, diminishing release of the remaining, less volatile aromatic compounds."
+      }
+    },
+    {
+      "timestamp": 25.0,
+      "frame_id": "frame_0100",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "fading slightly"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool"
+        ],
+        "intensity": "Medium",
+        "reasoning": "The inherent volatility of the essential oils combined with the sustained exposed surface ensures a persistent, though softening, citrus aroma."
+      }
+    },
+    {
+      "timestamp": 26.0,
+      "frame_id": "frame_0104",
+      "scene": "Kitchen counter/cutting area",
+      "objects": [
+        {
+          "name": "lemon half (left)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "left side of the cutting board"
+        },
+        {
+          "name": "lemon half (right)",
+          "visual_state": "sliced, yellow skin, exposed light yellow flesh, juice droplets",
+          "thermal_cue": "none",
+          "interaction": "resting",
+          "location": "right side of the cutting board"
+        },
+        {
+          "name": "cutting board",
+          "visual_state": "brown, wooden, clean surface, small amount of liquid near cut",
+          "thermal_cue": "none",
+          "interaction": "supporting",
+          "location": "foreground"
+        }
+      ],
+      "scent": {
+        "category": "Citrus",
+        "descriptors": [
+          "fresh",
+          "tangy",
+          "zesty",
+          "mellow"
+        ],
+        "molecules": [
+          "Limonene",
+          "Citral (Geranial, Neral)",
+          "Linalool"
+        ],
+        "intensity": "Medium",
+        "reasoning": "At this stage, a significant amount of the initial highly volatile compounds has dissipated, leaving a more mellow but still distinctly fresh and zesty citrus aroma from the sustained evaporation."
+      }
+    }
+  ]
+}
