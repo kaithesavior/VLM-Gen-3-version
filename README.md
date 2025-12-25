@@ -181,11 +181,13 @@ graph LR
     *   **Model**: Gemini 2.5 Flash (Vision + Text).
     *   **Task**: Identify scenes, objects, actions, and physical state changes. *Strictly forbidden from inferring smells.*
     *   **Output**: Pure visual semantic data.
+    *   **Reliability Enforcement**: Includes strict coverage validation (>95% duration) and auto-retry logic to prevent hallucinated summaries.
 
 2.  **Step 2: Semantic-to-Chemical Translation via LLM**
     *   **Input**: The structured visual report from Step 1.
     *   **Model**: Gemini 2.5 Flash (Text-only mode).
     *   **Task**: Map visual triggers (e.g., "sliced lemon") to olfactory data (e.g., "Limonene", "Citrus").
+    *   **Strategy**: Uses **Guideline-Based Prompting** (Explicit Rules for Intensity, Molecular Complexity, and Causal Reasoning) instead of simple few-shot examples to ensure scientific accuracy across diverse scenarios.
     *   **Output**: The final JSON report with populated `scent` fields.
 
 ---

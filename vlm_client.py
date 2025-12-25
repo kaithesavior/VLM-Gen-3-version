@@ -15,12 +15,17 @@ client = genai.Client()
 # Using 2.5-flash as it handles long context (many images) efficiently
 MODEL_NAME = "gemini-2.5-flash"
 
-def _step1_visual_analysis(frame_paths: List[str], fps: int) -> VisualAnalysisReport:
+def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -> VisualAnalysisReport:
     """
     Step 1: Visual Understanding via VLM.
     Extracts scene semantics, objects, and activities.
     """
-    print(f"[{MODEL_NAME}] Starting Step 1: Visual Analysis on {len(frame_paths)} frames...")
+    total_frames = len(frame_paths)
+    estimated_duration = total_frames / fps
+    expected_entries = int(estimated_duration)  # Expecting roughly 1 entry per second
+    
+    print(f"[{MODEL_NAME}] Starting Step 1: Visual Analysis on {total_frames} frames (Attempt {attempt})...")
+    print(f"Estimated Video Duration: {estimated_duration:.2f}s. Expecting ~{expected_entries} log entries.")
     
     parts = []
     
@@ -28,20 +33,26 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int) -> VisualAnalysisRe
     prompt = f"""
     You are an expert Video Understanding Engine.
     I have provided a sequence of video frames extracted at {fps} FPS.
+    The TOTAL DURATION is exactly {estimated_duration:.2f} seconds.
     
     YOUR TASK:
-    Perform a strict VISUAL analysis of the video.
+    Perform a strict VISUAL analysis of the ENTIRE video sequence from 0.0s to {estimated_duration:.2f}s.
     
-    REQUIREMENTS:
-    1. **Scene Semantics**: Identify the setting (e.g., kitchen, forest, beach).
-    2. **Object Detection**: List objects, especially those with potential olfactory properties (e.g., food, flowers, fire).
-    3. **Action Recognition**: Describe actions and interactions (e.g., cutting, boiling, burning).
-    4. **Visual State Tracking**: Note the physical state of objects (e.g., "whole onion" -> "chopped onion").
+    CRITICAL REQUIREMENTS:
+    1. **Full Timeline Coverage**: You MUST provide analysis that covers the ENTIRE duration. 
+       - Do NOT stop at 4s or 7s if the video is {estimated_duration:.2f}s long.
+       - The last entry in `frame_log` MUST be near {estimated_duration:.2f}s.
+    2. **Dense Sampling**: You MUST provide a `frame_log` entry for roughly **EVERY 1.0 SECOND**.
+       - I expect at least {expected_entries} entries in `frame_log`.
+       - Do NOT summarize. List every second explicitly.
+    3. **Scene Semantics**: Identify the setting.
+    4. **Object Detection**: List objects.
+    5. **Action Recognition**: Describe actions.
+    6. **Visual State Tracking**: Note physical state changes.
     
     CONSTRAINTS:
     - **DO NOT** infer smells or chemical molecules yet.
     - Focus ONLY on what is visually observable.
-    - Return key frames where visual state changes occur.
     """
     parts.append(types.Part(text=prompt))
     
@@ -66,10 +77,43 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int) -> VisualAnalysisRe
         if not response.text:
             raise ValueError("Empty response from VLM Step 1")
             
-        return VisualAnalysisReport.model_validate_json(response.text)
+        report = VisualAnalysisReport.model_validate_json(response.text)
+        
+        # --- Validation Logic ---
+        if not report.frame_log:
+             print("WARNING: Step 1 returned empty frame_log.")
+             valid_coverage = False
+        else:
+            last_timestamp = report.frame_log[-1].timestamp
+            entry_count = len(report.frame_log)
+            coverage_ratio = last_timestamp / estimated_duration
+            
+            print(f"Step 1 Output Coverage: {last_timestamp:.2f}s / {estimated_duration:.2f}s ({coverage_ratio:.1%})")
+            print(f"Entry Count: {entry_count} / {expected_entries} expected")
+            
+            # Strict Validation Criteria
+            # 1. Coverage must be at least 95% (Increased strictness)
+            # 2. Entry count must be at least 80% of expected (allowing minor fps drift)
+            if coverage_ratio >= 0.95 and entry_count >= (expected_entries * 0.8):
+                valid_coverage = True
+            else:
+                valid_coverage = False
+                print(f"WARNING: Output validation failed. Coverage: {coverage_ratio:.2f}, Entries: {entry_count}")
+
+        if not valid_coverage:
+            if attempt < 3:
+                print(f"Retry triggered! Starting attempt {attempt + 1}...")
+                return _step1_visual_analysis(frame_paths, fps, attempt + 1)
+            else:
+                print("CRITICAL: Max retries reached. Proceeding with incomplete data.")
+                
+        return report
         
     except Exception as e:
         print(f"Step 1 Failed: {e}")
+        if attempt < 3:
+             print(f"Retry triggered on error! Starting attempt {attempt + 1}...")
+             return _step1_visual_analysis(frame_paths, fps, attempt + 1)
         raise e
 
 def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> VideoAnalysisReport:
@@ -91,22 +135,27 @@ def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> VideoAnal
     YOUR TASK:
     Transform this visual description into a structured olfactory representation.
     
-    REQUIREMENTS:
-    1. **Analyze Visual Evidence**: For each frame/event, look for "olfactory triggers" (e.g., peeling an orange, rain on dry earth).
-    2. **Progressive Scent Analysis**: 
-       - Track the **evolution** of the scent. Does it start faint and become strong?
-       - Capture **intermediate stages** (e.g., initial cut vs. deep exposure vs. full release).
-       - Ensure the `intensity` and `descriptors` reflect these changes dynamically.
-    3. **Chemical Mapping**: 
-       - Identify specific candidate molecules responsible for the smell (e.g., Limonene, Geosmin, Guaiacol).
-       - **Diversity**: As the scent intensifies, list more complex/secondary molecules if scientifically accurate (e.g., starting with just Limonene, then adding Citral, Neral, Geranial as more cells rupture).
-    4. **Fill the 'scent' field**: The input JSON has no scent data. You must ADD it.
+    RULES & GUIDELINES (Strict Enforcement):
     
-    GUIDELINES FOR "LEMON/CITRUS" EXAMPLES (Reference Standard):
-    - **Initial Cut**: Low intensity. Primary molecule: Limonene. Descriptor: Faint, Zesty.
-    - **Deep Cut/Juice Exposure**: Medium to High intensity. Molecules: Limonene + Citral + beta-Pinene. Descriptors: Acidic, Tart, Fresh.
-    - **Full Separation/Squeezing**: High/Strong intensity. Molecules: Limonene + Citral + Neral + Geranial + Linalool. Descriptors: Sharp, Intense, Fruity, Floral notes.
-    
+    1. **Dynamic Intensity Mapping**:
+       - **Low Intensity**: Initial contact, surface-level actions, or closed containers.
+       - **Medium Intensity**: Breaking of skin/peel, heating begins, or partial exposure.
+       - **High Intensity**: Full rupture, boiling, frying, or active squeezing/spreading.
+       
+    2. **Molecular Complexity Progression**:
+       - **Early Stage**: List only primary volatiles (e.g., Limonene for citrus).
+       - **Late Stage**: MUST include secondary and trace compounds (e.g., Citral, Neral, Geranial, Linalool).
+       - **Reaction Products**: If heat is involved, MUST list reaction products (e.g., Maillard compounds like Pyrazines).
+       
+    3. **Descriptor Evolution**:
+       - Adjectives MUST change over time.
+       - Start with generic terms (Fresh, Faint).
+       - Evolve into specific terms (Tart, Sharp, Caramelized, Smoky).
+       
+    4. **Causal Reasoning**:
+       - The 'reasoning' field must explain the PHYSICAL cause of the scent change.
+       - Example: "Cellular rupture of the flavedo releases essential oils" is better than "It smells like lemon".
+
     OUTPUT FORMAT:
     Return the COMPLETE JSON matching the 'VideoAnalysisReport' schema.
     This schema is identical to the input but includes the 'scent' field for each frame in 'frame_log'.
