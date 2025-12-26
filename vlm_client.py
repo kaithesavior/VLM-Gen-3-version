@@ -49,6 +49,7 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
     4. **Object Detection**: List objects.
     5. **Action Recognition**: Describe actions.
     6. **Visual State Tracking**: Note physical state changes.
+    7. **Timeline Intervals**: For the `visual_timeline` field, if an event/action lasts > 1.0s, you MUST use the interval format (e.g., "4.5s - 9.5s") in the `time` field, NOT a single timestamp.
     
     CONSTRAINTS:
     - **DO NOT** infer smells or chemical molecules yet.
