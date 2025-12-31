@@ -1,0 +1,19 @@
+{
+  "project_settings": {
+    "target_fps": 4
+  },
+  "step1_visual_config": {
+    "model_name": "gemini-2.5-flash",
+    "detect_temperature_cues": false,
+    "detect_airflow_indicators": false,
+    "detect_humidity_visuals": false,
+    "detect_spatial_context": false
+  },
+  "step2_olfactory_config": {
+    "model_name": "gemini-2.5-flash",
+    "apply_thermodynamics": false,
+    "apply_aerodynamics": false,
+    "apply_hygrometry": false,
+    "apply_spatial_concentration": false
+  }
+}

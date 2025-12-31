@@ -29,7 +29,18 @@ def main():
     # Prepare output paths
     base = os.path.splitext(os.path.basename(args.video_path))[0]
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    output_path = args.output or f"{base}_analysis_{timestamp}.json"
+    
+    # Ensure output_reports directory exists
+    output_dir = "output_reports"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    if args.output:
+        # If user specifies output path, use it directly (allow them to override folder)
+        output_path = args.output
+    else:
+        # Default behavior: save inside output_reports folder
+        output_path = os.path.join(output_dir, f"{base}_analysis_{timestamp}.json")
+        
     temp_folder = os.path.join("temp_frames", f"{base}_{timestamp}")
 
     try:

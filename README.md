@@ -30,6 +30,66 @@ This project is tailored for **HCI researchers** and developers exploring multi-
 
 ---
 
+## 🧪 V3.0 Scientific Protocol
+
+This version introduces a rigorous **Scientific Protocol** to ensure reproducibility, quantifiability, and physical consistency.
+
+### 1. Quantitative Metrics (Stage-1)
+Instead of vague descriptions, the visual engine now outputs precise metrics:
+*   **`proximity`**: Categorical distance (near/mid/far).
+*   **`frame_coverage`**: Estimated screen area percentage (0.0 - 1.0).
+*   **`activity_level`**: Standardized motion intensity (low/medium/high).
+*   **`proximity_trend`**: Dynamic state (approaching/receding/stable).
+
+### 2. Physically-Grounded Inference (Stage-2)
+Olfactory intensity is no longer guessed but **calculated** based on first principles:
+$$ \text{Intensity} \approx (\text{Base Volatility} \times \text{Activity}) \times \text{Frame Coverage} \times \text{Proximity Factor} $$
+
+*   **Activity Multiplier**: High activity (e.g., splashing) boosts volatility by up to 2.5x.
+*   **Proximity Factor**: Distance causes linear decay (e.g., Far = 0.2x multiplier).
+
+### 3. Divine Constraints (Hard Enforcement)
+To prevent LLM "laziness", we enforce strict constraints:
+*   **Max Interval Duration**: No high-activity interval can exceed **4.0s**. Long actions MUST be split to capture evolution.
+*   **Zero Tolerance**: Merging distinct spatial states (Near -> Far) into one interval is forbidden.
+
+---
+
+## ⚙️ Configuration (Physics Engine & Models)
+
+VLM2SMELL features a powerful **Dynamic Configuration System** located in `config.json`. This allows you to toggle advanced physical simulations and switch underlying AI models for each step independently.
+
+```json
+{
+  "project_settings": {
+    "target_fps": 4
+  },
+  "step1_visual_config": {
+    "model_name": "gemini-2.5-flash", 
+    "detect_temperature_cues": true,   // Look for steam, boiling, frost
+    "detect_airflow_indicators": true, // Look for wind, smoke direction
+    "detect_humidity_visuals": false,
+    "detect_spatial_context": true     // Indoor vs Outdoor
+  },
+  "step2_olfactory_config": {
+    "model_name": "gemini-2.5-flash",
+    "apply_thermodynamics": true,        // Heat = Higher Volatility
+    "apply_aerodynamics": true,          // Wind = Dispersion
+    "apply_hygrometry": false,
+    "apply_spatial_concentration": true  // Confined space = Accumulation
+  }
+}
+```
+
+### Prompt Customization
+The system prompts are now decoupled from the code for easier research iteration:
+*   `step1_visual.txt`: Instructions for the Visual Analysis engine.
+*   `step2_olfactory.txt`: Guidelines and Rules for the Chemical Inference engine.
+
+You can edit these text files directly to test new prompting strategies without modifying the Python code.
+
+---
+
 ## ⚡ Quick Start
 
 Get up and running in minutes!
