@@ -5,7 +5,7 @@ from typing import List
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
-from schemas import VideoAnalysisReport, VisualAnalysisReport
+from schemas import OlfactoryAnalysisReport, VisualAnalysisReport
 
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
@@ -13,48 +13,95 @@ os.environ.setdefault("GOOGLE_API_KEY", api_key or "")
 client = genai.Client()
 
 # Using 2.5-flash as it handles long context (many images) efficiently
-MODEL_NAME = "gemini-2.5-flash"
+# Default fallback if not specified in config
+DEFAULT_MODEL = "gemini-2.5-flash"
+
+def load_config():
+    """Load configuration from config.json"""
+    try:
+        with open("config.json", "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print("Warning: config.json not found, using defaults.")
+        return {}
+
+def _generate_environmental_prompt(config: dict) -> tuple[str, str]:
+    """
+    Generates dynamic prompt sections based on config settings.
+    Returns: (step1_instructions, step2_rules)
+    """
+    # Step 1 Config (Visual Perception)
+    s1_config = config.get("step1_visual_config", {})
+    s1_parts = []
+    
+    if s1_config.get("detect_temperature_cues"):
+        s1_parts.append("- **Temperature Cues**: Look for steam, condensation, fire, boiling, or frozen surfaces.")
+    if s1_config.get("detect_airflow_indicators"):
+        s1_parts.append("- **Airflow Indicators**: Look for smoke direction, moving hair/fabric, wind effects.")
+    if s1_config.get("detect_humidity_visuals"):
+        s1_parts.append("- **Humidity/Moisture**: Note if the environment appears dry, humid, rainy, or steamy.")
+    if s1_config.get("detect_spatial_context"):
+        s1_parts.append("- **Spatial Context**: Explicitly state if the scene is indoors (small/large room) or outdoors (open air).")
+        
+    if s1_parts:
+        step1_extra = "\n8. **Environmental Context** (Required by Config):\n   " + "\n   ".join(s1_parts)
+    else:
+        step1_extra = ""
+
+    # Step 2 Config (Olfactory Physics)
+    s2_config = config.get("step2_olfactory_config", {})
+    s2_parts = []
+    
+    if s2_config.get("apply_thermodynamics"):
+        s2_parts.append("- **Thermodynamics**: Heat INCREASES volatility and intensity. Cold SUPPRESSES it. Reaction products (e.g., Maillard) only appear with heat.")
+    if s2_config.get("apply_aerodynamics"):
+        s2_parts.append("- **Aerodynamics**: Wind/Airflow disperses scent (lowering local intensity) but carries it further (plume effect).")
+    if s2_config.get("apply_hygrometry"):
+        s2_parts.append("- **Hygrometry**: High humidity/steam carries scent molecules better, often increasing perceived intensity.")
+    if s2_config.get("apply_spatial_concentration"):
+        s2_parts.append("- **Spatial Concentration**: Confined spaces (indoors, jars) INCREASE intensity due to accumulation. Open spaces (outdoors) DILUTE scent.")
+
+    if s2_parts:
+        step2_extra = "\n5. **Environmental Physics** (Strictly Enforce):\n   " + "\n   ".join(s2_parts)
+    else:
+        step2_extra = ""
+        
+    return step1_extra, step2_extra
 
 def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -> VisualAnalysisReport:
     """
     Step 1: Visual Understanding via VLM.
     Extracts scene semantics, objects, and activities.
     """
+    config = load_config()
+    model_name = config.get("step1_visual_config", {}).get("model_name", DEFAULT_MODEL)
+    
+    step1_extra, _ = _generate_environmental_prompt(config)
+    
     total_frames = len(frame_paths)
     estimated_duration = total_frames / fps
     expected_entries = int(estimated_duration)  # Expecting roughly 1 entry per second
     
-    print(f"[{MODEL_NAME}] Starting Step 1: Visual Analysis on {total_frames} frames (Attempt {attempt})...")
+    print(f"[{model_name}] Starting Step 1: Visual Analysis on {total_frames} frames (Attempt {attempt})...")
     print(f"Estimated Video Duration: {estimated_duration:.2f}s. Expecting ~{expected_entries} log entries.")
     
     parts = []
     
     # 1. System Prompt for Step 1
-    prompt = f"""
-    You are an expert Video Understanding Engine.
-    I have provided a sequence of video frames extracted at {fps} FPS.
-    The TOTAL DURATION is exactly {estimated_duration:.2f} seconds.
-    
-    YOUR TASK:
-    Perform a strict VISUAL analysis of the ENTIRE video sequence from 0.0s to {estimated_duration:.2f}s.
-    
-    CRITICAL REQUIREMENTS:
-    1. **Full Timeline Coverage**: You MUST provide analysis that covers the ENTIRE duration. 
-       - Do NOT stop at 4s or 7s if the video is {estimated_duration:.2f}s long.
-       - The last entry in `frame_log` MUST be near {estimated_duration:.2f}s.
-    2. **Dense Sampling**: You MUST provide a `frame_log` entry for roughly **EVERY 1.0 SECOND**.
-       - I expect at least {expected_entries} entries in `frame_log`.
-       - Do NOT summarize. List every second explicitly.
-    3. **Scene Semantics**: Identify the setting.
-    4. **Object Detection**: List objects.
-    5. **Action Recognition**: Describe actions.
-    6. **Visual State Tracking**: Note physical state changes.
-    7. **Timeline Intervals**: For the `visual_timeline` field, if an event/action lasts > 1.0s, you MUST use the interval format (e.g., "4.5s - 9.5s") in the `time` field, NOT a single timestamp.
-    
-    CONSTRAINTS:
-    - **DO NOT** infer smells or chemical molecules yet.
-    - Focus ONLY on what is visually observable.
-    """
+    # Load prompt from external file
+    try:
+        with open("step1_visual.txt", "r") as f:
+            prompt_template = f.read()
+            prompt = prompt_template.format(
+                fps=fps,
+                estimated_duration=estimated_duration,
+                expected_entries=expected_entries,
+                extra_requirements=step1_extra
+            )
+    except Exception as e:
+        print(f"Error loading Step 1 prompt: {e}")
+        raise e
+        
     parts.append(types.Part(text=prompt))
     
     # 2. Add Images
@@ -67,7 +114,7 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
     
     try:
         response = client.models.generate_content(
-            model=MODEL_NAME,
+            model=model_name,
             contents=types.Content(parts=parts),
             config={
                 "response_mime_type": "application/json",
@@ -117,74 +164,53 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
              return _step1_visual_analysis(frame_paths, fps, attempt + 1)
         raise e
 
-def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> VideoAnalysisReport:
+def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> OlfactoryAnalysisReport:
     """
     Step 2: Semantic-to-Chemical Translation via LLM.
     Maps visual semantics to olfactory representations.
     """
-    print(f"[{MODEL_NAME}] Starting Step 2: Olfactory Inference (LLM)...")
+    config = load_config()
+    model_name = config.get("step2_olfactory_config", {}).get("model_name", DEFAULT_MODEL)
+    
+    _, step2_extra = _generate_environmental_prompt(config)
+    
+    print(f"[{model_name}] Starting Step 2: Olfactory Inference (LLM)...")
     
     # Convert visual report to JSON string for the prompt
     visual_json = visual_report.model_dump_json(indent=2)
     
-    prompt = f"""
-    You are a Computational Olfactory Expert (Digital Scent Chemist).
-    
-    INPUT:
-    A structured visual analysis of a video (JSON format), describing scenes, objects, and actions.
-    
-    YOUR TASK:
-    Transform this visual description into a structured olfactory representation.
-    
-    RULES & GUIDELINES (Strict Enforcement):
-    
-    1. **Dynamic Intensity Mapping**:
-       - **Low Intensity**: Initial contact, surface-level actions, or closed containers.
-       - **Medium Intensity**: Breaking of skin/peel, heating begins, or partial exposure.
-       - **High Intensity**: Full rupture, boiling, frying, or active squeezing/spreading.
-       
-    2. **Molecular Complexity Progression**:
-       - **Early Stage**: List only primary volatiles (e.g., Limonene for citrus).
-       - **Late Stage**: MUST include secondary and trace compounds (e.g., Citral, Neral, Geranial, Linalool).
-       - **Reaction Products**: If heat is involved, MUST list reaction products (e.g., Maillard compounds like Pyrazines).
-       
-    3. **Descriptor Evolution**:
-       - Adjectives MUST change over time.
-       - Start with generic terms (Fresh, Faint).
-       - Evolve into specific terms (Tart, Sharp, Caramelized, Smoky).
-       
-    4. **Causal Reasoning**:
-       - The 'reasoning' field must explain the PHYSICAL cause of the scent change.
-       - Example: "Cellular rupture of the flavedo releases essential oils" is better than "It smells like lemon".
-
-    OUTPUT FORMAT:
-    Return the COMPLETE JSON matching the 'VideoAnalysisReport' schema.
-    This schema is identical to the input but includes the 'scent' field for each frame in 'frame_log'.
-    
-    INPUT DATA:
-    {visual_json}
-    """
+    # Load prompt from external file
+    try:
+        with open("step2_olfactory.txt", "r") as f:
+            prompt_template = f.read()
+            prompt = prompt_template.format(
+                visual_json=visual_json,
+                extra_rules=step2_extra
+            )
+    except Exception as e:
+        print(f"Error loading Step 2 prompt: {e}")
+        raise e
     
     try:
         response = client.models.generate_content(
-            model=MODEL_NAME,
+            model=model_name,
             contents=prompt,
             config={
                 "response_mime_type": "application/json",
-                "response_json_schema": VideoAnalysisReport.model_json_schema()
+                "response_json_schema": OlfactoryAnalysisReport.model_json_schema()
             }
         )
         
         if not response.text:
             raise ValueError("Empty response from LLM Step 2")
             
-        return VideoAnalysisReport.model_validate_json(response.text)
+        return OlfactoryAnalysisReport.model_validate_json(response.text)
         
     except Exception as e:
         print(f"Step 2 Failed: {e}")
         raise e
 
-def analyze_video_sequence(frame_paths: List[str], fps: int) -> VideoAnalysisReport:
+def analyze_video_sequence(frame_paths: List[str], fps: int) -> OlfactoryAnalysisReport:
     """
     Orchestrates the 2-step VOS pipeline.
     """
