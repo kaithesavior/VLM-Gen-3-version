@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 10.mp4",
+    "generated_at": "2026-01-02T16:22:05.733543",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "rain_scent_01",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 25.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "wet ground surface",
+        "exposure_mode": "exposed, aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object detected.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Focus on single dominant object",
+          "Generic scent assigned",
+          "Static intensity and descriptors"
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Puddles/Rainwater",
+      "event_ids": [
+        "rain_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

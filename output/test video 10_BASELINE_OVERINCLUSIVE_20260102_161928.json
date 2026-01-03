@@ -1,0 +1,638 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 10.mp4",
+    "generated_at": "2026-01-02T16:21:55.743435",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "wet_grass_0_0_25_25",
+      "evidence_ref": {
+        "object_name": "Wet Grass",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 25.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "blades and foliage",
+        "exposure_mode": "wet, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "(Z)-3-hexenal",
+          "(Z)-3-hexenol",
+          "(Z)-3-hexenyl acetate",
+          "cis-3-hexenal",
+          "methyl salicylate",
+          "limonene",
+          "alpha-pinene",
+          "beta-caryophyllene",
+          "myrcene",
+          "humulene",
+          "(E)-beta-ocimene",
+          "methyl jasmonate"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "green",
+          "earthy",
+          "grassy",
+          "damp",
+          "vegetal",
+          "herbaceous"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Wet Grass is present.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Wet Grass",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "wet_soil_mud_0_0_25_25",
+      "evidence_ref": {
+        "object_name": "Wet Soil/Mud",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 25.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "bulk soil, muddy surface",
+        "exposure_mode": "wet, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "oct-1-en-3-ol",
+          "oct-1-en-3-one",
+          "dimethyl sulfide",
+          "propionic acid",
+          "butyric acid",
+          "isovaleric acid",
+          "indole",
+          "skatole",
+          "humic acid degradation products",
+          "pyrazines"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "musky",
+          "damp",
+          "mineral",
+          "rich",
+          "humic",
+          "fermented"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Wet Soil/Mud is present.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Wet Soil/Mud",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_0_0_4_0",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_4_0_8_0",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_8_0_12_0",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 12.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_12_0_16_0",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 12.0,
+          "end_s": 16.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_16_0_20_0",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 16.0,
+          "end_s": 20.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_20_0_24_0",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 20.0,
+          "end_s": 24.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_rainwater_24_0_25_25",
+      "evidence_ref": {
+        "object_name": "Puddles/Rainwater",
+        "interval_time": {
+          "start_s": 24.0,
+          "end_s": 25.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface water, aerosolized droplets",
+        "exposure_mode": "wet, aerosol, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.8,
+        "trend": "pulsed",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-methylisoborneol",
+          "Ozone",
+          "volatile organic compounds (air scrubbing)",
+          "acetic acid",
+          "formic acid",
+          "dissolved minerals",
+          "faint algal metabolites"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozonic",
+          "mineral",
+          "damp",
+          "earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Puddles/Rainwater is present and agitated by falling raindrops.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Puddles/Rainwater",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Wet Grass",
+      "event_ids": [
+        "wet_grass_0_0_25_25"
+      ]
+    },
+    {
+      "object_name": "Wet Soil/Mud",
+      "event_ids": [
+        "wet_soil_mud_0_0_25_25"
+      ]
+    },
+    {
+      "object_name": "Puddles/Rainwater",
+      "event_ids": [
+        "puddles_rainwater_0_0_4_0",
+        "puddles_rainwater_4_0_8_0",
+        "puddles_rainwater_8_0_12_0",
+        "puddles_rainwater_12_0_16_0",
+        "puddles_rainwater_16_0_20_0",
+        "puddles_rainwater_20_0_24_0",
+        "puddles_rainwater_24_0_25_25"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}
