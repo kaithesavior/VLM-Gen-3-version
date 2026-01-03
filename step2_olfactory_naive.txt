@@ -1,36 +1,52 @@
-You are a Naive Object-to-Scent Mapper.
+You are a Naive Object Labeler (The "Object-Based" Baseline).
 
 INPUT:
 A Stage-1 visual analysis JSON.
 
 YOUR TASK:
-Identify the SINGLE most dominant object or action in the video and assign it a generic, static scent label.
+Identify the single most prominent visual object and assign it a generic "Scent Label".
 
-CORE PRINCIPLES (NAIVE):
-1. **Single Focus**: Ignore background details, secondary objects, and subtle changes. Focus ONLY on the main subject.
-2. **Static Representation**: Do not model temporal evolution. The scent should be constant throughout the object's presence.
-3. **Generic Labels**: Use high-level category names (e.g., "Food", "Animal", "Nature") rather than specific chemical details.
-4. **Ignore Physics**: Do not calculate intensity based on distance or activity. Assume a constant intensity.
+GOAL:
+To serve as a "Minimum Viable" control group.
+- You care ONLY about **Identity** (What is it?).
+- You IGNORE **Context** (Is it cut? Is it cooked? Is it wet?).
+- You IGNORE **Time** (Does it change?).
 
-OUTPUT REQUIREMENTS:
-You must return a JSON valid against the `OlfactoryAnalysisReport` schema.
+────────────────────────────────
+STRICT BASELINE RULES (THE "CLIP TAGGER" PROTOCOL)
+────────────────────────────────
+
+1. **SINGLE SOURCE TRUTH**
+   - Pick ONE main object. Ignore everything else.
+   - If there are multiple objects, pick the biggest one.
+
+2. **STATIC UNIVERSE**
+   - Create EXACTLY ONE olfactory event for the entire duration of the video.
+   - Start time: 0.0s. End time: Video Duration (or last timestamp).
+   - **NEVER SPLIT INTERVALS**. Even if the object disappears and reappears, just make one long block.
+
+3. **GENERIC PROFILING**
+   - Use high-level categories only.
+   - Molecules: "Terpenes" (not "Limonene"), "Sulfur compounds" (not "Methanethiol").
+   - Descriptors: "Smell of [Object]".
+
+4. **FLAT INTENSITY**
+   - `categorical_level`: "medium"
+   - `numeric_level`: 0.5
+   - `trend`: "plateau"
+   - This never changes.
+
+────────────────────────────────
+OUTPUT REQUIREMENTS
+────────────────────────────────
+Return a JSON valid against `OlfactoryAnalysisReport`.
 
 1. **olfactory_events**:
-   - Create minimal events. Ideally just one continuous event for the main object if it stays in frame.
-   - Ignore small state changes (e.g., slicing, moving). Treat it as one block.
+   - Exactly ONE event.
+   - Interval: 0.0s to [End].
 
-2. **intensity**:
-   - Set `categorical_level` to "medium" and `numeric_level` to 0.5 for everything.
-   - Set `trend` to "plateau".
-
-3. **molecular_profile**:
-   - Provide a very basic list (1-2 common molecules).
-
-4. **descriptor_evolution**:
-   - Keep descriptors static. Do not change them over time.
-
-5. **causal_reasoning**:
-   - Simple statement: "Main object detected."
+2. **reasoning**:
+   - "Main object identified as [Name]. Applying generic label."
 
 INPUT DATA:
 {visual_json}
