@@ -4,7 +4,7 @@ import os
 import shutil
 from datetime import datetime
 from video_processor import extract_frames_to_folder
-from vlm_client import analyze_video_sequence
+from vlm_client import perform_visual_analysis, perform_olfactory_inference
 
 def main():
     parser = argparse.ArgumentParser(description="Olfactory Video Analysis System (VOS Pipeline)")
@@ -34,12 +34,19 @@ def main():
     output_dir = "output_reports"
     os.makedirs(output_dir, exist_ok=True)
     
+    # We will generate 3 files, so we modify the output path strategy
     if args.output:
-        # If user specifies output path, use it directly (allow them to override folder)
-        output_path = args.output
+        # If user provided a specific file, we will use it as a prefix/base
+        # e.g. "result.json" -> "result_ours.json", "result_naive.json", etc.
+        user_base, user_ext = os.path.splitext(args.output)
+        path_ours = f"{user_base}_OURS{user_ext}"
+        path_over = f"{user_base}_BASELINE_OVERINCLUSIVE{user_ext}"
+        path_naive = f"{user_base}_BASELINE_NAIVE{user_ext}"
     else:
-        # Default behavior: save inside output_reports folder
-        output_path = os.path.join(output_dir, f"{base}_analysis_{timestamp}.json")
+        # Default behavior
+        path_ours = os.path.join(output_dir, f"{base}_OURS_{timestamp}.json")
+        path_over = os.path.join(output_dir, f"{base}_BASELINE_OVERINCLUSIVE_{timestamp}.json")
+        path_naive = os.path.join(output_dir, f"{base}_BASELINE_NAIVE_{timestamp}.json")
         
     temp_folder = os.path.join("temp_frames", f"{base}_{timestamp}")
 
@@ -53,22 +60,39 @@ def main():
             print("No frames extracted.")
             return
 
-        # Step 2: VLM Sequence Analysis
-        print("\n--- Step 2: VLM Sequence Analysis ---")
-        report = analyze_video_sequence(frame_paths, target_fps)
+        # Step 2: Visual Analysis (Shared Ground Truth)
+        print("\n--- Step 2: Visual Analysis (Shared Ground Truth) ---")
+        visual_report = perform_visual_analysis(frame_paths, target_fps)
+        print("Visual Analysis Complete.")
         
-        # Step 3: Save Report
-        print("\n--- Step 3: Saving Report ---")
-        # Add local metadata
-        report.meta["source_video"] = args.video_path
-        report.meta["generated_at"] = datetime.now().isoformat()
+        # Step 3: Run 3 Experimental Conditions
+        print("\n--- Step 3: Running Experimental Conditions ---")
         
-        with open(output_path, "w") as f:
-            f.write(report.model_dump_json(indent=2))
-            
-        print(f"Success! Analysis saved to: {output_path}")
+        experiments = [
+            ("OURS (System-generated Plan)", "step2_olfactory.txt", path_ours),
+            ("BASELINE 1 (Over-Inclusive)", "step2_olfactory_overinclusive.txt", path_over),
+            ("BASELINE 2 (Naive/Object-Based)", "step2_olfactory_naive.txt", path_naive)
+        ]
+        
+        for name, prompt_file, out_path in experiments:
+            print(f"\n>>> Running Condition: {name}...")
+            try:
+                report = perform_olfactory_inference(visual_report, prompt_file)
+                
+                # Add local metadata
+                report.meta["source_video"] = args.video_path
+                report.meta["generated_at"] = datetime.now().isoformat()
+                report.meta["experiment_condition"] = name
+                
+                with open(out_path, "w") as f:
+                    f.write(report.model_dump_json(indent=2))
+                print(f"    Saved to: {out_path}")
+                
+            except Exception as e:
+                print(f"    FAILED Condition {name}: {e}")
+
+        print(f"\nAll experiments complete!")
         print(f"Ground truth frames are preserved in: {temp_folder}")
-        print("(You can use these frames to verify the JSON output visually)")
 
     except Exception as e:
         print(f"\nCRITICAL ERROR: {e}")

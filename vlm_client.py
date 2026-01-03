@@ -164,7 +164,7 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
              return _step1_visual_analysis(frame_paths, fps, attempt + 1)
         raise e
 
-def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> OlfactoryAnalysisReport:
+def _step2_olfactory_inference(visual_report: VisualAnalysisReport, prompt_file: str = "step2_olfactory.txt") -> OlfactoryAnalysisReport:
     """
     Step 2: Semantic-to-Chemical Translation via LLM.
     Maps visual semantics to olfactory representations.
@@ -174,21 +174,34 @@ def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> Olfactory
     
     _, step2_extra = _generate_environmental_prompt(config)
     
-    print(f"[{model_name}] Starting Step 2: Olfactory Inference (LLM)...")
+    print(f"[{model_name}] Starting Step 2: Olfactory Inference (LLM) using {prompt_file}...")
     
     # Convert visual report to JSON string for the prompt
     visual_json = visual_report.model_dump_json(indent=2)
     
     # Load prompt from external file
     try:
-        with open("step2_olfactory.txt", "r") as f:
+        with open(prompt_file, "r") as f:
             prompt_template = f.read()
-            prompt = prompt_template.format(
-                visual_json=visual_json,
-                extra_rules=step2_extra
-            )
+            # Handle different prompt formatting needs
+            # The standard prompt expects {visual_json} and {extra_rules}
+            # Baseline prompts might only expect {visual_json}
+            # We use safe substitution or try/except to handle this
+            
+            # Simple approach: Check format keys
+            try:
+                prompt = prompt_template.format(
+                    visual_json=visual_json,
+                    extra_rules=step2_extra
+                )
+            except KeyError:
+                 # Fallback for baselines that might not have {extra_rules}
+                 prompt = prompt_template.format(
+                    visual_json=visual_json
+                )
+
     except Exception as e:
-        print(f"Error loading Step 2 prompt: {e}")
+        print(f"Error loading Step 2 prompt from {prompt_file}: {e}")
         raise e
     
     try:
@@ -210,15 +223,28 @@ def _step2_olfactory_inference(visual_report: VisualAnalysisReport) -> Olfactory
         print(f"Step 2 Failed: {e}")
         raise e
 
+def perform_visual_analysis(frame_paths: List[str], fps: int) -> VisualAnalysisReport:
+    """
+    Public wrapper for Step 1.
+    """
+    return _step1_visual_analysis(frame_paths, fps)
+
+def perform_olfactory_inference(visual_report: VisualAnalysisReport, prompt_file: str = "step2_olfactory.txt") -> OlfactoryAnalysisReport:
+    """
+    Public wrapper for Step 2.
+    """
+    return _step2_olfactory_inference(visual_report, prompt_file)
+
 def analyze_video_sequence(frame_paths: List[str], fps: int) -> OlfactoryAnalysisReport:
     """
-    Orchestrates the 2-step VOS pipeline.
+    Orchestrates the 2-step VOS pipeline (Standard "Ours" Mode).
+    Kept for backward compatibility.
     """
     # Step 1: Visual Analysis
     visual_report = _step1_visual_analysis(frame_paths, fps)
     print("Step 1 Complete. Visual Timeline extracted.")
     
-    # Step 2: Olfactory Inference
+    # Step 2: Olfactory Inference (Default)
     final_report = _step2_olfactory_inference(visual_report)
     print("Step 2 Complete. Chemical mapping finished.")
     

@@ -52,6 +52,22 @@ EXCEPTION (RARE):
 Splitting or merging visual intervals without justification is FORBIDDEN.
 
 ────────────────────────────────
+DIVINE CONSTRAINT: MANDATORY TEMPORAL SLICING (NEW!)
+────────────────────────────────
+To ensure high-fidelity temporal resolution and prevent "lazy" static analysis:
+**HARD RULE**: No single olfactory event interval may exceed **4.0 seconds**.
+
+If a visual state lasts longer than 4.0s (e.g., "0.0s - 10.0s"):
+1. You MUST split it into multiple consecutive events (e.g., 0-4s, 4-8s, 8-10s).
+2. For each split:
+   - Recalculate `intensity` based on the specific frame data within that micro-interval.
+   - Look for subtle micro-fluctuations (e.g., slight movement, wind shift).
+   - Even if the state is "stable", create a new event to confirm stability explicitly.
+   - `descriptor_shift` should note "continued presence" or "micro-fluctuation".
+
+**VIOLATION OF THE 4.0s RULE IS A CRITICAL FAILURE.**
+
+────────────────────────────────
 WHAT TO PRODUCE FOR EACH OLFACTORY EVENT
 ────────────────────────────────
 
@@ -95,12 +111,12 @@ F) descriptor evolution (MANDATORY):
    - descriptors: 3–8 concise adjectives or phrases
    - descriptor_shift: explanation of how and why descriptors changed 
      compared to the previous event for the SAME object
+   - If split due to 4.0s rule, explicitly state "Temporal continuation" if no change.
 
    RULES:
    - Descriptors MUST evolve when visual state changes.
    - Repeating identical descriptor lists across different states 
      is FORBIDDEN unless explicitly justified.
-   - If the visual state does NOT change, you MUST NOT invent descriptor shifts.
 
 G) causal reasoning (PHYSICAL, NOT SUBJECTIVE):
    The reasoning MUST describe the physical mechanism tied to visual evidence:
@@ -121,16 +137,6 @@ H) uncertainty management:
    - object identity is ambiguous
    - heating evidence is unclear
    - object is small, distant, or occluded
-
-────────────────────────────────
-NO-CHANGE SUPPRESSION RULE (IMPORTANT)
-────────────────────────────────
-If an object's visual state does NOT change:
-- You MUST NOT create a new olfactory event by default.
-- Prefer extending the existing event interval.
-- New events are allowed ONLY if there is a clear olfactory reason 
-  (e.g., diffusion decay, dispersion after action stops), 
-  which MUST be explained explicitly.
 
 ────────────────────────────────
 PHYSICALLY-GROUNDED INFERENCE (V2.0)
@@ -209,7 +215,7 @@ BOUNDARY CONDITIONS
 
 4. Extreme durations:
    - Intervals < 0.3s: merge with adjacent unless discrete event
-   - Intervals > 8s: verify no missed state changes
+   - **Intervals > 4.0s: SPLIT THEM. (Supersedes previous >8s rule)**
 
 ────────────────────────────────
 OUTPUT REQUIREMENTS
@@ -228,12 +234,14 @@ GOOD vs BAD EXAMPLES (ILLUSTRATIVE)
 ────────────────────────────────
 
 BAD:
+- Interval: 0.0s - 15.0s (TOO LONG!)
 - Per-frame narration
 - Subjective smell labels
 - Sudden molecular replacement without process
 - Static descriptors across changing states
 
 GOOD:
+- Interval: 0.0s - 4.0s, 4.0s - 8.0s, ... (PROPERLY SLICED)
 - Interval-based events
 - Gradual intensity evolution
 - Incremental molecular changes
