@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 10.mp4",
+    "generated_at": "2026-01-02T17:05:11.444106",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "puddles_0_0-0_5",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 0.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_0_5-4_0",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 0.5,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_4_0-8_0",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_8_0-12_0",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 12.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_12_0-16_0",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 12.0,
+          "end_s": 16.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_16_0-20_0",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 16.0,
+          "end_s": 20.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_20_0-24_0",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 20.0,
+          "end_s": 24.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_24_0-25_25",
+      "evidence_ref": {
+        "object_name": "Puddles of water",
+        "interval_time": {
+          "start_s": 24.0,
+          "end_s": 25.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "octen-3-one",
+          "alpha-pinene",
+          "camphene",
+          "n-butanol",
+          "limonene",
+          "trimethylamine"
+        ],
+        "secondary_trace": [
+          "myrcene",
+          "3-methyl-1-butanol",
+          "hexanal",
+          "isovaleraldehyde",
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "fresh",
+          "damp",
+          "mineral",
+          "wet",
+          "clean",
+          "ozonic",
+          "cool",
+          "metallic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "grass_soil_0_0-0_5",
+      "evidence_ref": {
+        "object_name": "Grass and Soil",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 0.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "soil and grass blades",
+        "exposure_mode": "exposed, damp"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "(Z)-3-hexenal",
+          "(Z)-3-hexenol",
+          "2-ethyl-3,6-dimethylpyrazine",
+          "2,3,5-trimethylpyrazine",
+          "indole"
+        ],
+        "secondary_trace": [
+          "octen-3-one",
+          "1-octen-3-ol",
+          "skatole",
+          "humic substances",
+          "long-chain aldehydes",
+          "methanethiol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "green",
+          "fresh",
+          "musty",
+          "damp",
+          "rich",
+          "organic",
+          "raw",
+          "moist",
+          "deep"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "grass_soil_0_5-25_25",
+      "evidence_ref": {
+        "object_name": "Grass and Soil",
+        "interval_time": {
+          "start_s": 0.5,
+          "end_s": 25.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "soil and grass blades",
+        "exposure_mode": "exposed, wet, saturated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "(Z)-3-hexenal",
+          "(Z)-3-hexenol",
+          "2-ethyl-3,6-dimethylpyrazine",
+          "2,3,5-trimethylpyrazine",
+          "indole"
+        ],
+        "secondary_trace": [
+          "octen-3-one",
+          "1-octen-3-ol",
+          "skatole",
+          "humic substances",
+          "long-chain aldehydes",
+          "methanethiol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "green",
+          "fresh",
+          "musty",
+          "damp",
+          "rich",
+          "organic",
+          "raw",
+          "moist",
+          "deep"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Object presence implies scent emission regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Puddles of water",
+      "event_ids": [
+        "puddles_0_0-0_5",
+        "puddles_0_5-4_0",
+        "puddles_4_0-8_0",
+        "puddles_8_0-12_0",
+        "puddles_12_0-16_0",
+        "puddles_16_0-20_0",
+        "puddles_20_0-24_0",
+        "puddles_24_0-25_25"
+      ]
+    },
+    {
+      "object_name": "Grass and Soil",
+      "event_ids": [
+        "grass_soil_0_0-0_5",
+        "grass_soil_0_5-25_25"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 14.mp4",
+    "generated_at": "2026-01-02T17:05:24.051363",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_001",
+      "evidence_ref": {
+        "object_name": "durian husk",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 18.75
+        },
+        "proximity": null
+      },
+      "odor_source": {
+        "material_part": "husk surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Sulfur compounds",
+          "Esters",
+          "Volatile Fatty Acids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of Durian Husk"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as durian husk. Applying generic label.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Assuming the main object, durian husk, contributes a detectable generic odor throughout the video."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "durian husk",
+      "event_ids": [
+        "event_001"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}
