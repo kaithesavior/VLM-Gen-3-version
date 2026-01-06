@@ -60,24 +60,26 @@ def main():
             print("No frames extracted.")
             return
 
-        # Step 2: Visual Analysis (Shared Ground Truth)
-        print("\n--- Step 2: Visual Analysis (Shared Ground Truth) ---")
-        visual_report = perform_visual_analysis(frame_paths, target_fps)
-        print("Visual Analysis Complete.")
-        
         # Step 3: Run 3 Experimental Conditions
-        print("\n--- Step 3: Running Experimental Conditions ---")
+        print("\n--- Step 2 & 3: Running Independent Pipelines ---")
         
         experiments = [
-            ("OURS (System-generated Plan)", "step2_olfactory.txt", path_ours),
-            ("BASELINE 1 (Over-Inclusive)", "step2_olfactory_overinclusive.txt", path_over),
-            ("BASELINE 2 (Naive/Object-Based)", "step2_olfactory_naive.txt", path_naive)
+            ("OURS (System-generated Plan)", "step1_visual.txt", "step2_olfactory.txt", path_ours),
+            ("BASELINE 1 (Over-Inclusive)", "step1_visual_overinclusive.txt", "step2_olfactory_overinclusive.txt", path_over),
+            ("BASELINE 2 (Naive/Object-Based)", "step1_visual_naive.txt", "step2_olfactory_naive.txt", path_naive)
         ]
         
-        for name, prompt_file, out_path in experiments:
+        for name, visual_prompt, olfactory_prompt, out_path in experiments:
             print(f"\n>>> Running Condition: {name}...")
+            print(f"    Visual Prompt: {visual_prompt}")
+            print(f"    Olfactory Prompt: {olfactory_prompt}")
+            
             try:
-                report = perform_olfactory_inference(visual_report, prompt_file)
+                # Independent Step 1
+                visual_report = perform_visual_analysis(frame_paths, target_fps, prompt_file=visual_prompt)
+                
+                # Independent Step 2
+                report = perform_olfactory_inference(visual_report, prompt_file=olfactory_prompt)
                 
                 # Add local metadata
                 report.meta["source_video"] = args.video_path

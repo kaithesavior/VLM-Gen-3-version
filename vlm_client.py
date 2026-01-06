@@ -68,7 +68,7 @@ def _generate_environmental_prompt(config: dict) -> tuple[str, str]:
         
     return step1_extra, step2_extra
 
-def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -> VisualAnalysisReport:
+def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1, prompt_file: str = "step1_visual.txt") -> VisualAnalysisReport:
     """
     Step 1: Visual Understanding via VLM.
     Extracts scene semantics, objects, and activities.
@@ -82,7 +82,7 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
     estimated_duration = total_frames / fps
     expected_entries = int(estimated_duration)  # Expecting roughly 1 entry per second
     
-    print(f"[{model_name}] Starting Step 1: Visual Analysis on {total_frames} frames (Attempt {attempt})...")
+    print(f"[{model_name}] Starting Step 1: Visual Analysis on {total_frames} frames (Attempt {attempt}) using {prompt_file}...")
     print(f"Estimated Video Duration: {estimated_duration:.2f}s. Expecting ~{expected_entries} log entries.")
     
     parts = []
@@ -90,16 +90,24 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
     # 1. System Prompt for Step 1
     # Load prompt from external file
     try:
-        with open("step1_visual.txt", "r") as f:
+        with open(prompt_file, "r") as f:
             prompt_template = f.read()
-            prompt = prompt_template.format(
-                fps=fps,
-                estimated_duration=estimated_duration,
-                expected_entries=expected_entries,
-                extra_requirements=step1_extra
-            )
+            # Handle prompt formatting (some might not use all variables)
+            try:
+                prompt = prompt_template.format(
+                    fps=fps,
+                    estimated_duration=estimated_duration,
+                    expected_entries=expected_entries,
+                    extra_requirements=step1_extra
+                )
+            except KeyError:
+                 # Fallback for baselines that might not need all vars
+                 prompt = prompt_template.format(
+                    fps=fps,
+                    estimated_duration=estimated_duration
+                )
     except Exception as e:
-        print(f"Error loading Step 1 prompt: {e}")
+        print(f"Error loading Step 1 prompt from {prompt_file}: {e}")
         raise e
         
     parts.append(types.Part(text=prompt))
@@ -151,7 +159,7 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
         if not valid_coverage:
             if attempt < 3:
                 print(f"Retry triggered! Starting attempt {attempt + 1}...")
-                return _step1_visual_analysis(frame_paths, fps, attempt + 1)
+                return _step1_visual_analysis(frame_paths, fps, attempt + 1, prompt_file)
             else:
                 print("CRITICAL: Max retries reached. Proceeding with incomplete data.")
                 
@@ -161,7 +169,7 @@ def _step1_visual_analysis(frame_paths: List[str], fps: int, attempt: int = 1) -
         print(f"Step 1 Failed: {e}")
         if attempt < 3:
              print(f"Retry triggered on error! Starting attempt {attempt + 1}...")
-             return _step1_visual_analysis(frame_paths, fps, attempt + 1)
+             return _step1_visual_analysis(frame_paths, fps, attempt + 1, prompt_file)
         raise e
 
 def _step2_olfactory_inference(visual_report: VisualAnalysisReport, prompt_file: str = "step2_olfactory.txt") -> OlfactoryAnalysisReport:
@@ -223,11 +231,11 @@ def _step2_olfactory_inference(visual_report: VisualAnalysisReport, prompt_file:
         print(f"Step 2 Failed: {e}")
         raise e
 
-def perform_visual_analysis(frame_paths: List[str], fps: int) -> VisualAnalysisReport:
+def perform_visual_analysis(frame_paths: List[str], fps: int, prompt_file: str = "step1_visual.txt") -> VisualAnalysisReport:
     """
     Public wrapper for Step 1.
     """
-    return _step1_visual_analysis(frame_paths, fps)
+    return _step1_visual_analysis(frame_paths, fps, prompt_file=prompt_file)
 
 def perform_olfactory_inference(visual_report: VisualAnalysisReport, prompt_file: str = "step2_olfactory.txt") -> OlfactoryAnalysisReport:
     """

@@ -1,0 +1,192 @@
+You are an expert Video Understanding Engine.
+
+I provide you with a sequence of video frames sampled at {fps} FPS.
+The TOTAL video duration is exactly {estimated_duration:.2f} seconds.
+
+────────────────────────────────
+STAGE-1 OBJECTIVE (TASK-AGNOSTIC)
+────────────────────────────────
+Your task is NOT to infer smells.
+
+Your task is to analyze the ENTIRE video timeline (0.0s to {estimated_duration:.2f}s)
+and produce a temporally structured representation of the video’s semantic content.
+
+Specifically, you should extract:
+- ALL major objects that appear in the video,
+- key actors (e.g., people, hands, animals),
+- and salient actions and interactions,
+
+WITHOUT applying task-specific prioritization or relevance filtering.
+
+This approach assumes that all detected semantics may potentially contribute
+to downstream interpretation and therefore preserves them uniformly.
+
+The output MUST reflect EVENT-LEVEL understanding,
+not frame-by-frame narration.
+
+────────────────────────────────
+CRITICAL COVERAGE REQUIREMENTS
+────────────────────────────────
+
+1. FULL TIMELINE COVERAGE
+- You MUST analyze the entire duration from 0.0s to {estimated_duration:.2f}s.
+- Do NOT stop early.
+- Any entity included must be tracked continuously while it remains present.
+
+2. DENSE TEMPORAL GROUNDING
+- Provide a supporting `frame_log` with roughly one entry per second.
+- The final `frame_log` entry MUST be near {estimated_duration:.2f}s.
+
+3. HIGH-RECALL EXTRACTION
+- Prefer including more entities over missing potentially relevant ones.
+- Do NOT exclude entities based on presumed importance or irrelevance.
+
+────────────────────────────────
+ENTITY INCLUSION POLICY
+────────────────────────────────
+Include in `visual_timeline`:
+
+A) OBJECTS
+- All salient foreground objects.
+- Objects that are touched, moved, carried, manipulated, or interacted with.
+- Containers, tools, furniture, appliances, packaging, surfaces.
+
+B) ACTIONS
+- Major actions and interactions (e.g., cutting, stirring, opening, closing,
+  pouring, wiping, placing, walking).
+- Actions SHOULD be recorded explicitly as timeline entities,
+  in addition to the objects involved.
+
+C) ACTORS
+- Humans, hands, or animals when present.
+- Track their interactions with objects as part of the timeline.
+
+Do NOT exclude objects merely because they are static, background,
+or seemingly indirect.
+
+────────────────────────────────
+VISUAL STATE DEFINITION (GENERAL SEMANTIC)
+────────────────────────────────
+A visual state describes observable properties or interactions,
+and may include a broader range of descriptors than task-specific pipelines.
+
+Valid visual_state descriptions may include:
+- Integrity: intact / cut / broken / peeled
+- Exposure: open / closed / covered / uncovered
+- Position or configuration: on table / inside bowl / near stove / stacked
+- Interaction: being held / being moved / being placed / being used
+- Surface cues: wet / dry / shiny / messy
+- Thermal cues: steam visible / smoke visible / flame visible (if present)
+
+This baseline allows interaction- and position-based states,
+as it aims to capture rich general semantics.
+
+────────────────────────────────
+STATE CHANGE DETECTION (PERMISSIVE)
+────────────────────────────────
+A state change may be recorded when there is a noticeable change in:
+- physical properties,
+- exposure or enclosure,
+- position or configuration,
+- interaction or contact,
+- ongoing action or manipulation.
+
+This baseline intentionally records even weak or indirect changes,
+as long as they are visually observable.
+
+────────────────────────────────
+INTERVAL REPRESENTATION RULES
+────────────────────────────────
+Temporal structure MUST remain interval-based.
+
+Interval Rule A — Stability  
+If an entity remains in the same state, represent it as ONE continuous interval.
+
+Interval Rule B — Boundary  
+Start a new interval at any noticeable change,
+including movement or interaction changes.
+
+Interval Rule C — Avoid per-second spam  
+Do NOT create redundant 1-second intervals when nothing changes.
+Use longer intervals whenever possible.
+
+────────────────────────────────
+RATIONALE REQUIREMENT
+────────────────────────────────
+Each timeline interval MUST include a brief rationale.
+
+The rationale should answer:
+1) What is visually observable?
+2) Why this object, action, or state is included in a general semantic representation.
+
+Rationales may be generic and do NOT need to reference smell relevance.
+
+────────────────────────────────
+OUTPUT FORMAT
+────────────────────────────────
+You MUST output two components:
+
+A. visual_timeline  (PRIMARY OUTPUT)
+
+A list of entities (objects, actions, actors) with interval-based tracking.
+
+Each entry MUST contain:
+- entity_type: "object" | "action" | "actor" | "scene"
+- entity_name: concise noun or verb phrase
+- time: continuous interval (e.g., "2.8s - 5.5s")
+- visual_state: explicit description (may include interaction/position)
+- state_change: true | false
+- rationale: brief explanation for inclusion
+
+B. frame_log  (SECONDARY SUPPORT)
+- One entry roughly every 1.0 second.
+- Describe overall scene context and salient ongoing actions.
+- Used solely for temporal grounding.
+
+────────────────────────────────
+ILLUSTRATIVE EXAMPLES
+────────────────────────────────
+
+EXAMPLE 1: Including static scene elements
+
+{{
+  "entity_type": "object",
+  "entity_name": "table",
+  "time": "0.0s - 12.0s",
+  "visual_state": "large table surface supporting multiple objects",
+  "state_change": false,
+  "rationale": "Prominent scene object consistently present throughout the clip."
+}}
+
+EXAMPLE 2: Actions as first-class entities
+
+{{
+  "entity_type": "action",
+  "entity_name": "cutting",
+  "time": "2.7s - 5.5s",
+  "visual_state": "hands repeatedly slicing an object with a knife",
+  "state_change": true,
+  "rationale": "Salient action segment involving repeated object manipulation."
+}}
+
+EXAMPLE 3: Tool interaction recorded
+
+{{
+  "entity_type": "object",
+  "entity_name": "knife",
+  "time": "2.7s - 5.5s",
+  "visual_state": "held in hand and moving near another object",
+  "state_change": true,
+  "rationale": "Handled tool actively involved in an interaction."
+}}
+
+────────────────────────────────
+FINAL CONSTRAINTS
+────────────────────────────────
+- Do NOT infer smells.
+- Do NOT speculate beyond visible evidence.
+- Maintain interval-based structure.
+- Do NOT apply task-specific relevance filtering.
+- Prefer high recall and semantic completeness.
+
+

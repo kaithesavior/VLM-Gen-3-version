@@ -293,7 +293,15 @@ Contributions are welcome! We are especially looking for:
 
 ## 📜 Changelog
 
-### v3.0 - The "Scientific Protocol" Update (Current)
+### v3.1 - The "Tri-Pipeline Validation" Update (Current)
+*   **Experimental Rigor**: Introduced a **3-Way Independent Pipeline** architecture to enable rigorous scientific benchmarking.
+    *   🟢 **Ours (System-generated Plan)**: Uses "Divine Constraints" and "Physically-Grounded Inference" for SOTA performance.
+    *   🔴 **Baseline 1 (Over-Inclusive)**: Simulates a "High-Recall Database" model (max molecules, max intensity, low reasoning).
+    *   🟡 **Baseline 2 (Naive)**: Simulates a "Clip-Tagging" model (single object, static intensity, generic labels).
+*   **Prompt Engineering**: Created dedicated visual prompts (`step1_visual_overinclusive.txt`, `step1_visual_naive.txt`) to ensure baselines are structurally flawed from the perception stage, providing a fairer comparison.
+*   **Batch Processing**: Added `batch_run.py` for automated large-scale testing across dataset splits.
+
+### v3.0 - The "Scientific Protocol" Update
 *   **Paradigm Shift**: Transitioned from qualitative description to quantitative computation.
 *   **Visual Engine**: Introduced `proximity`, `frame_coverage`, and `activity_level` metrics.
 *   **Inference Engine**: Implemented physically-grounded intensity formulas (Base × Activity × Proximity).
