@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 1.mp4",
+    "generated_at": "2026-01-05T23:29:22.776936",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "red_onion_scent_01",
+      "evidence_ref": {
+        "object_name": "red onion",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Sulfur compounds",
+          "Thiosulfinates"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of red onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as red onion. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "red onion",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Generic object-based assumption"
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "red onion",
+      "event_ids": [
+        "red_onion_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

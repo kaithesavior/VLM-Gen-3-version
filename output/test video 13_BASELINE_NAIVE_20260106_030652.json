@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 13.mp4",
+    "generated_at": "2026-01-06T03:09:43.601327",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "lily_flower_scent_01",
+      "evidence_ref": {
+        "object_name": "lily flower",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 13.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.8,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Terpenes",
+          "Phenylpropanoids",
+          "Fatty acid derivatives"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of lily flower"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as lily flower. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "lily flower",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Odor is consistently present throughout the observation period.",
+          "Floral scent is present at a medium, stable intensity."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "lily flower",
+      "event_ids": [
+        "lily_flower_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

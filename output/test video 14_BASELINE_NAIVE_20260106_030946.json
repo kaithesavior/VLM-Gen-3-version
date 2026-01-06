@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 14.mp4",
+    "generated_at": "2026-01-06T03:14:23.902490",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "olfactory_event_001",
+      "evidence_ref": {
+        "object_name": "durian fruit",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.8,
+          "frame_coverage_end": 0.8,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "fruit flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Sulfur compounds",
+          "Esters",
+          "Ketones"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of durian fruit"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as durian fruit. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "durian fruit",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Based solely on visual identification of the main object and generic knowledge of its typical scent profile."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "durian fruit",
+      "event_ids": [
+        "olfactory_event_001"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

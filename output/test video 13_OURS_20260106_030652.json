@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "description": "Olfactory analysis of a lily blooming process.",
+    "analysis_date": "2023-10-27",
+    "source_video": "test_videos/test video 13.mp4",
+    "generated_at": "2026-01-06T03:08:14.513134",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "lily_bud_0_3",
+      "evidence_ref": {
+        "object_name": "Lily flower bud",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 3.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.38,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "green sepals, tightly wrapped petals",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "cis-3-Hexenol",
+          "Monoterpenes"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "green",
+          "vegetal",
+          "earthy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The lily bud is closed, with petals tightly wrapped within sepals, significantly limiting the exposed surface area for volatile emission. The low activity level further contributes to a minimal, stable scent profile predominantly from the protective green sepals.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Low concentration of floral volatiles due to enclosed structure.",
+          "Green notes are dominant from sepals."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "lily_flower_3_7",
+      "evidence_ref": {
+        "object_name": "Lily flower",
+        "interval_time": {
+          "start_s": 3.0,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.38,
+          "frame_coverage_end": 0.5,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "unfurling white petals, emerging stamens",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "cis-3-Hexenol"
+        ],
+        "secondary_trace": [
+          "Methyl benzoate",
+          "Phenethyl alcohol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "fresh floral",
+          "green",
+          "sweet"
+        ],
+        "descriptor_shift": "Increased exposure from unfurling petals introduces more prominent floral and sweet notes, softening the purely green profile.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "As the lily petals begin to unfurl, the surface area for volatile emission increases. This physical exposure allows characteristic floral compounds (Linalool, Geraniol) to be released more readily, leading to a noticeable ramp-up in intensity and a shift towards a fresh, sweet floral profile. The 'approaching' proximity trend also contributes to the perceived ramp-up.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Floral compounds begin to dominate as petals expose inner surfaces."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "lily_flower_7_10_5",
+      "evidence_ref": {
+        "object_name": "Lily flower",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.62,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "expanding white petals, exposed maroon stamens and green pistil",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.65,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "Methyl benzoate",
+          "Phenethyl alcohol"
+        ],
+        "secondary_trace": [
+          "Eugenol",
+          "Indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "sweet floral",
+          "white flower",
+          "hint of spice",
+          "rich"
+        ],
+        "descriptor_shift": "Further blooming intensifies the floral character and introduces deeper, richer, and slightly spicy nuances as more complex volatiles are released.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "The continued unfurling and expansion of petals, coupled with increasing exposure of reproductive structures (stamens, pistil), further maximizes the surface area available for volatile emission. This results in a higher intensity and a more complex molecular profile, with increasing concentrations of aromatic esters and phenylpropanoids.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Volatile release from stamens and pistil contribute to complexity."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "lily_flower_10_5_13_5",
+      "evidence_ref": {
+        "object_name": "Lily flower",
+        "interval_time": {
+          "start_s": 10.5,
+          "end_s": 13.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.62,
+          "frame_coverage_end": 0.65,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "fully spread petals, fully exposed stamens and pistil",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "Methyl benzoate",
+          "Phenethyl alcohol",
+          "Eugenol"
+        ],
+        "secondary_trace": [
+          "Indole",
+          "Terpenes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "rich floral",
+          "sweet",
+          "spicy",
+          "heady",
+          "complex"
+        ],
+        "descriptor_shift": "Achieving full bloom stabilizes the maximum volatile release, resulting in peak intensity and the complete expression of the lily's mature scent.",
+        "shift_type": "intensify, stabilize"
+      },
+      "reasoning": "The lily has reached its full bloom, indicating maximal exposure of all scent-producing structures. Despite the 'low' activity (cessation of unfurling movement), the sustained maximal surface area exposure maintains a high, stable rate of volatile emission, leading to the peak intensity of the floral profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Lily flower bud",
+      "event_ids": [
+        "lily_bud_0_3"
+      ]
+    },
+    {
+      "object_name": "Lily flower",
+      "event_ids": [
+        "lily_flower_3_7",
+        "lily_flower_7_10_5",
+        "lily_flower_10_5_13_5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "lily_bud_0_3"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "green",
+        "vegetal",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "lily_bud_0_3"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "green",
+        "vegetal",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "lily_bud_0_3"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "green",
+        "vegetal",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "lily_flower_3_7"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "moderate",
+        "fresh floral",
+        "green",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "lily_flower_3_7"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "moderate",
+        "fresh floral",
+        "green",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "lily_flower_3_7"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "moderate",
+        "fresh floral",
+        "green",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "lily_flower_3_7"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "moderate",
+        "fresh floral",
+        "green",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "lily_flower_7_10_5"
+      ],
+      "interpolated_intensity": 0.65,
+      "dominant_descriptors": [
+        "distinct",
+        "sweet floral",
+        "white flower",
+        "hint of spice",
+        "rich"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "lily_flower_7_10_5"
+      ],
+      "interpolated_intensity": 0.65,
+      "dominant_descriptors": [
+        "distinct",
+        "sweet floral",
+        "white flower",
+        "hint of spice",
+        "rich"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "lily_flower_7_10_5"
+      ],
+      "interpolated_intensity": 0.65,
+      "dominant_descriptors": [
+        "distinct",
+        "sweet floral",
+        "white flower",
+        "hint of spice",
+        "rich"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "lily_flower_7_10_5"
+      ],
+      "interpolated_intensity": 0.65,
+      "dominant_descriptors": [
+        "distinct",
+        "sweet floral",
+        "white flower",
+        "hint of spice",
+        "rich"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "lily_flower_10_5_13_5"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "rich floral",
+        "sweet",
+        "spicy",
+        "heady",
+        "complex"
+      ]
+    },
+    {
+      "t_s": 12.0,
+      "linked_event_ids": [
+        "lily_flower_10_5_13_5"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "rich floral",
+        "sweet",
+        "spicy",
+        "heady",
+        "complex"
+      ]
+    },
+    {
+      "t_s": 13.0,
+      "linked_event_ids": [
+        "lily_flower_10_5_13_5"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "rich floral",
+        "sweet",
+        "spicy",
+        "heady",
+        "complex"
+      ]
+    }
+  ]
+}

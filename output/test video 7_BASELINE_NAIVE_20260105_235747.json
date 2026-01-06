@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 7.mp4",
+    "generated_at": "2026-01-06T00:02:02.762371",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_01",
+      "evidence_ref": {
+        "object_name": "person's face",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Short-chain fatty acids",
+          "Ammonia",
+          "Sulfur compounds",
+          "Steroids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of human",
+          "sweaty",
+          "body odor",
+          "salty"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as person's face. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "person's face",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Scent is generically associated with the object."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "person's face",
+      "event_ids": [
+        "event_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

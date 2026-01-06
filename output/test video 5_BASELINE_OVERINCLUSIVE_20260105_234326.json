@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 5.mp4",
+    "generated_at": "2026-01-05T23:47:07.635198",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "elephant_0-10.5",
+      "evidence_ref": {
+        "object_name": "Elephant",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin, breath, dung, bodily secretions, fur/hair, metabolic waste",
+        "exposure_mode": "exposed, living, organic, metabolic, ambient, moist"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "1-dodecanol",
+          "skatole",
+          "indole",
+          "p-cresol",
+          "phenol",
+          "4-ethylphenol",
+          "trimethylamine",
+          "butyric acid"
+        ],
+        "secondary_trace": [
+          "dihydro-beta-ionone",
+          "acetic acid",
+          "propionic acid",
+          "valeric acid",
+          "sulfur dioxide",
+          "ammonia"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "musky",
+          "animalic",
+          "grassy",
+          "fecal",
+          "damp",
+          "leathery",
+          "warm",
+          "wild",
+          "ammonia-like"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Elephant is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Elephant",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "bird_0-10.5",
+      "evidence_ref": {
+        "object_name": "Small white bird",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.005,
+          "frame_coverage_end": 0.005,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin, breath, preen gland secretions, droppings, metabolic byproducts",
+        "exposure_mode": "exposed, living, avian, metabolic, organic, dry"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "volatile fatty acids",
+          "aldehydes",
+          "ketones",
+          "sulfur compounds",
+          "alkylpyrazines",
+          "terpenes",
+          "esters"
+        ],
+        "secondary_trace": [
+          "gamma-decalactone",
+          "phenols",
+          "indole",
+          "skatole",
+          "ammonia",
+          "methanethiol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "feathered",
+          "slightly musky",
+          "avian",
+          "dusty",
+          "warm",
+          "faint",
+          "airy",
+          "earthy",
+          "clean",
+          "mild"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Small white bird is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Small white bird",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "grass_0-10.5",
+      "evidence_ref": {
+        "object_name": "Tall green grass",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaves, stems, roots, soil, chlorophyll, essential oils, sap",
+        "exposure_mode": "exposed, living, plant, moist, organic, growing"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "hexanal",
+          "(Z)-3-hexenal",
+          "(E)-2-hexenal",
+          "cis-3-hexen-1-ol",
+          "ethyl butanoate",
+          "myrcene",
+          "limonene",
+          "beta-ocimene"
+        ],
+        "secondary_trace": [
+          "geosmin",
+          "2-methylisoborneol",
+          "indole",
+          "skatole",
+          "sulfur compounds",
+          "nitrogen oxides"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "green",
+          "fresh",
+          "herbaceous",
+          "earthy",
+          "vegetative",
+          "moist",
+          "sweet-green",
+          "slightly bitter",
+          "natural",
+          "vital"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Tall green grass is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Tall green grass",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "savanna_0-10.5",
+      "evidence_ref": {
+        "object_name": "Open savanna landscape",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 1.0,
+          "frame_coverage_end": 1.0,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "air, soil, distant vegetation, dust, minerals, atmospheric elements, decaying biomass",
+        "exposure_mode": "exposed, ambient, atmospheric, mineral, geological, dry, vast"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "ozone",
+          "nitrogen oxides",
+          "terpenes",
+          "humic acids",
+          "carbon dioxide",
+          "methane"
+        ],
+        "secondary_trace": [
+          "volatile organic compounds (VOCs)",
+          "mineral dust components",
+          "decaying organic matter byproducts",
+          "sulfur compounds",
+          "isoprene",
+          "monoterpenes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "airy",
+          "vast",
+          "mineralic",
+          "dusty",
+          "dry",
+          "subtle",
+          "distant",
+          "ozone-like",
+          "earthy",
+          "clean",
+          "expansive"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Open savanna landscape is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Open savanna landscape",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Elephant",
+      "event_ids": [
+        "elephant_0-10.5"
+      ]
+    },
+    {
+      "object_name": "Small white bird",
+      "event_ids": [
+        "bird_0-10.5"
+      ]
+    },
+    {
+      "object_name": "Tall green grass",
+      "event_ids": [
+        "grass_0-10.5"
+      ]
+    },
+    {
+      "object_name": "Open savanna landscape",
+      "event_ids": [
+        "savanna_0-10.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    },
+    {
+      "t_s": 10.5,
+      "linked_event_ids": [
+        "elephant_0-10.5",
+        "bird_0-10.5",
+        "grass_0-10.5",
+        "savanna_0-10.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "earthy",
+        "musky",
+        "animalic",
+        "grassy",
+        "fecal",
+        "green",
+        "fresh",
+        "dusty",
+        "airy",
+        "mineralic",
+        "warm",
+        "moist"
+      ]
+    }
+  ]
+}

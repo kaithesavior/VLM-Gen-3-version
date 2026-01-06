@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 9.mp4",
+    "generated_at": "2026-01-06T00:11:17.338550",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_001",
+      "evidence_ref": {
+        "object_name": "T-bone steak",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.65,
+          "frame_coverage_end": 0.65,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "entire surface",
+        "exposure_mode": "exposed, heated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Sulfur compounds",
+          "Pyrazines",
+          "Aldehydes"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": [
+          "Maillard reaction products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "Smell of T-bone steak"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as T-bone steak. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "T-bone steak",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Assuming T-bone steak is the sole odor source",
+          "Applying generic olfactory profile"
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "T-bone steak",
+      "event_ids": [
+        "event_001"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

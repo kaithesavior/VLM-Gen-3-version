@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 12.mp4",
+    "generated_at": "2026-01-06T03:05:39.379595",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "gardenia_0_4",
+      "evidence_ref": {
+        "object_name": "Gardenia flower",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Methyl benzoate",
+          "Benzyl acetate",
+          "Indole",
+          "cis-3-hexenol",
+          "Eugenol"
+        ],
+        "secondary_trace": [
+          "beta-ocimene",
+          "Styrene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "sweet-floral",
+          "creamy",
+          "indolic",
+          "green-tinged"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The intact, fully bloomed gardenia flower is actively emitting its characteristic scent. Its stable near proximity and significant frame coverage contribute to a medium intensity perceived odor. The exposure mode is open to ambient air, allowing for continuous volatile release from the petals.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The flower is in its prime blooming stage, maximizing volatile emission.",
+          "Ambient air movement is minimal, leading to stable diffusion."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "gardenia_4_8",
+      "evidence_ref": {
+        "object_name": "Gardenia flower",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Methyl benzoate",
+          "Benzyl acetate",
+          "Indole",
+          "cis-3-hexenol",
+          "Eugenol"
+        ],
+        "secondary_trace": [
+          "beta-ocimene",
+          "Styrene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "sweet-floral",
+          "creamy",
+          "indolic",
+          "green-tinged"
+        ],
+        "descriptor_shift": "Temporal continuation of floral emission.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Continuation of the stable emission from the gardenia flower, maintaining medium intensity due to consistent visual state, proximity, and frame coverage. No changes in visual evidence suggest an alteration in volatile release within this sub-interval.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The flower remains in its prime blooming stage.",
+          "Ambient conditions remain stable."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "gardenia_8_10_5",
+      "evidence_ref": {
+        "object_name": "Gardenia flower",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Methyl benzoate",
+          "Benzyl acetate",
+          "Indole",
+          "cis-3-hexenol",
+          "Eugenol"
+        ],
+        "secondary_trace": [
+          "beta-ocimene",
+          "Styrene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "sweet-floral",
+          "creamy",
+          "indolic",
+          "green-tinged"
+        ],
+        "descriptor_shift": "Temporal continuation of floral emission.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The gardenia flower continues to emit its characteristic floral scent with consistent intensity, as its visual state, proximity, and frame coverage remain unchanged through this final interval.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The flower maintains its volatile production rate.",
+          "No external factors (e.g., wind) influence scent dispersion."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "leaves_0_4",
+      "evidence_ref": {
+        "object_name": "Green leaves",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaf surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.175,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "cis-3-hexenal",
+          "cis-3-hexenol",
+          "Hexanal",
+          "beta-caryophyllene"
+        ],
+        "secondary_trace": [
+          "Myrcene",
+          "Limonene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "fresh-green",
+          "grassy",
+          "earthy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The intact green leaves are emitting 'green leaf volatiles' at a low, stable rate. Their near proximity and moderate frame coverage result in a faint, but perceptible, green aroma. The leaves are openly exposed, allowing for continuous diffusion.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The leaves are healthy and metabolically active.",
+          "There is no physical damage to the leaves to induce higher volatile release."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "leaves_4_8",
+      "evidence_ref": {
+        "object_name": "Green leaves",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaf surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.175,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "cis-3-hexenal",
+          "cis-3-hexenol",
+          "Hexanal",
+          "beta-caryophyllene"
+        ],
+        "secondary_trace": [
+          "Myrcene",
+          "Limonene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "fresh-green",
+          "grassy",
+          "earthy"
+        ],
+        "descriptor_shift": "Temporal continuation of verdant emission.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Continuation of stable 'green leaf volatile' emission from the green leaves, maintaining low intensity due to consistent visual state, proximity, and frame coverage. No changes in visual evidence suggest an alteration in volatile release within this sub-interval.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The leaves remain healthy and undamaged.",
+          "Ambient conditions remain stable."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "leaves_8_10_5",
+      "evidence_ref": {
+        "object_name": "Green leaves",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaf surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.175,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "cis-3-hexenal",
+          "cis-3-hexenol",
+          "Hexanal",
+          "beta-caryophyllene"
+        ],
+        "secondary_trace": [
+          "Myrcene",
+          "Limonene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "fresh-green",
+          "grassy",
+          "earthy"
+        ],
+        "descriptor_shift": "Temporal continuation of verdant emission.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The green leaves continue to emit green leaf volatiles with consistent low intensity, as their visual state, proximity, and frame coverage remain unchanged through this final interval.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The leaves maintain their volatile production rate.",
+          "No external factors (e.g., wind) influence scent dispersion."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Gardenia flower",
+      "event_ids": [
+        "gardenia_0_4",
+        "gardenia_4_8",
+        "gardenia_8_10_5"
+      ]
+    },
+    {
+      "object_name": "Green leaves",
+      "event_ids": [
+        "leaves_0_4",
+        "leaves_4_8",
+        "leaves_8_10_5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "gardenia_0_4",
+        "leaves_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "gardenia_0_4",
+        "leaves_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "gardenia_0_4",
+        "leaves_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "gardenia_0_4",
+        "leaves_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "gardenia_4_8",
+        "leaves_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "gardenia_4_8",
+        "leaves_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "gardenia_4_8",
+        "leaves_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "gardenia_4_8",
+        "leaves_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "gardenia_8_10_5",
+        "leaves_8_10_5"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "gardenia_8_10_5",
+        "leaves_8_10_5"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "gardenia_8_10_5",
+        "leaves_8_10_5"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "intense",
+        "sweet-floral",
+        "creamy",
+        "indolic",
+        "green-tinged",
+        "faint",
+        "fresh-green",
+        "grassy",
+        "earthy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 10.mp4",
+    "generated_at": "2026-01-06T00:15:18.388228",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "rain_event_01",
+      "evidence_ref": {
+        "object_name": "rain",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": null
+      },
+      "odor_source": {
+        "material_part": "wet ground and foliage",
+        "exposure_mode": "exposed, aerosolized upon impact"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Alcohols",
+          "Hydrocarbons",
+          "Aldehydes",
+          "Carboxylic acids",
+          "Inorganic gases"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of rain"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as rain. Applying generic label.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming the presence of typical petrichor-related compounds from interaction with natural surfaces."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "rain",
+      "event_ids": [
+        "rain_event_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

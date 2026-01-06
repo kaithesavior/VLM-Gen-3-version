@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 4.mp4",
+    "generated_at": "2026-01-05T23:42:53.158528",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_001",
+      "evidence_ref": {
+        "object_name": "Foreground Duck",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 1.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin, preen gland, droppings",
+        "exposure_mode": "exposed, wet, submerged"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Aliphatic aldehydes",
+          "Fatty acids",
+          "Pyrazines",
+          "Indole",
+          "Skatole",
+          "Thiols",
+          "Amines",
+          "D-limonene"
+        ],
+        "secondary_trace": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Trimethylamine",
+          "Ammonia",
+          "Hydrogen sulfide",
+          "Pheromones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "musky",
+          "damp",
+          "fecal",
+          "musty",
+          "animalic",
+          "fatty",
+          "sulfurous",
+          "aquatic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Foreground Duck is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_002",
+      "evidence_ref": {
+        "object_name": "Foreground Duck",
+        "interval_time": {
+          "start_s": 1.75,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin, preen gland, droppings",
+        "exposure_mode": "exposed, wet, submerged"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Aliphatic aldehydes",
+          "Fatty acids",
+          "Pyrazines",
+          "Indole",
+          "Skatole",
+          "Thiols",
+          "Amines",
+          "D-limonene"
+        ],
+        "secondary_trace": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Trimethylamine",
+          "Ammonia",
+          "Hydrogen sulfide",
+          "Pheromones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "musky",
+          "damp",
+          "fecal",
+          "musty",
+          "animalic",
+          "fatty",
+          "sulfurous",
+          "aquatic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Foreground Duck is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_003",
+      "evidence_ref": {
+        "object_name": "Foreground Duck",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin, preen gland, droppings",
+        "exposure_mode": "exposed, wet, submerged"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Aliphatic aldehydes",
+          "Fatty acids",
+          "Pyrazines",
+          "Indole",
+          "Skatole",
+          "Thiols",
+          "Amines",
+          "D-limonene"
+        ],
+        "secondary_trace": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Trimethylamine",
+          "Ammonia",
+          "Hydrogen sulfide",
+          "Pheromones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "musky",
+          "damp",
+          "fecal",
+          "musty",
+          "animalic",
+          "fatty",
+          "sulfurous",
+          "aquatic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Foreground Duck is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_004",
+      "evidence_ref": {
+        "object_name": "Other Ducks",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin, preen gland, droppings",
+        "exposure_mode": "exposed, wet, submerged"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Aliphatic aldehydes",
+          "Fatty acids",
+          "Pyrazines",
+          "Indole",
+          "Skatole",
+          "Thiols",
+          "Amines",
+          "D-limonene"
+        ],
+        "secondary_trace": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Trimethylamine",
+          "Ammonia",
+          "Hydrogen sulfide",
+          "Pheromones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "musky",
+          "damp",
+          "fecal",
+          "musty",
+          "animalic",
+          "fatty",
+          "sulfurous",
+          "aquatic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Other Ducks is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_005",
+      "evidence_ref": {
+        "object_name": "Water Surface",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 1.0,
+          "frame_coverage_end": 1.0,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface, dissolved organic matter, sediment",
+        "exposure_mode": "exposed, wet, stirred"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Dimethyl sulfide",
+          "Volatile fatty acids",
+          "Algal metabolites",
+          "Skatole",
+          "Indole"
+        ],
+        "secondary_trace": [
+          "Methane",
+          "Carbon dioxide",
+          "Hydrogen sulfide",
+          "Ammonia",
+          "P-cresol",
+          "Esters"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "damp",
+          "fresh",
+          "muddy",
+          "musty",
+          "algal",
+          "green",
+          "sulfurous",
+          "aquatic",
+          "stagnant"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Water Surface is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_006",
+      "evidence_ref": {
+        "object_name": "Duck Foraging Action",
+        "interval_time": {
+          "start_s": 1.75,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "disturbed sediment, agitated water, dislodged plant matter",
+        "exposure_mode": "exposed, agitated, aerosolized (minor)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Dimethyl sulfide",
+          "Volatile fatty acids",
+          "Skatole",
+          "Indole",
+          "Aliphatic aldehydes"
+        ],
+        "secondary_trace": [
+          "Hydrogen sulfide",
+          "Methane",
+          "Ammonia",
+          "P-cresol",
+          "Mercaptans",
+          "Esters"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "muddy",
+          "intensified",
+          "musky",
+          "damp",
+          "stagnant",
+          "fecal",
+          "putrid",
+          "aquatic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Duck Foraging Action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_007",
+      "evidence_ref": {
+        "object_name": "Duck Swimming Action",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "disturbed sediment, agitated water, dislodged plant matter",
+        "exposure_mode": "exposed, agitated, aerosolized (minor)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Dimethyl sulfide",
+          "Volatile fatty acids",
+          "Skatole",
+          "Indole",
+          "Aliphatic aldehydes"
+        ],
+        "secondary_trace": [
+          "Hydrogen sulfide",
+          "Methane",
+          "Ammonia",
+          "P-cresol",
+          "Mercaptans",
+          "Esters"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "muddy",
+          "intensified",
+          "musky",
+          "damp",
+          "stagnant",
+          "fecal",
+          "putrid",
+          "aquatic",
+          "green"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Duck Swimming Action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence detected. Retrieving full chemical profile."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Foreground Duck",
+      "event_ids": [
+        "event_001",
+        "event_002",
+        "event_003"
+      ]
+    },
+    {
+      "object_name": "Other Ducks",
+      "event_ids": [
+        "event_004"
+      ]
+    },
+    {
+      "object_name": "Water Surface",
+      "event_ids": [
+        "event_005"
+      ]
+    },
+    {
+      "object_name": "Duck Foraging Action",
+      "event_ids": [
+        "event_006"
+      ]
+    },
+    {
+      "object_name": "Duck Swimming Action",
+      "event_ids": [
+        "event_007"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

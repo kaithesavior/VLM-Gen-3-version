@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 7.mp4",
+    "generated_at": "2026-01-06T00:00:23.027661",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_persons_face_0_8",
+      "evidence_ref": {
+        "object_name": "Person's face",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Ammonia",
+          "Isovaleric acid",
+          "Butyric acid",
+          "2-Methylphenol",
+          "3-Hydroxy-3-methylhexanoic acid",
+          "Androstenone"
+        ],
+        "secondary_trace": [
+          "Skatole",
+          "Indole",
+          "Trimethylamine",
+          "Dimethyl disulfide",
+          "Pyrrolidine",
+          "Acetoin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Musky",
+          "Pungent",
+          "Sour",
+          "Fatty",
+          "Animalic",
+          "Ammoniacal",
+          "Stale",
+          "Human-like",
+          "Earthy",
+          "Sharp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Person's face is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Person's face",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_sweat_droplet_0_4_5",
+      "evidence_ref": {
+        "object_name": "Sweat droplet",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.001,
+          "frame_coverage_end": 0.005,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid",
+        "exposure_mode": "wet, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Ammonia",
+          "Isovaleric acid",
+          "Butyric acid",
+          "2-Methylphenol",
+          "3-Hydroxy-3-methylhexanoic acid",
+          "Androstenone"
+        ],
+        "secondary_trace": [
+          "Skatole",
+          "Indole",
+          "Trimethylamine",
+          "Dimethyl disulfide",
+          "Pyrrolidine",
+          "Acetoin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Musky",
+          "Pungent",
+          "Sour",
+          "Fatty",
+          "Animalic",
+          "Ammoniacal",
+          "Stale",
+          "Human-like",
+          "Earthy",
+          "Sharp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Sweat droplet is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Sweat droplet",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_sweat_droplet_4_5_5_5",
+      "evidence_ref": {
+        "object_name": "Sweat droplet",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 5.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.005,
+          "frame_coverage_end": 0.001,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid",
+        "exposure_mode": "wet, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Ammonia",
+          "Isovaleric acid",
+          "Butyric acid",
+          "2-Methylphenol",
+          "3-Hydroxy-3-methylhexanoic acid",
+          "Androstenone"
+        ],
+        "secondary_trace": [
+          "Skatole",
+          "Indole",
+          "Trimethylamine",
+          "Dimethyl disulfide",
+          "Pyrrolidine",
+          "Acetoin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Musky",
+          "Pungent",
+          "Sour",
+          "Fatty",
+          "Animalic",
+          "Ammoniacal",
+          "Stale",
+          "Human-like",
+          "Earthy",
+          "Sharp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Sweat droplet is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Sweat droplet",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_nose_tip_5_5_8",
+      "evidence_ref": {
+        "object_name": "Nose tip",
+        "interval_time": {
+          "start_s": 5.5,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.001,
+          "frame_coverage_end": 0.001,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "wet"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Ammonia",
+          "Isovaleric acid",
+          "Butyric acid",
+          "2-Methylphenol",
+          "3-Hydroxy-3-methylhexanoic acid",
+          "Androstenone"
+        ],
+        "secondary_trace": [
+          "Skatole",
+          "Indole",
+          "Trimethylamine",
+          "Dimethyl disulfide",
+          "Pyrrolidine",
+          "Acetoin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Musky",
+          "Pungent",
+          "Sour",
+          "Fatty",
+          "Animalic",
+          "Ammoniacal",
+          "Stale",
+          "Human-like",
+          "Earthy",
+          "Sharp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Nose tip is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Nose tip",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Person's face",
+      "event_ids": [
+        "event_persons_face_0_8"
+      ]
+    },
+    {
+      "object_name": "Sweat droplet",
+      "event_ids": [
+        "event_sweat_droplet_0_4_5",
+        "event_sweat_droplet_4_5_5_5"
+      ]
+    },
+    {
+      "object_name": "Nose tip",
+      "event_ids": [
+        "event_nose_tip_5_5_8"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

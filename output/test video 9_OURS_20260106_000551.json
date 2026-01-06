@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 9.mp4",
+    "generated_at": "2026-01-06T00:08:31.918387",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "tbone_steak_0_2.8",
+      "evidence_ref": {
+        "object_name": "T-bone steak",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.8
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of meat, fat drippings",
+        "exposure_mode": "exposed, steam"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.75,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "sulfur-containing compounds",
+          "lipid aldehydes",
+          "ketones"
+        ],
+        "secondary_trace": [
+          "lactones",
+          "furans"
+        ],
+        "heat_reaction_products": [
+          "Maillard reaction products",
+          "Strecker aldehydes",
+          "lipid oxidation products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "savory",
+          "meaty",
+          "roasted",
+          "slightly fatty"
+        ],
+        "descriptor_shift": "Initial strong aromatic release due to surface browning and active heating, establishing the foundational cooked meat aroma.",
+        "shift_type": "add"
+      },
+      "reasoning": "Active browning and visible steam indicate the initiation of Maillard reactions and lipid degradation on the steak's surface, releasing primary meat volatiles. Proximity and high frame coverage result in high initial intensity. The high activity level and visible steam contribute to rapid volatile release, hence the ramp_up trend as heating begins.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Steak is fresh and has typical beef volatile precursors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "tbone_steak_2.8_5.6",
+      "evidence_ref": {
+        "object_name": "T-bone steak",
+        "interval_time": {
+          "start_s": 2.8,
+          "end_s": 5.6
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "deeply seared surface, burnt fat drippings",
+        "exposure_mode": "exposed, steam, smoke"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.85,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "sulfur-containing compounds",
+          "lipid aldehydes",
+          "ketones",
+          "phenol"
+        ],
+        "secondary_trace": [
+          "lactones",
+          "furans",
+          "polyphenols"
+        ],
+        "heat_reaction_products": [
+          "Maillard reaction products",
+          "Strecker aldehydes",
+          "lipid oxidation products",
+          "pyrolysis products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "rich",
+          "savory",
+          "roasted",
+          "charred",
+          "smoky"
+        ],
+        "descriptor_shift": "Increased browning and the appearance of small flames introduce charring and smoky notes, intensifying the overall aroma profile compared to the initial phase.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "More intense browning and the presence of small flames indicate increased heat exposure and more advanced Maillard reactions, as well as the beginning of pyrolysis of fats. This leads to a higher intensity and the introduction of smoky/charred notes. The sustained high activity maintains the high volatile release, entering a plateau phase.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Flames are consuming dripping fat, contributing to smoky aromas."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "tbone_steak_5.6_8.5",
+      "evidence_ref": {
+        "object_name": "T-bone steak",
+        "interval_time": {
+          "start_s": 5.6,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "charred surface, actively burning fat",
+        "exposure_mode": "exposed, heavy steam, heavy smoke"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.95,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "sulfur-containing compounds",
+          "phenols",
+          "polycyclic aromatic hydrocarbons (PAHs)",
+          "furanones"
+        ],
+        "secondary_trace": [
+          "lactones",
+          "pyrroles",
+          "volatile fatty acids"
+        ],
+        "heat_reaction_products": [
+          "advanced Maillard products",
+          "pyrolysis products",
+          "combustion products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "bold",
+          "deeply roasted",
+          "heavy smoky",
+          "charred",
+          "pungent"
+        ],
+        "descriptor_shift": "Further intensification of browning and larger, more frequent flames leads to even more pronounced charred and smoky notes, increasing pungency and overall boldness, reaching peak intensity.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "Deep browning and consistent, larger flames indicate a peak in thermal degradation and pyrolysis, releasing a complex mixture of volatiles including more intense smoky and charred compounds. The heavy steam ensures efficient volatile transport. This state represents the highest intensity of odor generation observed.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The fat drippings are actively burning, producing significant smoke and charcoal aromas."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "T-bone steak",
+      "event_ids": [
+        "tbone_steak_0_2.8",
+        "tbone_steak_2.8_5.6",
+        "tbone_steak_5.6_8.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "tbone_steak_0_2.8"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "intense",
+        "savory",
+        "meaty",
+        "roasted"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "tbone_steak_0_2.8"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "intense",
+        "savory",
+        "meaty",
+        "roasted"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "tbone_steak_0_2.8"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "intense",
+        "savory",
+        "meaty",
+        "roasted"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "tbone_steak_2.8_5.6"
+      ],
+      "interpolated_intensity": 0.85,
+      "dominant_descriptors": [
+        "intense",
+        "rich",
+        "savory",
+        "roasted",
+        "charred",
+        "smoky"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "tbone_steak_2.8_5.6"
+      ],
+      "interpolated_intensity": 0.85,
+      "dominant_descriptors": [
+        "intense",
+        "rich",
+        "savory",
+        "roasted",
+        "charred",
+        "smoky"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "tbone_steak_2.8_5.6"
+      ],
+      "interpolated_intensity": 0.85,
+      "dominant_descriptors": [
+        "intense",
+        "rich",
+        "savory",
+        "roasted",
+        "charred",
+        "smoky"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "tbone_steak_5.6_8.5"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "intense",
+        "bold",
+        "deeply roasted",
+        "heavy smoky",
+        "charred",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "tbone_steak_5.6_8.5"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "intense",
+        "bold",
+        "deeply roasted",
+        "heavy smoky",
+        "charred",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "tbone_steak_5.6_8.5"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "intense",
+        "bold",
+        "deeply roasted",
+        "heavy smoky",
+        "charred",
+        "pungent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 3.mp4",
+    "generated_at": "2026-01-05T23:37:20.351905",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "flowing_water_event_1",
+      "evidence_ref": {
+        "object_name": "Flowing water",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 3.83
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "oxygenated compounds"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct fresh",
+          "high mineralic",
+          "noticeable earthy",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "High activity (cascading, splashing) increases surface area and aerosolization, leading to significant volatile release. Interaction with rocks and surrounding organic matter contributes trace earthy compounds, while water movement contributes freshness.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "flowing_water_event_2",
+      "evidence_ref": {
+        "object_name": "Flowing water",
+        "interval_time": {
+          "start_s": 3.83,
+          "end_s": 7.66
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "oxygenated compounds"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct fresh",
+          "high mineralic",
+          "noticeable earthy",
+          "airy"
+        ],
+        "descriptor_shift": "Temporal continuation; no significant change in visual state or activity.",
+        "shift_type": null
+      },
+      "reasoning": "The visual state and activity of the flowing water remain unchanged, leading to a continuation of the previous olfactory profile and intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "flowing_water_event_3",
+      "evidence_ref": {
+        "object_name": "Flowing water",
+        "interval_time": {
+          "start_s": 7.66,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "oxygenated compounds"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct fresh",
+          "high mineralic",
+          "noticeable earthy",
+          "airy"
+        ],
+        "descriptor_shift": "Temporal continuation; visual state and activity remain consistent.",
+        "shift_type": null
+      },
+      "reasoning": "Consistent visual evidence of active, cascading water maintains the olfactory event parameters as observed in previous intervals.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "forest_vegetation_event_1",
+      "evidence_ref": {
+        "object_name": "Lush forest vegetation",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.65,
+          "frame_coverage_end": 0.65,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaves, moss, soil",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.3,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "terpenes",
+          "sesquiterpenes",
+          "geosmin",
+          "2-methylisoborneol"
+        ],
+        "secondary_trace": [
+          "humic acids",
+          "volatile fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate earthy",
+          "distinct humid",
+          "green leaf",
+          "mossy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Dense, wet vegetation provides a consistent surface for volatile organic compound (VOC) release, enhanced by high humidity. The static nature limits aerosolization, resulting in a moderate, steady diffusion.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Typical VOCs for wet forest vegetation are present."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "forest_vegetation_event_2",
+      "evidence_ref": {
+        "object_name": "Lush forest vegetation",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.65,
+          "frame_coverage_end": 0.65,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaves, moss, soil",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.3,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "terpenes",
+          "sesquiterpenes",
+          "geosmin",
+          "2-methylisoborneol"
+        ],
+        "secondary_trace": [
+          "humic acids",
+          "volatile fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate earthy",
+          "distinct humid",
+          "green leaf",
+          "mossy"
+        ],
+        "descriptor_shift": "Temporal continuation; no significant change in visual state or activity.",
+        "shift_type": null
+      },
+      "reasoning": "Visual evidence shows the forest vegetation remains in a stable, wet, and dense state, indicating a continuous and consistent release of the same olfactory profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Typical VOCs for wet forest vegetation are present."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "forest_vegetation_event_3",
+      "evidence_ref": {
+        "object_name": "Lush forest vegetation",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.65,
+          "frame_coverage_end": 0.65,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaves, moss, soil",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.3,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "terpenes",
+          "sesquiterpenes",
+          "geosmin",
+          "2-methylisoborneol"
+        ],
+        "secondary_trace": [
+          "humic acids",
+          "volatile fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate earthy",
+          "distinct humid",
+          "green leaf",
+          "mossy"
+        ],
+        "descriptor_shift": "Temporal continuation; visual state and activity remain consistent.",
+        "shift_type": null
+      },
+      "reasoning": "The visual conditions for the forest vegetation persist, maintaining a stable olfactory output.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Typical VOCs for wet forest vegetation are present."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Flowing water",
+      "event_ids": [
+        "flowing_water_event_1",
+        "flowing_water_event_2",
+        "flowing_water_event_3"
+      ]
+    },
+    {
+      "object_name": "Lush forest vegetation",
+      "event_ids": [
+        "forest_vegetation_event_1",
+        "forest_vegetation_event_2",
+        "forest_vegetation_event_3"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "flowing_water_event_1",
+        "forest_vegetation_event_1"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "flowing_water_event_1",
+        "forest_vegetation_event_1"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "flowing_water_event_1",
+        "forest_vegetation_event_1"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "flowing_water_event_1",
+        "forest_vegetation_event_1"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "flowing_water_event_2",
+        "forest_vegetation_event_2"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "flowing_water_event_2",
+        "forest_vegetation_event_2"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "flowing_water_event_2",
+        "forest_vegetation_event_2"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "flowing_water_event_2",
+        "forest_vegetation_event_2"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "flowing_water_event_3",
+        "forest_vegetation_event_3"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "flowing_water_event_3",
+        "forest_vegetation_event_3"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "flowing_water_event_3",
+        "forest_vegetation_event_3"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "flowing_water_event_3",
+        "forest_vegetation_event_3"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "distinct fresh",
+        "high mineralic",
+        "noticeable earthy",
+        "distinct humid",
+        "green leaf",
+        "airy"
+      ]
+    }
+  ]
+}

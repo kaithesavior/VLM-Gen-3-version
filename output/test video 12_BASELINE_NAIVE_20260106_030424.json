@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 12.mp4",
+    "generated_at": "2026-01-06T03:06:49.928304",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "gardenia_flower_scent_01",
+      "evidence_ref": {
+        "object_name": "gardenia flower",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "flower",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Terpenes",
+          "Alcohols",
+          "Esters"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of gardenia flower"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as gardenia flower. Applying generic label.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Assumed typical scent profile for gardenia flower.",
+          "Assumed constant intensity and profile for the entire duration."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "gardenia flower",
+      "event_ids": [
+        "gardenia_flower_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

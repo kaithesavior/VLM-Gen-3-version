@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 13.mp4",
+    "generated_at": "2026-01-06T03:09:12.747965",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_lily_bud_0-6",
+      "evidence_ref": {
+        "object_name": "foreground lily bud",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 6.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "bud, petals, sepals",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Eugenol",
+          "Benzyl Acetate",
+          "Phenylethyl Alcohol",
+          "Geraniol",
+          "Methyl Benzoate",
+          "Indole",
+          "Nerol"
+        ],
+        "secondary_trace": [
+          "Ocimene",
+          "Limonene",
+          "Farnesene",
+          "cis-3-Hexenol",
+          "alpha-Pinene",
+          "p-Cresol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "floral",
+          "sweet",
+          "green",
+          "fresh",
+          "waxy",
+          "spicy",
+          "citrusy",
+          "woody",
+          "rosy",
+          "clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object foreground lily bud is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "foreground lily bud",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_lily_flower_6-13.5",
+      "evidence_ref": {
+        "object_name": "foreground lily flower",
+        "interval_time": {
+          "start_s": 6.0,
+          "end_s": 13.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.55,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals, stamens, pistil",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Eugenol",
+          "Benzyl Acetate",
+          "Phenylethyl Alcohol",
+          "Geraniol",
+          "Methyl Benzoate",
+          "Indole",
+          "Nerol"
+        ],
+        "secondary_trace": [
+          "Ocimene",
+          "Limonene",
+          "Farnesene",
+          "cis-3-Hexenol",
+          "alpha-Pinene",
+          "p-Cresol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intensely floral",
+          "sweet",
+          "rich",
+          "heady",
+          "green",
+          "spicy",
+          "waxy",
+          "honeyed",
+          "exotic",
+          "narcotic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object foreground lily flower is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "foreground lily flower",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_background_lily_0-13.5",
+      "evidence_ref": {
+        "object_name": "background lily flower",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 13.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals, stamens",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Eugenol",
+          "Benzyl Acetate",
+          "Phenylethyl Alcohol",
+          "Geraniol",
+          "Methyl Benzoate",
+          "Indole",
+          "Nerol"
+        ],
+        "secondary_trace": [
+          "Ocimene",
+          "Limonene",
+          "Farnesene",
+          "cis-3-Hexenol",
+          "alpha-Pinene",
+          "p-Cresol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "floral",
+          "sweet",
+          "green",
+          "fresh",
+          "waxy",
+          "spicy",
+          "citrusy",
+          "woody",
+          "rosy",
+          "powdery"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object background lily flower is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "background lily flower",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_lily_stem_leaves_0-13.5",
+      "evidence_ref": {
+        "object_name": "lily stem and leaves",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 13.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "stem, leaves",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "cis-3-Hexenol",
+          "trans-2-Hexenal",
+          "Methyl salicylate",
+          "alpha-Pinene",
+          "Limonene",
+          "beta-Caryophyllene",
+          "Sabinene",
+          "Geraniol"
+        ],
+        "secondary_trace": [
+          "Hexanal",
+          "Nonanal",
+          "Linalool oxide",
+          "Thujene",
+          "Camphene",
+          "Myrcene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "green",
+          "grassy",
+          "fresh",
+          "leafy",
+          "earthy",
+          "herbaceous",
+          "woody",
+          "camphoraceous",
+          "pungent",
+          "vegetal"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object lily stem and leaves is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "lily stem and leaves",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "foreground lily bud",
+      "event_ids": [
+        "event_lily_bud_0-6"
+      ]
+    },
+    {
+      "object_name": "foreground lily flower",
+      "event_ids": [
+        "event_lily_flower_6-13.5"
+      ]
+    },
+    {
+      "object_name": "background lily flower",
+      "event_ids": [
+        "event_background_lily_0-13.5"
+      ]
+    },
+    {
+      "object_name": "lily stem and leaves",
+      "event_ids": [
+        "event_lily_stem_leaves_0-13.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

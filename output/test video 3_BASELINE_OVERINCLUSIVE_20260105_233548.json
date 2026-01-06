@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 3.mp4",
+    "generated_at": "2026-01-05T23:38:35.833213",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "Waterfall-0.0-11.5",
+      "evidence_ref": {
+        "object_name": "Waterfall",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.25,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "moving water, aerosolized water droplets",
+        "exposure_mode": "aerosol, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Algal volatile organic compounds",
+          "Dissolved organic matter",
+          "Ozone",
+          "Hydrogen sulfide",
+          "Aldehydes",
+          "Terpenoids"
+        ],
+        "secondary_trace": [
+          "Nitrogen oxides",
+          "Hydroxyl radicals",
+          "Mineral carbonates",
+          "Ferric oxides",
+          "Sulfur dioxide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "earthy",
+          "damp",
+          "mineral",
+          "ozone-like",
+          "aquatic",
+          "cool",
+          "invigorating",
+          "humid"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Waterfall is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Stream-0.0-11.5",
+      "evidence_ref": {
+        "object_name": "Stream",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "flowing water, submerged sediments, biofilms",
+        "exposure_mode": "exposed, surface evaporation"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Algal volatile organic compounds",
+          "Dissolved organic compounds",
+          "Humic acids",
+          "Skatole",
+          "Indole",
+          "Hydrogen sulfide"
+        ],
+        "secondary_trace": [
+          "Mineral silicates",
+          "Ferric oxides",
+          "Methyl mercaptan",
+          "Ammonia",
+          "Methane"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "earthy",
+          "damp",
+          "mineral",
+          "aquatic",
+          "muddy",
+          "clean",
+          "cool",
+          "vegetal",
+          "microbial"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Stream is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Forest_Trees-0.0-11.5",
+      "evidence_ref": {
+        "object_name": "Forest Trees",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "foliage, bark, decaying wood, forest soil, mosses",
+        "exposure_mode": "exposed, surface evaporation"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Alpha-pinene",
+          "Limonene",
+          "Myrcene",
+          "Caryophyllene",
+          "Guaiacol",
+          "Eugenol",
+          "Geosmin",
+          "Cis-3-Hexenol"
+        ],
+        "secondary_trace": [
+          "Skatole",
+          "Indole",
+          "2-Methylisoborneol",
+          "Humulene",
+          "Bornyl acetate",
+          "Phellandrene",
+          "Decadienal",
+          "Terpinolene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "green",
+          "earthy",
+          "woody",
+          "damp",
+          "fresh",
+          "resinous",
+          "mossy",
+          "spicy",
+          "sweet",
+          "decaying"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Forest Trees is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Rocks-0.0-11.5",
+      "evidence_ref": {
+        "object_name": "Rocks",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "wet mineral surfaces, algae, lichen, trapped organic matter",
+        "exposure_mode": "surface evaporation, wet"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Algal volatile organic compounds",
+          "Mineral silicates",
+          "Dissolved iron compounds",
+          "Hydrocarbons",
+          "Hydrogen sulfide",
+          "Skatole"
+        ],
+        "secondary_trace": [
+          "Carbonates",
+          "Clay minerals",
+          "Sulfate compounds",
+          "Methyl mercaptan",
+          "Ammonia",
+          "Trace metals"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "mineral",
+          "earthy",
+          "damp",
+          "stony",
+          "metallic",
+          "mossy",
+          "musty",
+          "cool",
+          "neutral",
+          "algal"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Rocks is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Sunlight_rays-0.0-11.5",
+      "evidence_ref": {
+        "object_name": "Sunlight rays",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.1,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "atmospheric air, photo-oxidized particles",
+        "exposure_mode": "exposed, aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ozone",
+          "Nitrogen oxides",
+          "Isoprene (photo-oxidation products)",
+          "Terpenes (photo-oxidation products)",
+          "Hydroxyl radicals",
+          "Peroxyacyl nitrates",
+          "Formaldehyde",
+          "Acetaldehyde"
+        ],
+        "secondary_trace": [
+          "Sulphur dioxide",
+          "Carbon monoxide",
+          "Particulate matter",
+          "Benzene",
+          "Toluene",
+          "Xylene",
+          "Methanol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "crisp",
+          "clean",
+          "ozone-like",
+          "airy",
+          "warm",
+          "fresh",
+          "slight-metallic",
+          "electrified",
+          "glowing",
+          "diffused"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Sunlight rays is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Waterfall",
+      "event_ids": [
+        "Waterfall-0.0-11.5"
+      ]
+    },
+    {
+      "object_name": "Stream",
+      "event_ids": [
+        "Stream-0.0-11.5"
+      ]
+    },
+    {
+      "object_name": "Forest Trees",
+      "event_ids": [
+        "Forest_Trees-0.0-11.5"
+      ]
+    },
+    {
+      "object_name": "Rocks",
+      "event_ids": [
+        "Rocks-0.0-11.5"
+      ]
+    },
+    {
+      "object_name": "Sunlight rays",
+      "event_ids": [
+        "Sunlight_rays-0.0-11.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "Waterfall-0.0-11.5",
+        "Stream-0.0-11.5",
+        "Forest_Trees-0.0-11.5",
+        "Rocks-0.0-11.5",
+        "Sunlight_rays-0.0-11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "fresh",
+        "earthy",
+        "damp",
+        "mineral",
+        "ozone-like",
+        "green",
+        "woody",
+        "aquatic",
+        "crisp",
+        "mossy"
+      ]
+    }
+  ]
+}

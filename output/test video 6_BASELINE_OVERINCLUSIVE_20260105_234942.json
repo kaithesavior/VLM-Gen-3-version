@@ -1,0 +1,853 @@
+{
+  "meta": {
+    "video_duration_s": 9.5,
+    "source_video": "test_videos/test video 6.mp4",
+    "generated_at": "2026-01-05T23:56:15.959443",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "pizza_0-2.25",
+      "evidence_ref": {
+        "object_name": "Baked pizza",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Crust, melted cheese, tomato sauce, cooked toppings",
+        "exposure_mode": "Exposed, warm"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "2-Acetyl-1-pyrroline",
+          "Methional",
+          "Diacetyl",
+          "Gamma-decalactone",
+          "Pyrazines",
+          "Dimethyl trisulfide",
+          "Isovaleric acid",
+          "3-Methylbutanal"
+        ],
+        "secondary_trace": [
+          "Sotolon",
+          "Acetaldehyde",
+          "Ethanol",
+          "2-Acetyl-2-thiazoline",
+          "Sulfurol",
+          "Lipid oxidation products"
+        ],
+        "heat_reaction_products": [
+          "Maillard reaction products",
+          "Caramelization products",
+          "Furaneol"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "savory",
+          "cheesy",
+          "umami",
+          "bready",
+          "yeasty",
+          "cooked",
+          "tomatoey",
+          "fatty",
+          "warm",
+          "rich"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Baked pizza is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "pizza_basil_2.25-9.5",
+      "evidence_ref": {
+        "object_name": "Baked pizza with basil",
+        "interval_time": {
+          "start_s": 2.25,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Crust, melted cheese, tomato sauce, fresh basil leaves",
+        "exposure_mode": "Exposed, warm, basil bruised and reacting"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "2-Acetyl-1-pyrroline",
+          "Methional",
+          "Diacetyl",
+          "Estragole",
+          "Linalool",
+          "Eugenol",
+          "Methyl cinnamate",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Sotolon",
+          "Ocimene",
+          "Pinene",
+          "Camphor",
+          "Methyl chavicol",
+          "1,8-Cineole"
+        ],
+        "heat_reaction_products": [
+          "Maillard reaction products",
+          "Caramelization products",
+          "Heat-enhanced basil terpenes"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "savory",
+          "cheesy",
+          "umami",
+          "bready",
+          "cooked",
+          "tomatoey",
+          "herbal",
+          "fresh",
+          "anise-like",
+          "warm-spicy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Baked pizza with basil is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "pizza_stone_0-9.5",
+      "evidence_ref": {
+        "object_name": "Black pizza stone",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Stone surface, residual pores",
+        "exposure_mode": "Exposed, potentially warm"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Silicates (volatile trace)",
+          "Adsorbed water vapor",
+          "Ozone (trace environmental)",
+          "Carbonates (trace)"
+        ],
+        "secondary_trace": [
+          "Trichloroanisole (potential contaminant)",
+          "Oxidized hydrocarbon residues",
+          "Sulfur dioxide (trace environmental)",
+          "Inorganic mineral dust",
+          "Quartz crystalline structure (trace VOCs)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "mineral",
+          "stony",
+          "inert",
+          "dry",
+          "subtle",
+          "neutral",
+          "dusty",
+          "rocky"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Black pizza stone is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "countertop_0-9.5",
+      "evidence_ref": {
+        "object_name": "Wooden countertop",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Wood grain, surface finish",
+        "exposure_mode": "Exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Alpha-pinene",
+          "Beta-pinene",
+          "Limonene",
+          "Guaiacol",
+          "Cedrol",
+          "Vanillin",
+          "Caryophyllene",
+          "Acetic acid"
+        ],
+        "secondary_trace": [
+          "Formaldehyde (trace finish)",
+          "Furfural",
+          "Terpineol",
+          "Camphene",
+          "Delta-3-carene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "woody",
+          "earthy",
+          "resinous",
+          "fresh",
+          "natural",
+          "clean",
+          "subtle",
+          "dry",
+          "warm",
+          "coniferous"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Wooden countertop is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hands_0-2.25",
+      "evidence_ref": {
+        "object_name": "Person's hands",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Skin surface",
+        "exposure_mode": "Exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Butyric acid",
+          "Caproic acid",
+          "Acetone",
+          "Isoprene",
+          "Squalene",
+          "Amino acid breakdown products",
+          "Sebaceous gland secretions"
+        ],
+        "secondary_trace": [
+          "Dimethyl sulfide",
+          "Ammonia",
+          "Acetaldehyde",
+          "Urea",
+          "Environmental residues",
+          "Fatty aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "skin-like",
+          "faint",
+          "mild",
+          "neutral",
+          "clean",
+          "human",
+          "subtle",
+          "salty",
+          "musky"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Person's hands is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hands_2.25-9.5",
+      "evidence_ref": {
+        "object_name": "Person's hands",
+        "interval_time": {
+          "start_s": 2.25,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Skin surface, residual basil/pizza compounds",
+        "exposure_mode": "Exposed, active handling"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Butyric acid",
+          "Estragole (basil)",
+          "Linalool (basil)",
+          "Pyrazines (pizza)",
+          "Squalene",
+          "Amino acid breakdown products",
+          "Sebaceous gland secretions"
+        ],
+        "secondary_trace": [
+          "Dimethyl sulfide",
+          "Ammonia",
+          "Acetaldehyde",
+          "Ocimene (basil)",
+          "Basil/pizza residue VOCs",
+          "Fatty aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "skin-like",
+          "faint",
+          "mild",
+          "neutral",
+          "human",
+          "subtle",
+          "herbal (trace)",
+          "savory (trace)",
+          "basil-tinged",
+          "pizza-tinged"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Person's hands is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_held_0-2.25",
+      "evidence_ref": {
+        "object_name": "Fresh basil leaves (held)",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.03,
+          "frame_coverage_end": 0.03,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "Leaf surfaces, broken cells",
+        "exposure_mode": "Exposed, potentially bruised"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Estragole",
+          "Linalool",
+          "Eugenol",
+          "Methyl cinnamate",
+          "Ocimene",
+          "Pinene",
+          "Camphor",
+          "Methyl chavicol"
+        ],
+        "secondary_trace": [
+          "1,8-Cineole",
+          "Limonene",
+          "Germacrene D",
+          "beta-Caryophyllene",
+          "Chlorophyll breakdown products",
+          "Fatty alcohols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "green",
+          "herbal",
+          "sweet",
+          "anise-like",
+          "peppery",
+          "aromatic",
+          "camphoraceous",
+          "minty",
+          "pungent"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Fresh basil leaves (held) is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_placed_2.25-9.5",
+      "evidence_ref": {
+        "object_name": "Fresh basil leaves (being placed)",
+        "interval_time": {
+          "start_s": 2.25,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.03,
+          "frame_coverage_end": 0.01,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "Leaf surfaces, crushed cells, warmed by pizza",
+        "exposure_mode": "Exposed, active manipulation, heat interaction"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Estragole (enhanced)",
+          "Linalool (enhanced)",
+          "Eugenol (enhanced)",
+          "Methyl cinnamate (enhanced)",
+          "Ocimene (enhanced)",
+          "Pinene (enhanced)",
+          "Camphor (enhanced)",
+          "Methyl chavicol (enhanced)"
+        ],
+        "secondary_trace": [
+          "1,8-Cineole",
+          "Limonene",
+          "Germacrene D",
+          "beta-Caryophyllene",
+          "Chlorophyll breakdown products (heat)",
+          "Thermally induced terpenes"
+        ],
+        "heat_reaction_products": [
+          "Thermally released volatile terpenes",
+          "Minor pyrolysis products",
+          "Heat-induced oxidation products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "intensely fresh",
+          "green",
+          "herbal",
+          "sweet",
+          "anise-like",
+          "warm-spicy",
+          "aromatic",
+          "pungent",
+          "vibrant",
+          "peppery"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Fresh basil leaves (being placed) is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Baked pizza",
+      "event_ids": [
+        "pizza_0-2.25"
+      ]
+    },
+    {
+      "object_name": "Baked pizza with basil",
+      "event_ids": [
+        "pizza_basil_2.25-9.5"
+      ]
+    },
+    {
+      "object_name": "Black pizza stone",
+      "event_ids": [
+        "pizza_stone_0-9.5"
+      ]
+    },
+    {
+      "object_name": "Wooden countertop",
+      "event_ids": [
+        "countertop_0-9.5"
+      ]
+    },
+    {
+      "object_name": "Person's hands",
+      "event_ids": [
+        "hands_0-2.25",
+        "hands_2.25-9.5"
+      ]
+    },
+    {
+      "object_name": "Fresh basil leaves (held)",
+      "event_ids": [
+        "basil_held_0-2.25"
+      ]
+    },
+    {
+      "object_name": "Fresh basil leaves (being placed)",
+      "event_ids": [
+        "basil_placed_2.25-9.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "pizza_0-2.25",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_0-2.25",
+        "basil_held_0-2.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "bready",
+        "fresh",
+        "herbal",
+        "green",
+        "earthy",
+        "woody",
+        "mineral",
+        "warm"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "pizza_0-2.25",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_0-2.25",
+        "basil_held_0-2.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "bready",
+        "fresh",
+        "herbal",
+        "green",
+        "earthy",
+        "woody",
+        "mineral",
+        "warm"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "pizza_0-2.25",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_0-2.25",
+        "basil_held_0-2.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "bready",
+        "fresh",
+        "herbal",
+        "green",
+        "earthy",
+        "woody",
+        "mineral",
+        "warm"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "pizza_basil_2.25-9.5",
+        "pizza_stone_0-9.5",
+        "countertop_0-9.5",
+        "hands_2.25-9.5",
+        "basil_placed_2.25-9.5"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "savory",
+        "cheesy",
+        "herbal",
+        "fresh",
+        "anise-like",
+        "warm-spicy",
+        "green",
+        "earthy",
+        "woody",
+        "mineral"
+      ]
+    }
+  ]
+}

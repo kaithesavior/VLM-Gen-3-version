@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 11.mp4",
+    "generated_at": "2026-01-06T03:01:54.605076",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "hot_beverage_0_4",
+      "evidence_ref": {
+        "object_name": "Hot beverage",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.28,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "steam"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.525,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Furans",
+          "Pyrazines",
+          "Aldehydes",
+          "Alcohols",
+          "Organic Acids"
+        ],
+        "secondary_trace": [
+          "Ketones",
+          "Esters"
+        ],
+        "heat_reaction_products": [
+          "Maillard products",
+          "Caramelization products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "evaporative",
+          "diffuse",
+          "steamy",
+          "mild",
+          "aromatic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visible steam rising from the hot beverage indicates active evaporation and release of volatiles from the liquid surface. The 'near' proximity and stable frame coverage maintain a consistent moderate intensity. The heat also promotes the formation and release of specific heat-induced compounds.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "The hot beverage is a non-specific type, leading to general molecular classes.",
+          "Ambient airflow is minimal, allowing vertical steam rise without significant dispersion.",
+          "Temperature of the beverage remains constant during this interval."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hot_beverage_4_8",
+      "evidence_ref": {
+        "object_name": "Hot beverage",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.28,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "steam"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.525,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Furans",
+          "Pyrazines",
+          "Aldehydes",
+          "Alcohols",
+          "Organic Acids"
+        ],
+        "secondary_trace": [
+          "Ketones",
+          "Esters"
+        ],
+        "heat_reaction_products": [
+          "Maillard products",
+          "Caramelization products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "evaporative",
+          "diffuse",
+          "steamy",
+          "mild",
+          "aromatic"
+        ],
+        "descriptor_shift": "Temporal continuation with stable characteristics.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The hot beverage continues to exhibit stable visual characteristics, including visible steam and consistent proximity. This results in a sustained plateau of odor intensity and a consistent molecular profile as observed in the previous interval.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "The hot beverage is a non-specific type, leading to general molecular classes.",
+          "Ambient airflow is minimal, allowing vertical steam rise without significant dispersion.",
+          "Temperature of the beverage remains constant during this interval."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hot_beverage_8_12",
+      "evidence_ref": {
+        "object_name": "Hot beverage",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 12.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.28,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "steam"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.525,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Furans",
+          "Pyrazines",
+          "Aldehydes",
+          "Alcohols",
+          "Organic Acids"
+        ],
+        "secondary_trace": [
+          "Ketones",
+          "Esters"
+        ],
+        "heat_reaction_products": [
+          "Maillard products",
+          "Caramelization products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "evaporative",
+          "diffuse",
+          "steamy",
+          "mild",
+          "aromatic"
+        ],
+        "descriptor_shift": "Temporal continuation with stable characteristics.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Visual evidence remains consistent for the hot beverage, showing continuous steam emission and stable object parameters. This indicates a sustained olfactory state with a constant intensity and molecular composition, reflecting ongoing thermal volatilization.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "The hot beverage is a non-specific type, leading to general molecular classes.",
+          "Ambient airflow is minimal, allowing vertical steam rise without significant dispersion.",
+          "Temperature of the beverage remains constant during this interval."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hot_beverage_12_16",
+      "evidence_ref": {
+        "object_name": "Hot beverage",
+        "interval_time": {
+          "start_s": 12.0,
+          "end_s": 16.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.28,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "steam"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.525,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Furans",
+          "Pyrazines",
+          "Aldehydes",
+          "Alcohols",
+          "Organic Acids"
+        ],
+        "secondary_trace": [
+          "Ketones",
+          "Esters"
+        ],
+        "heat_reaction_products": [
+          "Maillard products",
+          "Caramelization products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "evaporative",
+          "diffuse",
+          "steamy",
+          "mild",
+          "aromatic"
+        ],
+        "descriptor_shift": "Temporal continuation with stable characteristics.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The visual data confirms the hot beverage's state remains unchanged, with persistent steam emission and stable visual parameters. This maintains the 'medium' olfactory intensity and steady molecular release from the hot liquid, consistent with previous intervals.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "The hot beverage is a non-specific type, leading to general molecular classes.",
+          "Ambient airflow is minimal, allowing vertical steam rise without significant dispersion.",
+          "Temperature of the beverage remains constant during this interval."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hot_beverage_16_16.5",
+      "evidence_ref": {
+        "object_name": "Hot beverage",
+        "interval_time": {
+          "start_s": 16.0,
+          "end_s": 16.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.28,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "steam"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.525,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Furans",
+          "Pyrazines",
+          "Aldehydes",
+          "Alcohols",
+          "Organic Acids"
+        ],
+        "secondary_trace": [
+          "Ketones",
+          "Esters"
+        ],
+        "heat_reaction_products": [
+          "Maillard products",
+          "Caramelization products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "evaporative",
+          "diffuse",
+          "steamy",
+          "mild",
+          "aromatic"
+        ],
+        "descriptor_shift": "Temporal continuation with stable characteristics.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The final segment of the observation period shows no change in the hot beverage's state, implying a sustained 'medium' olfactory presence consistent with the continuous evaporation and stable proximity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "The hot beverage is a non-specific type, leading to general molecular classes.",
+          "Ambient airflow is minimal, allowing vertical steam rise without significant dispersion.",
+          "Temperature of the beverage remains constant during this interval."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Hot beverage",
+      "event_ids": [
+        "hot_beverage_0_4",
+        "hot_beverage_4_8",
+        "hot_beverage_8_12",
+        "hot_beverage_12_16",
+        "hot_beverage_16_16.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "hot_beverage_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "hot_beverage_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "hot_beverage_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "hot_beverage_0_4"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "hot_beverage_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "hot_beverage_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "hot_beverage_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "hot_beverage_4_8"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "hot_beverage_8_12"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "hot_beverage_8_12"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "hot_beverage_8_12"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "hot_beverage_8_12"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 12.0,
+      "linked_event_ids": [
+        "hot_beverage_12_16"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 13.0,
+      "linked_event_ids": [
+        "hot_beverage_12_16"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 14.0,
+      "linked_event_ids": [
+        "hot_beverage_12_16"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 15.0,
+      "linked_event_ids": [
+        "hot_beverage_12_16"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    },
+    {
+      "t_s": 16.0,
+      "linked_event_ids": [
+        "hot_beverage_16_16.5"
+      ],
+      "interpolated_intensity": 0.525,
+      "dominant_descriptors": [
+        "warm",
+        "evaporative",
+        "diffuse",
+        "steamy",
+        "mild",
+        "aromatic"
+      ]
+    }
+  ]
+}

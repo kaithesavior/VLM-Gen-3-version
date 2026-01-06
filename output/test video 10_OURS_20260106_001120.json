@@ -1,0 +1,856 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 10.mp4",
+    "generated_at": "2026-01-06T00:13:17.054725",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "CW_0.0-0.75",
+      "evidence_ref": {
+        "object_name": "Collected Water",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 0.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "still water surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "trace minerals",
+          "humic acids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "clean",
+          "mineral",
+          "subtle"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "A still water surface has minimal volatile release due to low agitation and limited interaction with the ground, resulting in a very faint odor profile dominated by water itself and dissolved trace elements.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Water",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "WGG_0.0-4.0",
+      "evidence_ref": {
+        "object_name": "Wet Ground and Grass",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "earthy soil and grass blades",
+        "exposure_mode": "wet/aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.32,
+        "trend": "ramp_up",
+        "justification": "Intensity ramps up from 0.75s due to rain impacting the ground, increasing aerosolization of volatiles."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "green leaf volatiles",
+          "short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "fungal metabolites"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint earthy",
+          "damp",
+          "green",
+          "subtle"
+        ],
+        "descriptor_shift": "The introduction of rain from 0.75s causes a noticeable increase in the release of petrichor compounds, adding a fresher, more distinct character.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "Initially, wet ground and grass release volatiles at a low rate. From 0.75s, falling raindrops strike the surface, causing splash-back and aerosol formation, which significantly enhances the release of geosmin (earthy) and green leaf volatiles (grassy) from the disturbed biological material and soil.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Earthy Soil",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "Grass Blades",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CW_0.75-4.0",
+      "evidence_ref": {
+        "object_name": "Collected Water",
+        "interval_time": {
+          "start_s": 0.75,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface with suspended soil particulates",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.43,
+        "trend": "ramp_up",
+        "justification": "Agitation by falling raindrops significantly increases the release of volatiles compared to the previous still state."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic humics"
+        ],
+        "secondary_trace": [
+          "short-chain fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "earthy",
+          "damp",
+          "fresh",
+          "vivid"
+        ],
+        "descriptor_shift": "Increased agitation by rain elevates the intensity and presence of earthy and damp descriptors previously subtle or absent.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "Falling raindrops continuously agitate the collected water surface, causing aerosolization of dissolved compounds and entrained soil particulates, leading to a noticeable increase in petrichor-related volatile release.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Water",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "Soil Particulates",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "FR_0.75-4.0",
+      "evidence_ref": {
+        "object_name": "Falling Raindrops",
+        "interval_time": {
+          "start_s": 0.75,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "water droplets",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.01,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "negligible"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Falling raindrops consist of pure water and are inherently odorless. Their primary role is physical agitation, driving volatile release from other surfaces, not as an odor source themselves.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Raindrops are pure water and contain no dissolved odorous substances."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Raindrops themselves are odorless, but their physical action causes other objects to release scent."
+      }
+    },
+    {
+      "event_id": "CW_4.0-8.0",
+      "evidence_ref": {
+        "object_name": "Collected Water",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface with suspended soil particulates",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic humics"
+        ],
+        "secondary_trace": [
+          "short-chain fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "earthy",
+          "damp",
+          "fresh",
+          "vivid"
+        ],
+        "descriptor_shift": "Temporal continuation of the agitated state.",
+        "shift_type": "temporal_continuation"
+      },
+      "reasoning": "Consistent rainfall continues to agitate the water surface, maintaining the aerosolization and release of petrichor-related compounds at a steady state.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Water",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "Soil Particulates",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "FR_4.0-8.0",
+      "evidence_ref": {
+        "object_name": "Falling Raindrops",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "water droplets",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.01,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "negligible"
+        ],
+        "descriptor_shift": "Temporal continuation of negligible scent.",
+        "shift_type": "temporal_continuation"
+      },
+      "reasoning": "The continued fall of pure water droplets maintains their negligible direct olfactory contribution.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Raindrops are pure water and contain no dissolved odorous substances."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Raindrops themselves are odorless, but their physical action causes other objects to release scent."
+      }
+    },
+    {
+      "event_id": "WGG_4.0-8.0",
+      "evidence_ref": {
+        "object_name": "Wet Ground and Grass",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "earthy soil and grass blades",
+        "exposure_mode": "wet/aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "green leaf volatiles",
+          "short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "fungal metabolites"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate earthy",
+          "damp",
+          "freshly cut grass",
+          "distinct"
+        ],
+        "descriptor_shift": "Temporal continuation of robust petrichor and green grass scent.",
+        "shift_type": "temporal_continuation"
+      },
+      "reasoning": "The continuous impact of raindrops on the wet ground and grass sustains the aerosolization of soil bacteria metabolites (petrichor) and volatile compounds from grass, maintaining a consistent scent profile.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Earthy Soil",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "Grass Blades",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CW_8.0-11.5",
+      "evidence_ref": {
+        "object_name": "Collected Water",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface with suspended soil particulates",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic humics"
+        ],
+        "secondary_trace": [
+          "short-chain fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "earthy",
+          "damp",
+          "fresh",
+          "vivid"
+        ],
+        "descriptor_shift": "Temporal continuation of the agitated state.",
+        "shift_type": "temporal_continuation"
+      },
+      "reasoning": "The consistent rainfall activity continues to agitate the water surface, leading to a steady, continuous release of petrichor and damp earthy notes from the entrained soil.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Water",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "Soil Particulates",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "FR_8.0-11.5",
+      "evidence_ref": {
+        "object_name": "Falling Raindrops",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "water droplets",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.01,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "negligible"
+        ],
+        "descriptor_shift": "Temporal continuation of negligible scent.",
+        "shift_type": "temporal_continuation"
+      },
+      "reasoning": "The consistent fall of pure water droplets maintains their negligible direct olfactory contribution throughout the remaining duration.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Raindrops are pure water and contain no dissolved odorous substances."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Raindrops themselves are odorless, but their physical action causes other objects to release scent."
+      }
+    },
+    {
+      "event_id": "WGG_8.0-11.5",
+      "evidence_ref": {
+        "object_name": "Wet Ground and Grass",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "earthy soil and grass blades",
+        "exposure_mode": "wet/aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "green leaf volatiles",
+          "short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "fungal metabolites"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate earthy",
+          "damp",
+          "freshly cut grass",
+          "distinct"
+        ],
+        "descriptor_shift": "Temporal continuation of robust petrichor and green grass scent.",
+        "shift_type": "temporal_continuation"
+      },
+      "reasoning": "Consistent rainfall until the video's end ensures the continued aerosolization of petrichor and green leaf volatiles from the wet ground and grass.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Earthy Soil",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "Grass Blades",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Collected Water",
+      "event_ids": [
+        "CW_0.0-0.75",
+        "CW_0.75-4.0",
+        "CW_4.0-8.0",
+        "CW_8.0-11.5"
+      ]
+    },
+    {
+      "object_name": "Falling Raindrops",
+      "event_ids": [
+        "FR_0.75-4.0",
+        "FR_4.0-8.0",
+        "FR_8.0-11.5"
+      ]
+    },
+    {
+      "object_name": "Wet Ground and Grass",
+      "event_ids": [
+        "WGG_0.0-4.0",
+        "WGG_4.0-8.0",
+        "WGG_8.0-11.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "CW_0.0-0.75",
+        "WGG_0.0-4.0"
+      ],
+      "interpolated_intensity": 0.15000000000000002,
+      "dominant_descriptors": [
+        "faint",
+        "clean",
+        "mineral",
+        "subtle",
+        "earthy",
+        "damp",
+        "green"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "CW_0.75-4.0",
+        "WGG_0.0-4.0",
+        "FR_0.75-4.0"
+      ],
+      "interpolated_intensity": 0.76,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "green",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "CW_0.75-4.0",
+        "WGG_0.0-4.0",
+        "FR_0.75-4.0"
+      ],
+      "interpolated_intensity": 0.76,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "green",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "CW_0.75-4.0",
+        "WGG_0.0-4.0",
+        "FR_0.75-4.0"
+      ],
+      "interpolated_intensity": 0.76,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "green",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "CW_4.0-8.0",
+        "WGG_4.0-8.0",
+        "FR_4.0-8.0"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "CW_4.0-8.0",
+        "WGG_4.0-8.0",
+        "FR_4.0-8.0"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "CW_4.0-8.0",
+        "WGG_4.0-8.0",
+        "FR_4.0-8.0"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "CW_4.0-8.0",
+        "WGG_4.0-8.0",
+        "FR_4.0-8.0"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "CW_8.0-11.5",
+        "WGG_8.0-11.5",
+        "FR_8.0-11.5"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "CW_8.0-11.5",
+        "WGG_8.0-11.5",
+        "FR_8.0-11.5"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "CW_8.0-11.5",
+        "WGG_8.0-11.5",
+        "FR_8.0-11.5"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "CW_8.0-11.5",
+        "WGG_8.0-11.5",
+        "FR_8.0-11.5"
+      ],
+      "interpolated_intensity": 0.86,
+      "dominant_descriptors": [
+        "moderate",
+        "earthy",
+        "damp",
+        "fresh",
+        "vivid",
+        "distinct",
+        "freshly cut grass"
+      ]
+    }
+  ]
+}

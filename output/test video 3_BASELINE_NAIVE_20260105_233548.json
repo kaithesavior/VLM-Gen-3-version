@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 3.mp4",
+    "generated_at": "2026-01-05T23:39:12.072005",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_waterfall_001",
+      "evidence_ref": {
+        "object_name": "waterfall",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ozone",
+          "Geosmin",
+          "Aquatic compounds"
+        ],
+        "secondary_trace": [
+          "Minerals"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of waterfall"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as waterfall. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "waterfall",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Odor associated with generic 'waterfall' rather than specific environmental context."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "waterfall",
+      "event_ids": [
+        "event_waterfall_001"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "event_waterfall_001"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "Smell of waterfall"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "event_waterfall_001"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "Smell of waterfall"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "event_waterfall_001"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "Smell of waterfall"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "event_waterfall_001"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "Smell of waterfall"
+      ]
+    },
+    {
+      "t_s": 11.5,
+      "linked_event_ids": [
+        "event_waterfall_001"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "Smell of waterfall"
+      ]
+    }
+  ]
+}

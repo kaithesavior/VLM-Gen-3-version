@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 10.mp4",
+    "generated_at": "2026-01-06T00:14:25.517046",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "wet_grass_0_11.5",
+      "evidence_ref": {
+        "object_name": "wet grass",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "grass blades, soil, plant cuticle",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Hexanal",
+          "(Z)-3-Hexenal",
+          "(Z)-3-Hexenol",
+          "cis-3-Hexenyl acetate",
+          "Methyl salicylate",
+          "Geraniol",
+          "Beta-ionone",
+          "Geosmin"
+        ],
+        "secondary_trace": [
+          "Pyrazines",
+          "Limonene",
+          "Alpha-pinene",
+          "Linalool",
+          "Indole",
+          "Skatole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "green",
+          "earthy",
+          "fresh",
+          "sweet",
+          "woody",
+          "damp",
+          "musty",
+          "pungent",
+          "vegetal",
+          "aqueous"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object wet grass is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence of object is sufficient evidence for high scent emission.",
+          "All potential molecular compounds are considered present due to the high recall requirement."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "muddy_ground_0_11.5",
+      "evidence_ref": {
+        "object_name": "muddy ground",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "soil, decomposed organic matter, minerals",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Humic acids (volatile fractions)",
+          "Aldehydes (earthy)",
+          "Phenols",
+          "Volatile fatty acids",
+          "Terpenoids",
+          "Sulfides"
+        ],
+        "secondary_trace": [
+          "Pyrazines",
+          "Indole",
+          "Skatole",
+          "Ammonia",
+          "Methane",
+          "Acids (humic-derived)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "damp",
+          "musty",
+          "rich",
+          "organic",
+          "heavy",
+          "humid",
+          "mineral",
+          "pungent",
+          "fermented"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object muddy ground is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence of object is sufficient evidence for high scent emission.",
+          "All potential molecular compounds are considered present due to the high recall requirement."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "puddles_of_water_0_11.5",
+      "evidence_ref": {
+        "object_name": "puddles of water",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.25,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water surface, dissolved organics, sediment",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Geosmin",
+          "2-Methylisoborneol",
+          "Dimethyl sulfide",
+          "Hydrogen sulfide",
+          "Carbonyl sulfide",
+          "Trace volatile organic compounds (VOCs)",
+          "Algae metabolites",
+          "Ozone"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Methane",
+          "Acetic acid",
+          "Phenols",
+          "Terpenoids (from run-off)",
+          "Pyrazines"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "earthy",
+          "humid",
+          "mineral",
+          "damp",
+          "metallic",
+          "cool",
+          "airy",
+          "musty"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object puddles of water is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence of object is sufficient evidence for high scent emission.",
+          "All potential molecular compounds are considered present due to the high recall requirement."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "water_drops_falling_0_11.5",
+      "evidence_ref": {
+        "object_name": "water drops falling",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.1,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "rainwater, air interface, particulate matter",
+        "exposure_mode": "aerosol, exposed, atomized"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Petrichor compounds (Geosmin, 2-Methylisoborneol)",
+          "Ozone (from electrical discharge/rain)",
+          "Nitric oxides",
+          "Carbon dioxide",
+          "Trace atmospheric VOCs",
+          "Airborne dust particles",
+          "Sulfur compounds",
+          "Volatile organic acids"
+        ],
+        "secondary_trace": [
+          "Dimethyl sulfide",
+          "Hydrogen sulfide",
+          "Carbonyl sulfide",
+          "Ammonia",
+          "Acetic acid",
+          "Formic acid"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "clean",
+          "ozone-like",
+          "earthy",
+          "mineral",
+          "damp",
+          "cool",
+          "light",
+          "metallic",
+          "airy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object water drops falling is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence of object is sufficient evidence for high scent emission.",
+          "All potential molecular compounds are considered present due to the high recall requirement."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "water_splashing_0_11.5",
+      "evidence_ref": {
+        "object_name": "water splashing",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.05,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized water, entrained air, disturbed surface molecules",
+        "exposure_mode": "aerosol, highly agitated, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Petrichor compounds (Geosmin, 2-Methylisoborneol)",
+          "Ozone",
+          "Aerosolized organic compounds",
+          "Dissolved gases (O2, N2, CO2)",
+          "Volatile algal metabolites",
+          "Soil VOCs (entrained)",
+          "Hydroxyl radicals",
+          "Sulfides"
+        ],
+        "secondary_trace": [
+          "Dimethyl sulfide",
+          "Hydrogen sulfide",
+          "Carbonyl sulfide",
+          "Ammonia",
+          "Short-chain fatty acids",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "fresh",
+          "crisp",
+          "airy",
+          "ozone-like",
+          "damp",
+          "earthy",
+          "mineral",
+          "cool",
+          "effervescent",
+          "clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object water splashing is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence of object is sufficient evidence for high scent emission.",
+          "All potential molecular compounds are considered present due to the high recall requirement."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "wet grass",
+      "event_ids": [
+        "wet_grass_0_11.5"
+      ]
+    },
+    {
+      "object_name": "muddy ground",
+      "event_ids": [
+        "muddy_ground_0_11.5"
+      ]
+    },
+    {
+      "object_name": "puddles of water",
+      "event_ids": [
+        "puddles_of_water_0_11.5"
+      ]
+    },
+    {
+      "object_name": "water drops falling",
+      "event_ids": [
+        "water_drops_falling_0_11.5"
+      ]
+    },
+    {
+      "object_name": "water splashing",
+      "event_ids": [
+        "water_splashing_0_11.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

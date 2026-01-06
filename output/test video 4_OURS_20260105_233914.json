@@ -1,0 +1,972 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 4.mp4",
+    "generated_at": "2026-01-05T23:41:41.483578",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "Duck_0.0-2.0",
+      "evidence_ref": {
+        "object_name": "Duck",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.28,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin, organic matter in water",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "geosmin",
+          "short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "damp",
+          "earthy",
+          "aquatic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The duck is floating calmly, implying minimal agitation but continuous interaction with water, leading to a baseline release of natural aquatic and avian-related volatiles from its wet feathers and the water surface.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Typical duck and pond water volatile profile assumed",
+          "Minimal contribution from submerged parts due to calm state"
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Duck_2.0-4.5",
+      "evidence_ref": {
+        "object_name": "Duck",
+        "interval_time": {
+          "start_s": 2.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.28,
+          "frame_coverage_end": 0.27,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, beak, organic matter in water",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "geosmin",
+          "short-chain fatty acids",
+          "algal volatiles"
+        ],
+        "secondary_trace": [
+          "indole",
+          "skatole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "damp",
+          "earthy",
+          "freshwater",
+          "subtle animalic"
+        ],
+        "descriptor_shift": "Intensity increased and subtle animalic notes added due to head dipping, stirring more water and potentially releasing more volatiles from the duck's beak and wet feathers.",
+        "shift_type": "add"
+      },
+      "reasoning": "Increased activity from head dipping agitates the water surface and potentially releases volatiles from the duck's oral cavity and wet feathers, increasing the overall emission rate from both the duck and the disturbed water.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Volatiles from duck's oral cavity/feathers are released upon immersion",
+          "Water agitation enhances release of water-borne molecules"
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Duck_4.5-7.0",
+      "evidence_ref": {
+        "object_name": "Duck",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.27,
+          "frame_coverage_end": 0.24,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, organic matter, stirred sediment",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "geosmin",
+          "short-chain fatty acids",
+          "algal volatiles"
+        ],
+        "secondary_trace": [
+          "indole",
+          "skatole",
+          "sulfur compounds (trace)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "damp",
+          "earthy",
+          "freshwater",
+          "subtle animalic"
+        ],
+        "descriptor_shift": "Continued presence, but with a slight softening of perception due to the receding proximity trend, though activity remains medium. Distance-fade.",
+        "shift_type": "soften"
+      },
+      "reasoning": "Sustained duck activity in the water continues to release similar volatiles. The receding proximity, however, indicates a slight decrease in direct olfactory impact due to diffusion, despite stable agitated activity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "The duck's contribution to water disturbance remains constant during this phase.",
+          "Perceived intensity diminishes with receding proximity due to diffusion."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Duck_7.0-9.0",
+      "evidence_ref": {
+        "object_name": "Duck",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 9.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.24,
+          "frame_coverage_end": 0.18,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, organic matter, stirred sediment",
+        "exposure_mode": "exposed, wet, highly agitated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "geosmin",
+          "short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "indole",
+          "skatole",
+          "sulfur compounds (trace)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "damp",
+          "earthy",
+          "freshwater",
+          "faint animalic"
+        ],
+        "descriptor_shift": "The duck's movement further away leads to a noticeable softening of the overall scent profile, shifting from 'subtle' to 'faint animalic' notes. Distance-fade.",
+        "shift_type": "soften"
+      },
+      "reasoning": "Continued swimming and turning increase water agitation, but the duck's movement further from the camera, shifting to mid-proximity, reduces perceived intensity due to increased diffusion loss.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Diffusion loss dominates over increased agitation due to distance.",
+          "Animalic notes become fainter with distance."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Duck_9.0-10.25",
+      "evidence_ref": {
+        "object_name": "Duck",
+        "interval_time": {
+          "start_s": 9.0,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.18,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, organic matter, stirred sediment",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "ramp_down",
+        "justification": "Reduced activity level and decreased frame coverage at a stable mid-ground proximity."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "geosmin",
+          "short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "damp",
+          "earthy",
+          "aquatic"
+        ],
+        "descriptor_shift": "Further reduction in perceived intensity as activity level decreases and the duck maintains a mid-ground, smaller presence. The animalic notes become negligible. Distance-fade continues.",
+        "shift_type": "soften"
+      },
+      "reasoning": "Reduced activity and smaller visible presence of the duck in the mid-ground lead to a lower rate of volatile release and further diffusion, resulting in reduced perceived intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Reduced activity directly correlates with lower volatile release rate.",
+          "The frame coverage drop impacts perceived intensity proportionally."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Ducks_0.0-2.5",
+      "evidence_ref": {
+        "object_name": "Ducks",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.1,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "collective feathers, aggregated organic matter in water",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.09,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "algal volatiles"
+        ],
+        "secondary_trace": [
+          "geosmin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "very faint",
+          "distant",
+          "subtle aquatic",
+          "mild dampness"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Distant and relatively still multiple ducks contribute to a faint, diffuse aquatic background scent from their collective wet surfaces.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "low",
+        "assumptions": [
+          "Exact number of ducks contributes proportionally but not individually identifiable.",
+          "Individual volatile contribution from each duck is negligible at this distance."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Ducks_2.5-6.5",
+      "evidence_ref": {
+        "object_name": "Ducks",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.115,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "collective feathers, aggregated organic matter in water",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.09,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "algal volatiles"
+        ],
+        "secondary_trace": [
+          "geosmin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "very faint",
+          "distant",
+          "subtle aquatic",
+          "mild dampness"
+        ],
+        "descriptor_shift": "Temporal continuation; no significant change in perceived scent profile as state and proximity remain stable.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Continued subtle activity of distant ducks sustains the faint background aquatic scent profile. This interval is a temporal continuation of the previous state, split due to duration limits.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "low",
+        "assumptions": [
+          "Lack of significant activity means no notable change in volatile release.",
+          "Distance prevents any clear differentiation of individual duck scents."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Ducks_6.5-7.0",
+      "evidence_ref": {
+        "object_name": "Ducks",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.115,
+          "frame_coverage_end": 0.12,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "collective feathers, aggregated organic matter in water",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.09,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "algal volatiles"
+        ],
+        "secondary_trace": [
+          "geosmin"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "very faint",
+          "distant",
+          "subtle aquatic",
+          "mild dampness"
+        ],
+        "descriptor_shift": "Temporal continuation; minute changes in activity do not significantly alter the distant scent profile. This is the end segment of a longer stable visual event.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Short continuation of the previous state, maintaining a low, stable level of distant aquatic volatiles. This is the remainder of the interval split for temporal resolution.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "low",
+        "assumptions": [
+          "Minute visual changes are not sufficient to cause a detectable olfactory shift.",
+          "Scent remains negligible from this distance."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Ducks_7.0-10.25",
+      "evidence_ref": {
+        "object_name": "Ducks",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.12,
+          "frame_coverage_end": 0.15,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "collective feathers, aggregated organic matter, stirred water/sediment",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.25,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "aquatic biogenic compounds",
+          "geosmin",
+          "short-chain fatty acids",
+          "algal volatiles"
+        ],
+        "secondary_trace": [
+          "indole",
+          "skatole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "damp",
+          "earthy",
+          "aquatic",
+          "very subtle animalic"
+        ],
+        "descriptor_shift": "Increased activity and closer proximity lead to a noticeable increase in faintness, adding very subtle animalic notes to the aquatic profile. Approaching.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "Increased activity among the group of ducks, coupled with one duck moving closer, enhances the release and perception of their collective aquatic and biogenic volatiles.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Aggregated activity contributes to a discernible increase in overall scent.",
+          "The closer duck's individual contribution becomes slightly more prominent within the group scent."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Water_0.0-2.0",
+      "evidence_ref": {
+        "object_name": "Water",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, dissolved organic matter",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.3,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic aldehydes",
+          "humic substances"
+        ],
+        "secondary_trace": [
+          "dimethyl sulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "damp",
+          "earthy",
+          "freshwater",
+          "mineral"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The extensive, calm water surface provides a baseline release of natural aquatic and dissolved organic volatiles from the exposed liquid phase.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard freshwater volatile profile is present.",
+          "Calm surface provides a consistent, albeit low, emission rate."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Water_2.0-4.5",
+      "evidence_ref": {
+        "object_name": "Water",
+        "interval_time": {
+          "start_s": 2.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, dissolved organic matter, disturbed surface film",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic aldehydes",
+          "humic substances",
+          "sulfur compounds (trace)"
+        ],
+        "secondary_trace": [
+          "pyruvic acid",
+          "short-chain fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "damp",
+          "earthy",
+          "freshwater",
+          "slight algal"
+        ],
+        "descriptor_shift": "Increased surface agitation by the duck's activity enhances the emission of existing aquatic compounds, making them more distinct and revealing subtle algal notes.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "The duck's head dipping agitates the water surface, increasing the surface area for volatile release and potentially stirring up surface films or shallow sediment, leading to a stronger emanation.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Surface agitation is the primary mechanism for increased volatile release.",
+          "Composition of dissolved organics remains stable."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Water_4.5-7.0",
+      "evidence_ref": {
+        "object_name": "Water",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, dissolved organic matter, disturbed surface film",
+        "exposure_mode": "exposed, wet, agitated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic aldehydes",
+          "humic substances",
+          "sulfur compounds (trace)"
+        ],
+        "secondary_trace": [
+          "pyruvic acid",
+          "short-chain fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "damp",
+          "earthy",
+          "freshwater",
+          "slight algal"
+        ],
+        "descriptor_shift": "Temporal continuation; sustained duck activity maintains the distinct aquatic scent profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Continued water disturbance by duck activity maintains the elevated surface area for volatile release, ensuring a consistent emission rate of water-borne compounds.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Rate of volatile release remains consistent with sustained medium agitation.",
+          "Environmental factors like wind are assumed stable."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "Water_7.0-10.25",
+      "evidence_ref": {
+        "object_name": "Water",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 10.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, suspended sediment, dissolved organic matter, disturbed surface film",
+        "exposure_mode": "exposed, wet, highly agitated"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "geosmin",
+          "2-methylisoborneol",
+          "aquatic aldehydes",
+          "humic substances",
+          "hydrogen sulfide"
+        ],
+        "secondary_trace": [
+          "sulfur compounds (dimethyl trisulfide)",
+          "ammonia"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "pungent",
+          "earthy",
+          "turbid aquatic",
+          "distinct muddy",
+          "sulphurous"
+        ],
+        "descriptor_shift": "Significantly increased water agitation by multiple ducks results in a strong, more complex profile, intensifying earthy and aquatic notes, and introducing a noticeable sulphurous/muddy character as sediment is likely disturbed.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "Widespread and significant water agitation by multiple active ducks maximizes the surface area for volatile release and likely suspends sediment, releasing trapped or adsorbed compounds like hydrogen sulfide.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "High agitation strongly correlates with increased volatile release.",
+          "Disturbance of sediment releases sulfur compounds typical of anaerobic aquatic environments."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Duck",
+      "event_ids": [
+        "Duck_0.0-2.0",
+        "Duck_2.0-4.5",
+        "Duck_4.5-7.0",
+        "Duck_7.0-9.0",
+        "Duck_9.0-10.25"
+      ]
+    },
+    {
+      "object_name": "Ducks",
+      "event_ids": [
+        "Ducks_0.0-2.5",
+        "Ducks_2.5-6.5",
+        "Ducks_6.5-7.0",
+        "Ducks_7.0-10.25"
+      ]
+    },
+    {
+      "object_name": "Water",
+      "event_ids": [
+        "Water_0.0-2.0",
+        "Water_2.0-4.5",
+        "Water_4.5-7.0",
+        "Water_7.0-10.25"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "Duck_0.0-2.0",
+        "Ducks_0.0-2.5",
+        "Water_0.0-2.0"
+      ],
+      "interpolated_intensity": 0.3,
+      "dominant_descriptors": [
+        "moderate",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "Duck_0.0-2.0",
+        "Ducks_0.0-2.5",
+        "Water_0.0-2.0"
+      ],
+      "interpolated_intensity": 0.3,
+      "dominant_descriptors": [
+        "moderate",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "Duck_2.0-4.5",
+        "Ducks_0.0-2.5",
+        "Water_2.0-4.5"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "Duck_2.0-4.5",
+        "Ducks_2.5-6.5",
+        "Water_2.0-4.5"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "Duck_2.0-4.5",
+        "Ducks_2.5-6.5",
+        "Water_2.0-4.5"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "Duck_4.5-7.0",
+        "Ducks_2.5-6.5",
+        "Water_4.5-7.0"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "Duck_4.5-7.0",
+        "Ducks_2.5-6.5",
+        "Water_4.5-7.0"
+      ],
+      "interpolated_intensity": 0.5,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "earthy",
+        "freshwater"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "Duck_7.0-9.0",
+        "Ducks_7.0-10.25",
+        "Water_7.0-10.25"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "earthy",
+        "turbid aquatic"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "Duck_7.0-9.0",
+        "Ducks_7.0-10.25",
+        "Water_7.0-10.25"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "earthy",
+        "turbid aquatic"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "Duck_9.0-10.25",
+        "Ducks_7.0-10.25",
+        "Water_7.0-10.25"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "earthy",
+        "turbid aquatic"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "Duck_9.0-10.25",
+        "Ducks_7.0-10.25",
+        "Water_7.0-10.25"
+      ],
+      "interpolated_intensity": 0.7,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "earthy",
+        "turbid aquatic"
+      ]
+    }
+  ]
+}

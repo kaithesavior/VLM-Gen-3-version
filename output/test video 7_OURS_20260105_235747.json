@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 7.mp4",
+    "generated_at": "2026-01-05T23:59:14.070598",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "sweat_drop_0_2.75",
+      "evidence_ref": {
+        "object_name": "sweat drop",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.001,
+          "frame_coverage_end": 0.005,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface of accumulating sweat drop",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.034,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water",
+          "Lactic acid",
+          "Urea"
+        ],
+        "secondary_trace": [
+          "Ammonium",
+          "Salt compounds (NaCl)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "slightly acidic",
+          "clean",
+          "watery"
+        ],
+        "descriptor_shift": "Initial formation of the sweat drop, barely perceptible scent begins to emerge.",
+        "shift_type": "add"
+      },
+      "reasoning": "A small bead of sweat is visibly accumulating and increasing slightly in size. Despite its near proximity, the minute surface area limits significant volatile release, resulting in a very faint, ramping up intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Typical human sweat composition.",
+          "Ambient conditions (steamy, confined room) slightly aid in volatile accumulation, but not enough to drastically alter emission from a tiny source."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "sweat_drop_2.75_4.5",
+      "evidence_ref": {
+        "object_name": "sweat drop",
+        "interval_time": {
+          "start_s": 2.75,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.005,
+          "frame_coverage_end": 0.008,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface of distended sweat drop",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.042,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water",
+          "Lactic acid",
+          "Urea"
+        ],
+        "secondary_trace": [
+          "Ammonium",
+          "Salt compounds (NaCl)",
+          "Faint short-chain fatty acids (initial degradation)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "slightly acidic",
+          "clean",
+          "watery",
+          "subtle metallic"
+        ],
+        "descriptor_shift": "The sweat drop's increased volume and surface tension elongation lead to a slightly more noticeable, though still faint, scent profile. Initial bacterial interaction may introduce a subtle metallic note.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "The sweat drop has grown and distended, indicating a larger, albeit still small, evaporative surface area compared to the previous state. This leads to a minor ramp-up in overall volatile emission.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Typical human sweat composition and onset of early bacterial activity.",
+          "Ambient humidity and confinement maintain volatile concentration."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "falling_sweat_drop_4.5_5.0",
+      "evidence_ref": {
+        "object_name": "falling sweat drop",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 5.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.008,
+          "frame_coverage_end": 0.001,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid aerosol/surface of falling drop",
+        "exposure_mode": "aerosol, receding"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.105,
+        "trend": "ramp_down",
+        "justification": "Rapid decrease due to drop detachment, movement away from the frame, and rapid dispersal as an aerosol."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water",
+          "Lactic acid",
+          "Urea"
+        ],
+        "secondary_trace": [
+          "Ammonium",
+          "Salt compounds (NaCl)",
+          "Faint short-chain fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "barely perceptible",
+          "transient",
+          "dilute",
+          "faint acidic"
+        ],
+        "descriptor_shift": "The sudden detachment and rapid recession of the drop cause a swift decrease in perceived intensity, making the scent transient and highly diluted.",
+        "shift_type": "distance-fade, soften"
+      },
+      "reasoning": "The sweat drop detaches and falls, creating a brief aerosol effect but quickly receding from the immediate vicinity. The rapid movement and dispersal lead to a sharp, transient peak followed by a quick ramp-down in perceived odor.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Typical human sweat composition.",
+          "Rapid dispersal prevents significant lingering aerosol effects."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "sweaty_skin_0_4",
+      "evidence_ref": {
+        "object_name": "man's sweaty skin",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of human skin, covered in perspiration",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water",
+          "Lactic acid",
+          "Urea",
+          "Short-chain fatty acids"
+        ],
+        "secondary_trace": [
+          "Ammonium",
+          "Salt compounds (NaCl)",
+          "Steroids (e.g., androstadienone)",
+          "Sulfur compounds"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "damp",
+          "musky",
+          "slightly acidic",
+          "metallic"
+        ],
+        "descriptor_shift": "Initial sustained perspiration across a broad skin surface creates a noticeable and stable odor profile.",
+        "shift_type": "add"
+      },
+      "reasoning": "A large and stable area of skin covered in perspiration provides a continuous evaporative surface. The near proximity and significant frame coverage ensure a sustained, medium intensity odor profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Typical human sweat composition and bacterial interaction over time.",
+          "Ambient humidity (steamy) and confinement (small closed room) promote a noticeable concentration of volatiles."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "sweaty_skin_4_8",
+      "evidence_ref": {
+        "object_name": "man's sweaty skin",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of human skin, covered in perspiration",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water",
+          "Lactic acid",
+          "Urea",
+          "Short-chain fatty acids",
+          "3-methyl-2-hexenoic acid"
+        ],
+        "secondary_trace": [
+          "Ammonium",
+          "Salt compounds (NaCl)",
+          "Steroids (e.g., androstadienone)",
+          "Sulfur compounds",
+          "Ketones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "damp",
+          "musky",
+          "slightly acidic",
+          "metallic",
+          "body-like"
+        ],
+        "descriptor_shift": "Temporal continuation of persistent sweat. Prolonged exposure allows for a slight maturation of the bacterial degradation products, intensifying the musky and body-like notes.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "The visual state of the sweaty skin remains stable, indicating continuous evaporation of perspiration. While intensity plateaus, the longer duration allows for further bacterial decomposition on the skin, subtly enhancing complex body odor molecules and descriptors.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Typical human sweat composition and bacterial interaction over time.",
+          "Ambient humidity (steamy) and confinement (small closed room) promote a noticeable concentration of volatiles."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "sweat drop",
+      "event_ids": [
+        "sweat_drop_0_2.75",
+        "sweat_drop_2.75_4.5"
+      ]
+    },
+    {
+      "object_name": "falling sweat drop",
+      "event_ids": [
+        "falling_sweat_drop_4.5_5.0"
+      ]
+    },
+    {
+      "object_name": "man's sweaty skin",
+      "event_ids": [
+        "sweaty_skin_0_4",
+        "sweaty_skin_4_8"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "sweat_drop_0_2.75",
+        "sweaty_skin_0_4"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "slightly acidic"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "sweat_drop_0_2.75",
+        "sweaty_skin_0_4"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "slightly acidic"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "sweat_drop_2.75_4.5",
+        "sweaty_skin_0_4"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "metallic"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "sweat_drop_2.75_4.5",
+        "sweaty_skin_0_4",
+        "sweaty_skin_4_8"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "metallic",
+        "body-like"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "falling_sweat_drop_4.5_5.0",
+        "sweaty_skin_4_8"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "body-like"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "sweaty_skin_4_8"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "body-like"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "sweaty_skin_4_8"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "body-like"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "sweaty_skin_4_8"
+      ],
+      "interpolated_intensity": 0.35,
+      "dominant_descriptors": [
+        "distinct",
+        "damp",
+        "musky",
+        "body-like"
+      ]
+    }
+  ]
+}

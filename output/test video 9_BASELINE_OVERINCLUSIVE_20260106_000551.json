@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 9.mp4",
+    "generated_at": "2026-01-06T00:09:50.262700",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "t_bone_steak_0_0_8_5",
+      "evidence_ref": {
+        "object_name": "T-bone steak",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "seared meat surface",
+        "exposure_mode": "exposed, aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "2,5-Dimethylpyrazine",
+          "2-Acetyl-1-pyrroline",
+          "Hexanal",
+          "2-Pentanone",
+          "Methional",
+          "Furaneol",
+          "Sulfur compounds (e.g., thiols)",
+          "Volatile fatty acids (e.g., butyric acid)"
+        ],
+        "secondary_trace": [
+          "1-Octen-3-ol",
+          "Ethyl acetate",
+          "Acetic acid",
+          "Gamma-decalactone",
+          "Diacetyl",
+          "3-Methylbutanal"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Meaty",
+          "savory",
+          "roasted",
+          "umami",
+          "smoky",
+          "fatty",
+          "browned",
+          "rich",
+          "pungent",
+          "warm"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object T-bone steak is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "grill_pan_0_0_8_5",
+      "evidence_ref": {
+        "object_name": "grill pan",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.8,
+          "frame_coverage_end": 0.8,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "hot cast iron surface",
+        "exposure_mode": "exposed, radiant heat"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Iron oxides (trace volatile)",
+          "Carbon compounds (trace from charring)",
+          "Acetone (residue breakdown)",
+          "Acrolein (fat breakdown)",
+          "Methyl mercaptan (sulfur residue)",
+          "Furan (charring byproduct)",
+          "Acetic acid (residue)"
+        ],
+        "secondary_trace": [
+          "Pyridine (residue)",
+          "Ammonia (residue)",
+          "Hydrocarbons (seasoning)",
+          "Metallic salts (trace)",
+          "Sulfur dioxide (trace)",
+          "Carbonyl sulfide (trace)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Metallic",
+          "hot",
+          "industrial",
+          "slightly acrid",
+          "residual",
+          "charred",
+          "steamy",
+          "mineral",
+          "sooty",
+          "dry"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object grill pan is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "cooking_searing_process_0_0_8_5",
+      "evidence_ref": {
+        "object_name": "cooking / searing process",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "complex chemical reactions",
+        "exposure_mode": "aerosol, gaseous"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Pyrazines (e.g., Tetramethylpyrazine)",
+          "Aldehydes (e.g., 2,4-Decadienal)",
+          "Sulfur compounds (e.g., Hydrogen sulfide)",
+          "Furanones (e.g., Maltol)",
+          "Ketones (e.g., Acetoin)",
+          "Volatile fatty acids (e.g., Butyric acid)",
+          "Phenols (e.g., Guaiacol)",
+          "Pyrroles"
+        ],
+        "secondary_trace": [
+          "Oxazoles",
+          "Thiazoles",
+          "Thiols (e.g., Methylpropanethiol)",
+          "Esters (e.g., Ethyl octanoate)",
+          "Alcohols (e.g., 1-Hexanol)",
+          "Lactones (e.g., gamma-nonalactone)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Complex",
+          "evolving",
+          "rich",
+          "intense",
+          "browning",
+          "pungent",
+          "savory",
+          "sweet-caramelized",
+          "smoky",
+          "meaty",
+          "fatty",
+          "roasted"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object cooking / searing process is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "steam_and_smoke_0_0_8_5",
+      "evidence_ref": {
+        "object_name": "steam and smoke",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid and solid particles",
+        "exposure_mode": "aerosol, gaseous dispersion"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water vapor",
+          "Hexanal (lipid oxidation)",
+          "Nonanal (lipid oxidation)",
+          "2,3-Butanedione (butter/fatty)",
+          "Methanethiol (sulfur compound)",
+          "Guaiacol (smoky phenolic)",
+          "2-Ethyl-3,5-dimethylpyrazine",
+          "Acrolein (burning fat)"
+        ],
+        "secondary_trace": [
+          "Benzene (combustion byproduct)",
+          "Toluene (combustion byproduct)",
+          "Xylene (combustion byproduct)",
+          "Phenol (combustion byproduct)",
+          "Acetic acid (breakdown product)",
+          "Formaldehyde (combustion byproduct)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Moist",
+          "hot",
+          "vaporous",
+          "fatty",
+          "meaty",
+          "smoky",
+          "pungent",
+          "rich",
+          "umami",
+          "browning",
+          "humid",
+          "charred"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object steam and smoke is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "flames_0_0_8_5",
+      "evidence_ref": {
+        "object_name": "flames",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.05,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "combusting organic matter/fuel (e.g., rendered fat)",
+        "exposure_mode": "gaseous combustion products"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Carbon dioxide",
+          "Carbon monoxide",
+          "Methane",
+          "Ethene",
+          "Acetylene",
+          "Formaldehyde",
+          "Acrolein",
+          "Benzene"
+        ],
+        "secondary_trace": [
+          "Toluene",
+          "Xylene",
+          "Naphthalene",
+          "Pyrene",
+          "Sulfur dioxide",
+          "Nitrogen oxides"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smoky",
+          "acrid",
+          "burnt",
+          "sharp",
+          "pungent",
+          "warm",
+          "carbonaceous",
+          "dry",
+          "hot",
+          "stinging"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object flames is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "T-bone steak",
+      "event_ids": [
+        "t_bone_steak_0_0_8_5"
+      ]
+    },
+    {
+      "object_name": "grill pan",
+      "event_ids": [
+        "grill_pan_0_0_8_5"
+      ]
+    },
+    {
+      "object_name": "cooking / searing process",
+      "event_ids": [
+        "cooking_searing_process_0_0_8_5"
+      ]
+    },
+    {
+      "object_name": "steam and smoke",
+      "event_ids": [
+        "steam_and_smoke_0_0_8_5"
+      ]
+    },
+    {
+      "object_name": "flames",
+      "event_ids": [
+        "flames_0_0_8_5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

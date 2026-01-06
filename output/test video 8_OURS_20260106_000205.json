@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "video_duration_s": 10.0,
+    "source_video": "test_videos/test video 8.mp4",
+    "generated_at": "2026-01-06T00:03:50.625142",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "mug_tea_event_001",
+      "evidence_ref": {
+        "object_name": "Mug with hot tea",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.22,
+          "frame_coverage_end": 0.22,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "hot dark liquid with submerged tea bag",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.68,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "Methyl Salicylate",
+          "Phenylacetaldehyde",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Esters",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "malty",
+          "earthy",
+          "fragrant",
+          "distinct",
+          "comforting"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The hot tea continuously releases volatiles due to thermal energy. The exposed liquid surface and brewing tea bag facilitate constant diffusion. Proximity is near and frame coverage is moderate, resulting in a distinct scent.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Tea type is black tea with typical aromatic profile.",
+          "Submerged tea bag implies ongoing brewing and release of compounds."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "mug_tea_event_002",
+      "evidence_ref": {
+        "object_name": "Mug with hot tea",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.22,
+          "frame_coverage_end": 0.22,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "hot dark liquid with submerged tea bag",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.68,
+        "trend": "plateau",
+        "justification": "Continued stable visual state of the mug and its contents."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "Methyl Salicylate",
+          "Phenylacetaldehyde",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Esters",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "malty",
+          "earthy",
+          "fragrant",
+          "distinct",
+          "comforting"
+        ],
+        "descriptor_shift": "Temporal continuation of the stable scent profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The stable visual state of the mug and its contents suggests a consistent rate of volatile release, maintaining the established olfactory profile. No changes in activity or proximity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Tea temperature remains high enough to sustain volatile release.",
+          "No external factors affecting diffusion rate."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "mug_tea_event_003",
+      "evidence_ref": {
+        "object_name": "Mug with hot tea",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.22,
+          "frame_coverage_end": 0.22,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "hot dark liquid with submerged tea bag",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.68,
+        "trend": "plateau",
+        "justification": "Continued stable visual state of the mug and its contents."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "Methyl Salicylate",
+          "Phenylacetaldehyde",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Esters",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "warm",
+          "malty",
+          "earthy",
+          "fragrant",
+          "distinct",
+          "comforting"
+        ],
+        "descriptor_shift": "Temporal continuation of the stable scent profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The stable visual state of the mug and its contents persists, indicating no change in the rate of volatile release or diffusion conditions. The olfactory profile remains consistent.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Tea temperature remains high enough to sustain volatile release.",
+          "No external factors affecting diffusion rate."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "steam_event_001",
+      "evidence_ref": {
+        "object_name": "Steam",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.04,
+          "frame_coverage_end": 0.04,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "vapor rising from hot liquid",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.27,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water vapor",
+          "Linalool",
+          "Geraniol",
+          "Methyl Salicylate",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Phenylacetaldehyde",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "subtle",
+          "ethereal",
+          "humid",
+          "faint",
+          "warm"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Steam represents the direct airborne volatile compounds. Its high activity level means efficient volatile transport, but its low frame coverage and rapid dissipation reduce perceived intensity to a subtle level, despite being 'near'.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Steam carries the primary volatiles of the tea directly.",
+          "Rapid dissipation reduces concentration quickly."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "steam_event_002",
+      "evidence_ref": {
+        "object_name": "Steam",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.04,
+          "frame_coverage_end": 0.04,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "vapor rising from hot liquid",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.27,
+        "trend": "plateau",
+        "justification": "Continued stable visual state of the steam emission."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water vapor",
+          "Linalool",
+          "Geraniol",
+          "Methyl Salicylate",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Phenylacetaldehyde",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "subtle",
+          "ethereal",
+          "humid",
+          "faint",
+          "warm"
+        ],
+        "descriptor_shift": "Temporal continuation of the stable scent profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The continuous and stable emission of steam indicates a consistent rate of volatile transport, maintaining the subtle olfactory presence. No changes in activity or proximity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Steam carries the primary volatiles of the tea directly.",
+          "Rapid dissipation reduces concentration quickly."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "steam_event_003",
+      "evidence_ref": {
+        "object_name": "Steam",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.04,
+          "frame_coverage_end": 0.04,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "vapor rising from hot liquid",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.27,
+        "trend": "plateau",
+        "justification": "Continued stable visual state of the steam emission."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water vapor",
+          "Linalool",
+          "Geraniol",
+          "Methyl Salicylate",
+          "Pyrazines"
+        ],
+        "secondary_trace": [
+          "Phenylacetaldehyde",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "subtle",
+          "ethereal",
+          "humid",
+          "faint",
+          "warm"
+        ],
+        "descriptor_shift": "Temporal continuation of the stable scent profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The stable visual state of the steam persists, indicating no change in the rate of volatile transport or diffusion conditions. The olfactory profile remains consistent.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Steam carries the primary volatiles of the tea directly.",
+          "Rapid dissipation reduces concentration quickly."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Mug with hot tea",
+      "event_ids": [
+        "mug_tea_event_001",
+        "mug_tea_event_002",
+        "mug_tea_event_003"
+      ]
+    },
+    {
+      "object_name": "Steam",
+      "event_ids": [
+        "steam_event_001",
+        "steam_event_002",
+        "steam_event_003"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "mug_tea_event_001",
+        "steam_event_001"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "mug_tea_event_001",
+        "steam_event_001"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "mug_tea_event_001",
+        "steam_event_001"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "mug_tea_event_001",
+        "steam_event_001"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "mug_tea_event_002",
+        "steam_event_002"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "mug_tea_event_002",
+        "steam_event_002"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "mug_tea_event_002",
+        "steam_event_002"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "mug_tea_event_002",
+        "steam_event_002"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "mug_tea_event_003",
+        "steam_event_003"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "mug_tea_event_003",
+        "steam_event_003"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "mug_tea_event_003",
+        "steam_event_003"
+      ],
+      "interpolated_intensity": 0.95,
+      "dominant_descriptors": [
+        "warm",
+        "malty",
+        "earthy",
+        "fragrant",
+        "distinct"
+      ]
+    }
+  ]
+}

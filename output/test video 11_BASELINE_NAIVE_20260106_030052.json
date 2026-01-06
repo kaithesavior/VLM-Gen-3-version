@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 11.mp4",
+    "generated_at": "2026-01-06T03:04:21.755559",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_steaming_cup_001",
+      "evidence_ref": {
+        "object_name": "steaming cup",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 16.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Aromatics",
+          "Water vapor"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": [
+          "Maillard products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "Smell of steaming cup"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as steaming cup. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "steaming cup",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Assumed typical scent profile for a generic steaming cup",
+          "Ignored specific beverage content"
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "steaming cup",
+      "event_ids": [
+        "event_steaming_cup_001"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

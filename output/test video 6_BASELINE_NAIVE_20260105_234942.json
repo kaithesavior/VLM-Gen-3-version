@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 6.mp4",
+    "generated_at": "2026-01-05T23:57:44.461586",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "pizza_scent_001",
+      "evidence_ref": {
+        "object_name": "pizza",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "whole object",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Pyrazines",
+          "Sulfur compounds",
+          "Esters"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "smell of pizza",
+          "savory",
+          "baked",
+          "cheesy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as pizza. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "pizza",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Generic object-based assumption",
+          "No specific context considered"
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "pizza",
+      "event_ids": [
+        "pizza_scent_001"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

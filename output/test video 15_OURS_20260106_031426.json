@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 15.mp4",
+    "generated_at": "2026-01-06T03:17:21.648531",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "perfume_bottle_01",
+      "evidence_ref": {
+        "object_name": "Perfume bottle",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid content",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "plateau",
+        "justification": "Initial trend established by physical state."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "sweet",
+          "subtle",
+          "lingering"
+        ],
+        "descriptor_shift": "Initial scent perception from the object.",
+        "shift_type": "initial"
+      },
+      "reasoning": "Initial observation of perfume within its container, minimal volatile release due to enclosure.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_02",
+      "evidence_ref": {
+        "object_name": "Perfume bottle",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 6.2
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid content",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "plateau",
+        "justification": "Increase in detected volatiles due to activity or environmental factors."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "sweet",
+          "subtle",
+          "lingering"
+        ],
+        "descriptor_shift": "Temporal continuation, subtle fluctuations in scent profile expected due to micro-diffusion.",
+        "shift_type": "temporal-continuation"
+      },
+      "reasoning": "Initial observation of perfume within its container, minimal volatile release due to enclosure.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_03",
+      "evidence_ref": {
+        "object_name": "Perfume bottle",
+        "interval_time": {
+          "start_s": 6.2,
+          "end_s": 7.2
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "pulsed",
+        "justification": "Abrupt increase due to mechanical exposure of liquid surface."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "floral",
+          "sweet",
+          "synthetic",
+          "diffusive"
+        ],
+        "descriptor_shift": "Odor profile intensified dramatically as sprayer activated, releasing liquid and creating an exposed surface.",
+        "shift_type": "intensify_abrupt"
+      },
+      "reasoning": "Sprayer activation exposes the liquid, increasing surface area for evaporation.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_mist_01",
+      "evidence_ref": {
+        "object_name": "Perfume mist",
+        "interval_time": {
+          "start_s": 6.2,
+          "end_s": 7.2
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.0,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.6,
+        "trend": "pulsed",
+        "justification": "Abrupt increase due to mechanical aerosolization and immediate diffusion."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "diffusive",
+          "fresh",
+          "sweet",
+          "floral",
+          "evanescent"
+        ],
+        "descriptor_shift": "Initial scent perception from the object.",
+        "shift_type": "initial"
+      },
+      "reasoning": "Sprayer activation converted liquid into fine aerosolized mist, dramatically increasing surface area for volatile release and rapid diffusion.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_04",
+      "evidence_ref": {
+        "object_name": "Perfume bottle",
+        "interval_time": {
+          "start_s": 7.2,
+          "end_s": 10.9
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid content",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "plateau",
+        "justification": "Abrupt decrease due to cessation of spraying action and re-enclosure."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "sweet",
+          "subtle",
+          "lingering"
+        ],
+        "descriptor_shift": "Odor profile softened significantly as sprayer closed, reducing exposed surface and volatile release.",
+        "shift_type": "soften_abrupt"
+      },
+      "reasoning": "Sprayer is no longer active and cap is released/closed, reducing volatile release to only residual evaporation.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_mist_02",
+      "evidence_ref": {
+        "object_name": "Perfume mist",
+        "interval_time": {
+          "start_s": 7.2,
+          "end_s": 7.7
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.02,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.13,
+        "trend": "ramp_down",
+        "justification": "Rapid decrease in concentration as aerosolized particles disperse and dilute in the air."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "evanescent",
+          "trace",
+          "sweet"
+        ],
+        "descriptor_shift": "Mist dissipating, leading to a rapid decrease in intensity and faintness of descriptors.",
+        "shift_type": "distance-fade"
+      },
+      "reasoning": "Aerosolized mist is dispersing into the ambient air, leading to a rapid decrease in local concentration.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_05",
+      "evidence_ref": {
+        "object_name": "Perfume bottle",
+        "interval_time": {
+          "start_s": 10.9,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "pulsed",
+        "justification": "Abrupt increase due to mechanical exposure of liquid surface."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "floral",
+          "sweet",
+          "synthetic",
+          "diffusive"
+        ],
+        "descriptor_shift": "Odor profile intensified dramatically as sprayer activated, releasing liquid and creating an exposed surface.",
+        "shift_type": "intensify_abrupt"
+      },
+      "reasoning": "Sprayer activation exposes the liquid, increasing surface area for evaporation.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_mist_03",
+      "evidence_ref": {
+        "object_name": "Perfume mist",
+        "interval_time": {
+          "start_s": 10.9,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.0,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid",
+        "exposure_mode": "aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.6,
+        "trend": "pulsed",
+        "justification": "Abrupt increase due to mechanical aerosolization and immediate diffusion."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "esters",
+          "alcohols",
+          "aldehydes",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "musks",
+          "ionones",
+          "phenols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "diffusive",
+          "fresh",
+          "sweet",
+          "floral",
+          "evanescent"
+        ],
+        "descriptor_shift": "First perception of aerosolized perfume, intense and diffusive.",
+        "shift_type": "add_new_source"
+      },
+      "reasoning": "Sprayer activation converted liquid into fine aerosolized mist, dramatically increasing surface area for volatile release and rapid diffusion.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Standard perfume composition with common fragrance classes.",
+          "Ambient room temperature and airflow are constant."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Perfume bottle",
+      "event_ids": [
+        "perfume_bottle_01",
+        "perfume_bottle_02",
+        "perfume_bottle_03",
+        "perfume_bottle_04",
+        "perfume_bottle_05"
+      ]
+    },
+    {
+      "object_name": "Perfume mist",
+      "event_ids": [
+        "perfume_mist_01",
+        "perfume_mist_02",
+        "perfume_mist_03"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "perfume_bottle_01"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "perfume_bottle_01"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "perfume_bottle_01"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "perfume_bottle_01"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "perfume_bottle_02"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "perfume_bottle_02"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "perfume_bottle_03",
+        "perfume_mist_01"
+      ],
+      "interpolated_intensity": 0.65,
+      "dominant_descriptors": [
+        "intense",
+        "floral",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "perfume_bottle_03",
+        "perfume_mist_01",
+        "perfume_bottle_04",
+        "perfume_mist_02"
+      ],
+      "interpolated_intensity": 0.29,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "perfume_bottle_04"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "perfume_bottle_04"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "perfume_bottle_04"
+      ],
+      "interpolated_intensity": 0.15,
+      "dominant_descriptors": [
+        "faint",
+        "sweet",
+        "subtle"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "perfume_bottle_05",
+        "perfume_mist_03"
+      ],
+      "interpolated_intensity": 0.65,
+      "dominant_descriptors": [
+        "intense",
+        "floral",
+        "sweet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 8.mp4",
+    "generated_at": "2026-01-06T00:05:19.714100",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_Mug_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Mug",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.25,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "ceramic glaze and contained air",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Silicon dioxide",
+          "Aluminum oxide",
+          "Potassium oxide",
+          "Sodium oxide",
+          "Calcium oxide",
+          "Titanium dioxide",
+          "Magnesium oxide",
+          "Iron oxide"
+        ],
+        "secondary_trace": [
+          "Trace organic dust",
+          "Residual manufacturing solvents",
+          "Airborne particulates",
+          "Faint absorbed tea volatiles",
+          "Water vapor",
+          "Ceramic clay minerals"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "inert",
+          "mineral",
+          "earthy",
+          "neutral",
+          "faint",
+          "clean",
+          "dusty",
+          "ceramic-like",
+          "subtle"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Mug is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Mug",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Saucer_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Saucer",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "ceramic glaze",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Silicon dioxide",
+          "Aluminum oxide",
+          "Potassium oxide",
+          "Sodium oxide",
+          "Calcium oxide",
+          "Barium oxide",
+          "Zirconium dioxide",
+          "Lead oxide"
+        ],
+        "secondary_trace": [
+          "Trace organic dust",
+          "Residual manufacturing agents",
+          "Airborne particulates",
+          "Faint absorbed tea volatiles",
+          "Surface adsorbed water",
+          "Ceramic filler materials"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "inert",
+          "mineral",
+          "earthy",
+          "neutral",
+          "faint",
+          "clean",
+          "dusty",
+          "ceramic-like",
+          "subtle"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Saucer is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Saucer",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Spoon_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Spoon",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.05,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "metal alloy surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Iron atoms",
+          "Chromium atoms",
+          "Nickel atoms",
+          "Manganese atoms",
+          "Silicon atoms",
+          "Carbon atoms",
+          "Molybdenum atoms",
+          "Copper atoms"
+        ],
+        "secondary_trace": [
+          "Metallic aldehydes",
+          "Metallic ketones",
+          "Surface oxidation products",
+          "Residual detergents",
+          "Fingerprint oils",
+          "Adsorbed environmental volatiles",
+          "Water films"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "metallic",
+          "neutral",
+          "clean",
+          "cool",
+          "faint",
+          "inert",
+          "hard",
+          "shiny",
+          "subtle"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Spoon is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Spoon",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Teabag_string_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Teabag string",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "cellulose fibers (cotton/paper)",
+        "exposure_mode": "wet"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Cellulose",
+          "Hemicellulose",
+          "Lignin",
+          "Furfural",
+          "Acetic acid",
+          "Formic acid",
+          "Maltol",
+          "Cyclotene"
+        ],
+        "secondary_trace": [
+          "Glyoxal",
+          "Acetoin",
+          "Diacetyl",
+          "Residual paper sizing agents",
+          "Trace pigments",
+          "Adsorbed tea polyphenols",
+          "Water molecules"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "papery",
+          "fibrous",
+          "damp",
+          "earthy",
+          "faint",
+          "subtle",
+          "mildewy",
+          "cellulose-like",
+          "slightly acidic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Teabag string is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Teabag string",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Tea_liquid_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Tea liquid",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.08,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface and bulk liquid",
+        "exposure_mode": "exposed, wet, hot, steeping"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Geraniol",
+          "Methyl salicylate",
+          "Theaflavins",
+          "Thearubigins",
+          "Catechins",
+          "Caffeine",
+          "L-theanine"
+        ],
+        "secondary_trace": [
+          "Hexanal",
+          "Nonanal",
+          "Beta-ionone",
+          "Pyrroles",
+          "Pyrazines",
+          "Guaiacol",
+          "Gamma-lactones",
+          "Dimethyl sulfide",
+          "Indole",
+          "Benzaldehyde"
+        ],
+        "heat_reaction_products": [
+          "Furaneol",
+          "Maltol",
+          "Cyclotene",
+          "Strecker aldehydes",
+          "Pyrazines",
+          "Pyrroles",
+          "Caramelization products"
+        ]
+      },
+      "descriptors": {
+        "list": [
+          "aromatic",
+          "warm",
+          "malty",
+          "earthy",
+          "floral",
+          "fruity",
+          "sweet",
+          "bitter",
+          "tannic",
+          "complex",
+          "spicy",
+          "woody",
+          "comforting",
+          "fragrant"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Tea liquid is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Tea liquid",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Steam_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Steam",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.02,
+          "frame_coverage_end": 0.02,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "water vapor and entrained volatiles",
+        "exposure_mode": "aerosol, gaseous"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Water (H2O)",
+          "Linalool",
+          "Geraniol",
+          "Methyl salicylate",
+          "Eugenol",
+          "Theaflavins",
+          "Pyrazines",
+          "Furaneol"
+        ],
+        "secondary_trace": [
+          "Hexanal",
+          "Nonanal",
+          "Beta-ionone",
+          "Catechins (aerosolized)",
+          "Caffeine (aerosolized)",
+          "Acetic acid",
+          "Formic acid",
+          "Trace inorganic salts"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "humid",
+          "warm",
+          "ethereal",
+          "diffusive",
+          "aqueous",
+          "faintly aromatic",
+          "vaporous",
+          "subtle",
+          "tea-like"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Steam is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Steam",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Wooden_table_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Wooden table",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "wood cellulose and lignin, surface finish",
+        "exposure_mode": "exposed, dry"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Pinene",
+          "Limonene",
+          "Caryophyllene",
+          "Cedrol",
+          "Vanillin",
+          "Guaiacol",
+          "Syringol",
+          "Acetic acid"
+        ],
+        "secondary_trace": [
+          "Furfural",
+          "Formaldehyde (from finish)",
+          "Toluene (from finish)",
+          "Xylenes (from finish)",
+          "Terpenoids",
+          "Fatty acids",
+          "Trace dust particulates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "woody",
+          "earthy",
+          "dry",
+          "resinous",
+          "faint",
+          "robust",
+          "warm",
+          "aged",
+          "polished",
+          "dusty",
+          "natural"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Wooden table is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Wooden table",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Open_book_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Open book",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "paper cellulose, ink compounds, adhesives",
+        "exposure_mode": "exposed, dry"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Benzaldehyde",
+          "Toluene",
+          "2-ethylhexanol",
+          "Vanillin",
+          "Furfural",
+          "Acetic acid",
+          "Butanol",
+          "Phenols"
+        ],
+        "secondary_trace": [
+          "Lignin degradation products",
+          "Cellulose ethers",
+          "Trace metals (from ink)",
+          "Polyester plasticizers",
+          "Aged paper aldehydes",
+          "Dust mites",
+          "Adhesive volatiles"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "papery",
+          "inky",
+          "dusty",
+          "woody",
+          "earthy",
+          "stale",
+          "sweet",
+          "musty",
+          "acidic",
+          "faint",
+          "aged"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Open book is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Open book",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_Wooden_chair_0.0_10.0",
+      "evidence_ref": {
+        "object_name": "Wooden chair",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "wood cellulose and lignin, surface finish",
+        "exposure_mode": "exposed, dry"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Pinene",
+          "Limonene",
+          "Caryophyllene",
+          "Cedrol",
+          "Vanillin",
+          "Guaiacol",
+          "Syringol",
+          "Acetic acid"
+        ],
+        "secondary_trace": [
+          "Furfural",
+          "Formaldehyde (from finish)",
+          "Toluene (from finish)",
+          "Xylenes (from finish)",
+          "Terpenoids",
+          "Fatty acids",
+          "Trace dust particulates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "woody",
+          "earthy",
+          "dry",
+          "resinous",
+          "faint",
+          "robust",
+          "warm",
+          "aged",
+          "polished",
+          "dusty",
+          "natural"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Wooden chair is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Wooden chair",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Mug",
+      "event_ids": [
+        "event_Mug_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Saucer",
+      "event_ids": [
+        "event_Saucer_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Spoon",
+      "event_ids": [
+        "event_Spoon_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Teabag string",
+      "event_ids": [
+        "event_Teabag_string_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Tea liquid",
+      "event_ids": [
+        "event_Tea_liquid_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Steam",
+      "event_ids": [
+        "event_Steam_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Wooden table",
+      "event_ids": [
+        "event_Wooden_table_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Open book",
+      "event_ids": [
+        "event_Open_book_0.0_10.0"
+      ]
+    },
+    {
+      "object_name": "Wooden chair",
+      "event_ids": [
+        "event_Wooden_chair_0.0_10.0"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

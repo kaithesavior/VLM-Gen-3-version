@@ -1,0 +1,1664 @@
+{
+  "meta": {
+    "pipeline_stage": "Stage 2 - High-Recall Olfactory Database Baseline",
+    "source_video": "test_videos/test video 2.mp4",
+    "generated_at": "2026-01-05T23:34:41.854168",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "event_table_surface_0_11.5",
+      "evidence_ref": {
+        "object_name": "table surface",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "paper",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Cellulose derivatives",
+          "Lignin breakdown products",
+          "Hemicellulose fragments",
+          "Terpenoids (from wood pulp)",
+          "Fatty acids (sizing agents)",
+          "Volatile organic compounds (VOCs) from adhesives"
+        ],
+        "secondary_trace": [
+          "Formaldehyde (trace from manufacturing)",
+          "2-Furancarboxaldehyde",
+          "Guaiacol",
+          "Vanillin (lignin derivatives)",
+          "Sulfur compounds (pulping residuals)",
+          "Hexanal (paper degradation)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Earthy",
+          "Woody",
+          "Musty",
+          "Dry",
+          "Faint",
+          "Fibrous",
+          "Slightly sweet",
+          "Resinous",
+          "Neutral"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object table surface is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_background_wall_0_11.5",
+      "evidence_ref": {
+        "object_name": "background wall",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "paint/drywall",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Alkyl resins",
+          "Acrylic copolymers",
+          "Titanium dioxide (pigment related)",
+          "Hydrocarbon solvents",
+          "Glycol ethers",
+          "Formaldehyde (binder/preservative)"
+        ],
+        "secondary_trace": [
+          "Phthalates (plasticizers)",
+          "Butanone (MEK)",
+          "Toluene",
+          "Xylene",
+          "Ammonia (binder additive)",
+          "Styrene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "New paint",
+          "Chemical",
+          "Ethereal",
+          "Faint",
+          "Plastic",
+          "Synthetic",
+          "Slightly acrid",
+          "Dry",
+          "Clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object background wall is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_wire_rack_0_11.5",
+      "evidence_ref": {
+        "object_name": "wire rack",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.1,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "metal coating",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Iron oxide (surface)",
+          "Carbonates (surface)",
+          "Fatty acids (fingerprints/dust)",
+          "Hydrocarbon residues (manufacturing)",
+          "Polymer coatings (epoxy/powder coat)",
+          "Sulfur compounds (trace)"
+        ],
+        "secondary_trace": [
+          "Metal aldehydes (oxidation products)",
+          "Volatile organic compounds (VOCs) from paint",
+          "Acetone",
+          "Ethanol",
+          "Ammonia (cleaning residue)",
+          "Hydrogen sulfide (corrosion trace)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Metallic",
+          "Dusty",
+          "Faint",
+          "Mineral",
+          "Neutral",
+          "Cold",
+          "Clean",
+          "Industrial",
+          "Sharp",
+          "Chemical"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object wire rack is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_bottle_cap_0_11.5",
+      "evidence_ref": {
+        "object_name": "bottle cap",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.05,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "metal and wood",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lignin degradation products",
+          "Cellulose components",
+          "Resin acids",
+          "Terpenes (from wood)",
+          "Fatty acids (metal surface)",
+          "Alkylbenzenes (from lacquer/coating)"
+        ],
+        "secondary_trace": [
+          "Furfural (wood degradation)",
+          "Guaiacol",
+          "Vanillin",
+          "Iron carbonyls (metal)",
+          "Hexanal",
+          "Acetic acid"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Woody",
+          "Earthy",
+          "Metallic",
+          "Dry",
+          "Slightly sweet",
+          "Resinous",
+          "Faint",
+          "Aged",
+          "Neutral",
+          "Clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object bottle cap is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_whole_lemon_0_11.5",
+      "evidence_ref": {
+        "object_name": "whole lemon",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.07,
+          "frame_coverage_end": 0.07,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "peel/intact fruit",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Gamma-terpinene",
+          "Alpha-pinene",
+          "Sabinene",
+          "Linalool",
+          "Octanal",
+          "Decanal"
+        ],
+        "secondary_trace": [
+          "Geraniol",
+          "Nerol",
+          "Terpinen-4-ol",
+          "Beta-caryophyllene",
+          "Citronellal",
+          "Limonene oxides",
+          "Coumarins (skin)",
+          "Farnesene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Citrusy",
+          "Zesty",
+          "Fresh",
+          "Green",
+          "Sharp",
+          "Bright",
+          "Pungent",
+          "Sour",
+          "Ethereal",
+          "Slightly woody"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object whole lemon is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_stainless_steel_bottle_0_2.5",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "metal surface/straw/interior air",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Iron oxides",
+          "Chromium oxides",
+          "Nickel traces",
+          "Polypropylene (straw)",
+          "Hydrocarbon residues (manufacturing/cleaning)",
+          "Adsorbed atmospheric gases"
+        ],
+        "secondary_trace": [
+          "Metal aldehydes",
+          "Acetic acid (cleaning residue)",
+          "Ethanol (cleaning residue)",
+          "Bisphenol A (trace from plastic/liner)",
+          "Sulfur compounds",
+          "Volatile organic compounds (VOCs) from plastic"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Metallic",
+          "Neutral",
+          "Faint",
+          "Clean",
+          "Industrial",
+          "Sharp",
+          "Plastic",
+          "Cool",
+          "Slightly acrid"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object stainless steel bottle is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_hand_1.25_1.75",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 1.25,
+          "end_s": 1.75
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.1,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Fatty acids (skin lipids)",
+          "Sebum constituents",
+          "Lactic acid",
+          "Urea (sweat)",
+          "Ketones (metabolic byproducts)",
+          "Sulfur compounds (skin flora)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Isoprene (breath/skin)",
+          "Terpenoids (environmental transfer)",
+          "Aldehydes (lipid oxidation)",
+          "Phenols (environmental)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Skin-like",
+          "Slightly fatty",
+          "Warm",
+          "Faint",
+          "Musky",
+          "Slightly sweet",
+          "Metallic (blood trace)",
+          "Neutral",
+          "Personal",
+          "Clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object hand is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_half_lemon_1.25_1.75",
+      "evidence_ref": {
+        "object_name": "half lemon",
+        "interval_time": {
+          "start_s": 1.25,
+          "end_s": 1.75
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.02,
+          "frame_coverage_end": 0.05,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "cut flesh/peel",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Gamma-terpinene",
+          "Alpha-pinene",
+          "Sabinene",
+          "Linalool",
+          "Octanal",
+          "Decanal",
+          "Acetic acid (juice)"
+        ],
+        "secondary_trace": [
+          "Geraniol",
+          "Nerol",
+          "Terpinen-4-ol",
+          "Beta-caryophyllene",
+          "Citronellal",
+          "Limonene oxides",
+          "Coumarins (skin)",
+          "Sugars (degrading)",
+          "Esters (fruit flesh)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intense citrus",
+          "Zesty",
+          "Sharp",
+          "Sour",
+          "Fresh",
+          "Green",
+          "Pungent",
+          "Bright",
+          "Juicy",
+          "Slightly bitter"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object half lemon is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_hand_1.75_2.5",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 1.75,
+          "end_s": 2.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.15,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Fatty acids (skin lipids)",
+          "Sebum constituents",
+          "Lactic acid",
+          "Urea (sweat)",
+          "Ketones (metabolic byproducts)",
+          "Sulfur compounds (skin flora)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Isoprene (breath/skin)",
+          "Terpenoids (environmental transfer)",
+          "Aldehydes (lipid oxidation)",
+          "Phenols (environmental)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Skin-like",
+          "Slightly fatty",
+          "Warm",
+          "Faint",
+          "Musky",
+          "Slightly sweet",
+          "Metallic (blood trace)",
+          "Neutral",
+          "Personal",
+          "Clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object hand is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_half_lemon_1.75_2.5",
+      "evidence_ref": {
+        "object_name": "half lemon",
+        "interval_time": {
+          "start_s": 1.75,
+          "end_s": 2.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.07,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "cut flesh/peel",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Gamma-terpinene",
+          "Alpha-pinene",
+          "Sabinene",
+          "Linalool",
+          "Octanal",
+          "Decanal",
+          "Acetic acid (juice)"
+        ],
+        "secondary_trace": [
+          "Geraniol",
+          "Nerol",
+          "Terpinen-4-ol",
+          "Beta-caryophyllene",
+          "Citronellal",
+          "Limonene oxides",
+          "Coumarins (skin)",
+          "Sugars (degrading)",
+          "Esters (fruit flesh)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intense citrus",
+          "Zesty",
+          "Sharp",
+          "Sour",
+          "Fresh",
+          "Green",
+          "Pungent",
+          "Bright",
+          "Juicy",
+          "Slightly bitter"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object half lemon is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_squeezing_action_2.5_6.25",
+      "evidence_ref": {
+        "object_name": "squeezing action",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "friction/air displacement",
+        "exposure_mode": "aerosol/vapor"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Gamma-terpinene",
+          "Esters (ethyl acetate, limonene oxide)",
+          "Aldehydes (octanal, decanal)",
+          "Terpenes (alpha-pinene, sabinene)",
+          "Acetic acid (juice aerosol)"
+        ],
+        "secondary_trace": [
+          "Geraniol",
+          "Nerol",
+          "Terpinen-4-ol",
+          "Beta-caryophyllene",
+          "Citronellal",
+          "Fatty acids (from hand contact)",
+          "Water vapor",
+          "Carbon dioxide (from air displacement)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intense citrus",
+          "Fresh",
+          "Zesty",
+          "Aerosolized",
+          "Sharp",
+          "Vibrant",
+          "Sour",
+          "Pungent",
+          "Juicy",
+          "Slightly warm"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object squeezing action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. Action itself considered as an 'emitter' of enhanced existing scents."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_hand_2.5_6.25",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface/lemon residue",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Fatty acids (skin lipids)",
+          "Sebum constituents",
+          "Lactic acid",
+          "Limonene (transfer from lemon)",
+          "Citral (transfer from lemon)",
+          "Ketones (metabolic byproducts)"
+        ],
+        "secondary_trace": [
+          "Urea (sweat)",
+          "Ammonia",
+          "Acetone",
+          "Isoprene",
+          "Terpenoids (environmental/lemon transfer)",
+          "Aldehydes (lipid oxidation/lemon)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Skin-like",
+          "Citrusy",
+          "Slightly fatty",
+          "Warm",
+          "Musky",
+          "Fresh",
+          "Zesty",
+          "Personal",
+          "Tangy",
+          "Slightly metallic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object hand is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. Scent transfer from lemon to hand is assumed."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_half_lemon_2.5_6.25",
+      "evidence_ref": {
+        "object_name": "half lemon",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.07,
+          "frame_coverage_end": 0.07,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "squeezed flesh/peel",
+        "exposure_mode": "exposed/aerosol"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Gamma-terpinene",
+          "Alpha-pinene",
+          "Sabinene",
+          "Linalool",
+          "Octanal",
+          "Decanal",
+          "Acetic acid",
+          "Lactic acid (fermentation start)"
+        ],
+        "secondary_trace": [
+          "Geraniol",
+          "Nerol",
+          "Terpinen-4-ol",
+          "Beta-caryophyllene",
+          "Citronellal",
+          "Limonene oxides",
+          "Coumarins (skin)",
+          "Sugars (exposed)",
+          "Esters (juice released)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intensely citrus",
+          "Zesty",
+          "Sharp",
+          "Sour",
+          "Fresh",
+          "Green",
+          "Pungent",
+          "Bright",
+          "Juicy",
+          "Slightly bitter",
+          "Effervescent"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object half lemon is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. Squeezing enhances emission."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_lemon_juice_2.5_6.25",
+      "evidence_ref": {
+        "object_name": "lemon juice",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid droplets/surface",
+        "exposure_mode": "aerosol/wet"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene (emulsified)",
+          "Citral (Neral, Geranial)",
+          "Acetic acid",
+          "Citric acid (vaporized)",
+          "Water vapor",
+          "Aldehydes (octanal, decanal)"
+        ],
+        "secondary_trace": [
+          "Esters (from fruit flesh)",
+          "Geraniol",
+          "Linalool",
+          "Fructose (trace)",
+          "Glucose (trace)",
+          "Terpenoids",
+          "Sulfur compounds (trace from fruit)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Aqueous citrus",
+          "Sour",
+          "Fresh",
+          "Tangy",
+          "Acidic",
+          "Wet",
+          "Bright",
+          "Zesty",
+          "Pungent",
+          "Slightly sweet"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object lemon juice is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. Liquid state enhances volatile release."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_stainless_steel_bottle_2.5_6.25",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "metal surface/straw/interior air with juice",
+        "exposure_mode": "exposed/liquid surface"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Acetic acid",
+          "Water vapor",
+          "Iron oxides",
+          "Polypropylene (straw)"
+        ],
+        "secondary_trace": [
+          "Citric acid",
+          "Esters (from juice)",
+          "Metal aldehydes",
+          "Hydrocarbon residues",
+          "Trace alcohols",
+          "Sulfur compounds"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Metallic",
+          "Citrusy",
+          "Sour",
+          "Fresh",
+          "Clean",
+          "Industrial",
+          "Sharp",
+          "Acidic",
+          "Wet",
+          "Tangy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object stainless steel bottle is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. The bottle's surface and the contained juice both emit."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_hand_6.25_8.5",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 6.25,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.0,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface/lemon residue",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Fatty acids (skin lipids)",
+          "Sebum constituents",
+          "Lactic acid",
+          "Limonene (transfer from lemon)",
+          "Citral (transfer from lemon)",
+          "Urea (sweat)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Isoprene",
+          "Terpenoids (environmental/lemon transfer)",
+          "Aldehydes (lipid oxidation/lemon)",
+          "Citric acid residue"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Skin-like",
+          "Citrusy",
+          "Slightly fatty",
+          "Warm",
+          "Musky",
+          "Lingering fresh",
+          "Zesty",
+          "Personal",
+          "Tangy",
+          "Fading"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object hand is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. Scent transfer from lemon to hand is assumed."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_half_lemon_6.25_8.5",
+      "evidence_ref": {
+        "object_name": "half lemon",
+        "interval_time": {
+          "start_s": 6.25,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.07,
+          "frame_coverage_end": 0.0,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "squeezed flesh/peel",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral (Neral, Geranial)",
+          "Gamma-terpinene",
+          "Acetic acid",
+          "Esters (residual)",
+          "Oxidized terpenes"
+        ],
+        "secondary_trace": [
+          "Geraniol",
+          "Nerol",
+          "Terpinen-4-ol",
+          "Beta-caryophyllene",
+          "Citronellal",
+          "Coumarins (skin)",
+          "Sugars (drying)",
+          "Lactic acid"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Residual citrus",
+          "Weak zesty",
+          "Sour",
+          "Fading fresh",
+          "Green",
+          "Muted pungent",
+          "Slightly oxidized",
+          "Bitter",
+          "Juice residue",
+          "Still tangy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object half lemon is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. Emission continues post-squeezing."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "event_stainless_steel_bottle_6.25_11.5",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 6.25,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "interior air/lemon juice surface",
+        "exposure_mode": "exposed/liquid surface"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene (from juice)",
+          "Citral (Neral, Geranial from juice)",
+          "Acetic acid (from juice)",
+          "Water vapor",
+          "Polypropylene (straw)",
+          "Iron oxides (bottle material)"
+        ],
+        "secondary_trace": [
+          "Citric acid (from juice)",
+          "Esters (from juice)",
+          "Metal aldehydes",
+          "Hydrocarbon residues",
+          "Trace alcohols",
+          "Sulfur compounds (from juice/bottle)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Citrus-filled",
+          "Sour",
+          "Fresh",
+          "Tangy",
+          "Metallic",
+          "Wet",
+          "Bright",
+          "Pungent",
+          "Clean",
+          "Acidic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object stainless steel bottle is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Visual presence equals olfactory presence; all potential molecules are emitted. The contained liquid's headspace is emitting."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "table surface",
+      "event_ids": [
+        "event_table_surface_0_11.5"
+      ]
+    },
+    {
+      "object_name": "background wall",
+      "event_ids": [
+        "event_background_wall_0_11.5"
+      ]
+    },
+    {
+      "object_name": "wire rack",
+      "event_ids": [
+        "event_wire_rack_0_11.5"
+      ]
+    },
+    {
+      "object_name": "bottle cap",
+      "event_ids": [
+        "event_bottle_cap_0_11.5"
+      ]
+    },
+    {
+      "object_name": "whole lemon",
+      "event_ids": [
+        "event_whole_lemon_0_11.5"
+      ]
+    },
+    {
+      "object_name": "stainless steel bottle",
+      "event_ids": [
+        "event_stainless_steel_bottle_0_2.5",
+        "event_stainless_steel_bottle_2.5_6.25",
+        "event_stainless_steel_bottle_6.25_11.5"
+      ]
+    },
+    {
+      "object_name": "hand",
+      "event_ids": [
+        "event_hand_1.25_1.75",
+        "event_hand_1.75_2.5",
+        "event_hand_2.5_6.25",
+        "event_hand_6.25_8.5"
+      ]
+    },
+    {
+      "object_name": "half lemon",
+      "event_ids": [
+        "event_half_lemon_1.25_1.75",
+        "event_half_lemon_1.75_2.5",
+        "event_half_lemon_2.5_6.25",
+        "event_half_lemon_6.25_8.5"
+      ]
+    },
+    {
+      "object_name": "squeezing action",
+      "event_ids": [
+        "event_squeezing_action_2.5_6.25"
+      ]
+    },
+    {
+      "object_name": "lemon juice",
+      "event_ids": [
+        "event_lemon_juice_2.5_6.25"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_stainless_steel_bottle_0_2.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Citrusy",
+        "Zesty",
+        "Metallic",
+        "Woody",
+        "Earthy",
+        "Faint",
+        "Plastic",
+        "Clean"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_stainless_steel_bottle_0_2.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Citrusy",
+        "Zesty",
+        "Metallic",
+        "Woody",
+        "Earthy",
+        "Faint",
+        "Plastic",
+        "Clean"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_stainless_steel_bottle_0_2.5",
+        "event_hand_1.75_2.5",
+        "event_half_lemon_1.75_2.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Intense citrus",
+        "Zesty",
+        "Sharp",
+        "Sour",
+        "Metallic",
+        "Skin-like",
+        "Woody",
+        "Fresh"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_squeezing_action_2.5_6.25",
+        "event_hand_2.5_6.25",
+        "event_half_lemon_2.5_6.25",
+        "event_lemon_juice_2.5_6.25",
+        "event_stainless_steel_bottle_2.5_6.25"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Intensely citrus",
+        "Sour",
+        "Zesty",
+        "Aerosolized",
+        "Wet",
+        "Sharp",
+        "Metallic",
+        "Skin-like",
+        "Fresh"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_squeezing_action_2.5_6.25",
+        "event_hand_2.5_6.25",
+        "event_half_lemon_2.5_6.25",
+        "event_lemon_juice_2.5_6.25",
+        "event_stainless_steel_bottle_2.5_6.25"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Intensely citrus",
+        "Sour",
+        "Zesty",
+        "Aerosolized",
+        "Wet",
+        "Sharp",
+        "Metallic",
+        "Skin-like",
+        "Fresh"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_squeezing_action_2.5_6.25",
+        "event_hand_2.5_6.25",
+        "event_half_lemon_2.5_6.25",
+        "event_lemon_juice_2.5_6.25",
+        "event_stainless_steel_bottle_2.5_6.25"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Intensely citrus",
+        "Sour",
+        "Zesty",
+        "Aerosolized",
+        "Wet",
+        "Sharp",
+        "Metallic",
+        "Skin-like",
+        "Fresh"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_squeezing_action_2.5_6.25",
+        "event_hand_2.5_6.25",
+        "event_half_lemon_2.5_6.25",
+        "event_lemon_juice_2.5_6.25",
+        "event_stainless_steel_bottle_2.5_6.25"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Intensely citrus",
+        "Sour",
+        "Zesty",
+        "Aerosolized",
+        "Wet",
+        "Sharp",
+        "Metallic",
+        "Skin-like",
+        "Fresh"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_hand_6.25_8.5",
+        "event_half_lemon_6.25_8.5",
+        "event_stainless_steel_bottle_6.25_11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Lingering citrus",
+        "Sour",
+        "Wet",
+        "Metallic",
+        "Skin-like",
+        "Zesty",
+        "Fresh",
+        "Woody",
+        "Fading"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_hand_6.25_8.5",
+        "event_half_lemon_6.25_8.5",
+        "event_stainless_steel_bottle_6.25_11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Lingering citrus",
+        "Sour",
+        "Wet",
+        "Metallic",
+        "Skin-like",
+        "Zesty",
+        "Fresh",
+        "Woody",
+        "Fading"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_stainless_steel_bottle_6.25_11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Citrus-filled",
+        "Sour",
+        "Fresh",
+        "Tangy",
+        "Metallic",
+        "Wet",
+        "Clean",
+        "Woody",
+        "Earthy"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_stainless_steel_bottle_6.25_11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Citrus-filled",
+        "Sour",
+        "Fresh",
+        "Tangy",
+        "Metallic",
+        "Wet",
+        "Clean",
+        "Woody",
+        "Earthy"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "event_table_surface_0_11.5",
+        "event_background_wall_0_11.5",
+        "event_wire_rack_0_11.5",
+        "event_bottle_cap_0_11.5",
+        "event_whole_lemon_0_11.5",
+        "event_stainless_steel_bottle_6.25_11.5"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "Citrus-filled",
+        "Sour",
+        "Fresh",
+        "Tangy",
+        "Metallic",
+        "Wet",
+        "Clean",
+        "Woody",
+        "Earthy"
+      ]
+    }
+  ]
+}

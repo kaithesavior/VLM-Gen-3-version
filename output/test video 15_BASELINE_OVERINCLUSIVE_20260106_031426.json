@@ -1,0 +1,1168 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 15.mp4",
+    "generated_at": "2026-01-06T03:19:37.538644",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "hand_0_0_6_7",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 6.7
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Squalene",
+          "Free fatty acids",
+          "Urea",
+          "2-Nonanone",
+          "Decanal",
+          "6-Methyl-5-hepten-2-one"
+        ],
+        "secondary_trace": [
+          "Trimethylamine",
+          "Cadaverine",
+          "Putrescine",
+          "Indole",
+          "Skatole",
+          "Various steroids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Human",
+          "Musky",
+          "Earthy",
+          "Fatty",
+          "Slightly metallic",
+          "Warm",
+          "Subtle",
+          "Clean",
+          "Oily",
+          "Damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hand_6_7_7_5",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 6.7,
+          "end_s": 7.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Squalene",
+          "Free fatty acids",
+          "Urea",
+          "2-Nonanone",
+          "Decanal",
+          "6-Methyl-5-hepten-2-one"
+        ],
+        "secondary_trace": [
+          "Trimethylamine",
+          "Cadaverine",
+          "Putrescine",
+          "Indole",
+          "Skatole",
+          "Various steroids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Human",
+          "Musky",
+          "Earthy",
+          "Fatty",
+          "Slightly metallic",
+          "Warm",
+          "Subtle",
+          "Clean",
+          "Oily",
+          "Damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hand_7_5_10_0",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 7.5,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Squalene",
+          "Free fatty acids",
+          "Urea",
+          "2-Nonanone",
+          "Decanal",
+          "6-Methyl-5-hepten-2-one"
+        ],
+        "secondary_trace": [
+          "Trimethylamine",
+          "Cadaverine",
+          "Putrescine",
+          "Indole",
+          "Skatole",
+          "Various steroids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Human",
+          "Musky",
+          "Earthy",
+          "Fatty",
+          "Slightly metallic",
+          "Warm",
+          "Subtle",
+          "Clean",
+          "Oily",
+          "Damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hand_10_0_10_5",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 10.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Squalene",
+          "Free fatty acids",
+          "Urea",
+          "2-Nonanone",
+          "Decanal",
+          "6-Methyl-5-hepten-2-one"
+        ],
+        "secondary_trace": [
+          "Trimethylamine",
+          "Cadaverine",
+          "Putrescine",
+          "Indole",
+          "Skatole",
+          "Various steroids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Human",
+          "Musky",
+          "Earthy",
+          "Fatty",
+          "Slightly metallic",
+          "Warm",
+          "Subtle",
+          "Clean",
+          "Oily",
+          "Damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "hand_10_5_11_75",
+      "evidence_ref": {
+        "object_name": "hand",
+        "interval_time": {
+          "start_s": 10.5,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Squalene",
+          "Free fatty acids",
+          "Urea",
+          "2-Nonanone",
+          "Decanal",
+          "6-Methyl-5-hepten-2-one"
+        ],
+        "secondary_trace": [
+          "Trimethylamine",
+          "Cadaverine",
+          "Putrescine",
+          "Indole",
+          "Skatole",
+          "Various steroids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Human",
+          "Musky",
+          "Earthy",
+          "Fatty",
+          "Slightly metallic",
+          "Warm",
+          "Subtle",
+          "Clean",
+          "Oily",
+          "Damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_0_0_6_7",
+      "evidence_ref": {
+        "object_name": "perfume bottle",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 6.7
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, bottle exterior",
+        "exposure_mode": "exposed, enclosed (vapor leakage)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool",
+          "Benzyl Salicylate",
+          "Coumarin",
+          "Hedione",
+          "Iso E Super"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Alpha-Isomethyl Ionone",
+          "Cinnamyl Alcohol",
+          "Musk Ketone",
+          "Trace phthalates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Woody",
+          "Powdery",
+          "Amber",
+          "Fresh",
+          "Synthetic",
+          "Rich",
+          "Diffusive"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_6_7_7_5",
+      "evidence_ref": {
+        "object_name": "perfume bottle",
+        "interval_time": {
+          "start_s": 6.7,
+          "end_s": 7.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, bottle exterior",
+        "exposure_mode": "exposed, enclosed (vapor leakage)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool",
+          "Benzyl Salicylate",
+          "Coumarin",
+          "Hedione",
+          "Iso E Super"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Alpha-Isomethyl Ionone",
+          "Cinnamyl Alcohol",
+          "Musk Ketone",
+          "Trace phthalates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Woody",
+          "Powdery",
+          "Amber",
+          "Fresh",
+          "Synthetic",
+          "Rich",
+          "Diffusive"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_7_5_10_0",
+      "evidence_ref": {
+        "object_name": "perfume bottle",
+        "interval_time": {
+          "start_s": 7.5,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, bottle exterior",
+        "exposure_mode": "exposed, enclosed (vapor leakage)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool",
+          "Benzyl Salicylate",
+          "Coumarin",
+          "Hedione",
+          "Iso E Super"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Alpha-Isomethyl Ionone",
+          "Cinnamyl Alcohol",
+          "Musk Ketone",
+          "Trace phthalates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Woody",
+          "Powdery",
+          "Amber",
+          "Fresh",
+          "Synthetic",
+          "Rich",
+          "Diffusive"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_10_0_10_5",
+      "evidence_ref": {
+        "object_name": "perfume bottle",
+        "interval_time": {
+          "start_s": 10.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, bottle exterior",
+        "exposure_mode": "exposed, enclosed (vapor leakage)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool",
+          "Benzyl Salicylate",
+          "Coumarin",
+          "Hedione",
+          "Iso E Super"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Alpha-Isomethyl Ionone",
+          "Cinnamyl Alcohol",
+          "Musk Ketone",
+          "Trace phthalates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Woody",
+          "Powdery",
+          "Amber",
+          "Fresh",
+          "Synthetic",
+          "Rich",
+          "Diffusive"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "perfume_bottle_10_5_11_75",
+      "evidence_ref": {
+        "object_name": "perfume bottle",
+        "interval_time": {
+          "start_s": 10.5,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface, bottle exterior",
+        "exposure_mode": "exposed, enclosed (vapor leakage)"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool",
+          "Benzyl Salicylate",
+          "Coumarin",
+          "Hedione",
+          "Iso E Super"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Alpha-Isomethyl Ionone",
+          "Cinnamyl Alcohol",
+          "Musk Ketone",
+          "Trace phthalates"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Woody",
+          "Powdery",
+          "Amber",
+          "Fresh",
+          "Synthetic",
+          "Rich",
+          "Diffusive"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "spraying_action_6_7_7_5",
+      "evidence_ref": {
+        "object_name": "spraying action",
+        "interval_time": {
+          "start_s": 6.7,
+          "end_s": 7.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.0,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid",
+        "exposure_mode": "aerosol, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Helvetolide",
+          "Dihydromyrcenol",
+          "Hedione",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Benzyl Acetate",
+          "Alpha-Pinene",
+          "Water vapor",
+          "Nitrogen"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intense",
+          "Airy",
+          "Fresh",
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Diffusive",
+          "Ethereal",
+          "Sparkling",
+          "Sharp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "mist_6_7_7_5",
+      "evidence_ref": {
+        "object_name": "mist",
+        "interval_time": {
+          "start_s": 6.7,
+          "end_s": 7.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.0,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid, water vapor",
+        "exposure_mode": "aerosol, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Helvetolide",
+          "Dihydromyrcenol",
+          "Hedione",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Benzyl Acetate",
+          "Alpha-Pinene",
+          "Water vapor",
+          "Nitrogen"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Light",
+          "Fresh",
+          "Ethereal",
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Airy",
+          "Clean",
+          "Fleeting",
+          "Sparkling"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "spraying_action_10_0_10_5",
+      "evidence_ref": {
+        "object_name": "spraying action",
+        "interval_time": {
+          "start_s": 10.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.0,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid",
+        "exposure_mode": "aerosol, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Helvetolide",
+          "Dihydromyrcenol",
+          "Hedione",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Benzyl Acetate",
+          "Alpha-Pinene",
+          "Water vapor",
+          "Nitrogen"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intense",
+          "Airy",
+          "Fresh",
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Diffusive",
+          "Ethereal",
+          "Sparkling",
+          "Sharp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "mist_10_0_10_5",
+      "evidence_ref": {
+        "object_name": "mist",
+        "interval_time": {
+          "start_s": 10.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.0,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "aerosolized liquid, water vapor",
+        "exposure_mode": "aerosol, exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethanol",
+          "Helvetolide",
+          "Dihydromyrcenol",
+          "Hedione",
+          "Galaxolide",
+          "Ambroxan",
+          "Linalool"
+        ],
+        "secondary_trace": [
+          "Limonene",
+          "Geraniol",
+          "Benzyl Acetate",
+          "Alpha-Pinene",
+          "Water vapor",
+          "Nitrogen"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Light",
+          "Fresh",
+          "Ethereal",
+          "Floral",
+          "Sweet",
+          "Musky",
+          "Airy",
+          "Clean",
+          "Fleeting",
+          "Sparkling"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "background_foliage_0_0_11_75",
+      "evidence_ref": {
+        "object_name": "background foliage",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaf surfaces, stems, soil traces",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Cis-3-hexenol",
+          "(Z)-3-hexenal",
+          "Alpha-pinene",
+          "Beta-myrcene",
+          "Limonene",
+          "Methyl salicylate",
+          "Geosmin",
+          "Isoprene"
+        ],
+        "secondary_trace": [
+          "Sabinene",
+          "Caryophyllene",
+          "Pyrazines",
+          "2-Ethyl-1-hexanol",
+          "Trichlorophenols",
+          "Water vapor"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Green",
+          "Earthy",
+          "Fresh",
+          "Damp",
+          "Woody",
+          "Leafy",
+          "Mossy",
+          "Herbal",
+          "Slightly sweet",
+          "Natural"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "background_lights_0_0_11_75",
+      "evidence_ref": {
+        "object_name": "background lights",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.1,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "heated filament/LEDs, dust particles, surrounding air",
+        "exposure_mode": "exposed, ambient heating"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ozone",
+          "Volatile organic compounds from heated dust",
+          "Metallic ions",
+          "Carbon monoxide",
+          "Formaldehyde",
+          "Acetone",
+          "Ethanol"
+        ],
+        "secondary_trace": [
+          "Metallic aldehydes",
+          "Sulfur dioxide",
+          "Water vapor",
+          "Nitrogen oxides",
+          "Benzene",
+          "Toluene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Warm",
+          "Faint",
+          "Ozonic",
+          "Slightly metallic",
+          "Dusty",
+          "Ethereal",
+          "Clean",
+          "Neutral",
+          "Subtle",
+          "Ambient"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Visual presence detected. Retrieving full chemical profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "hand",
+      "event_ids": [
+        "hand_0_0_6_7",
+        "hand_6_7_7_5",
+        "hand_7_5_10_0",
+        "hand_10_0_10_5",
+        "hand_10_5_11_75"
+      ]
+    },
+    {
+      "object_name": "perfume bottle",
+      "event_ids": [
+        "perfume_bottle_0_0_6_7",
+        "perfume_bottle_6_7_7_5",
+        "perfume_bottle_7_5_10_0",
+        "perfume_bottle_10_0_10_5",
+        "perfume_bottle_10_5_11_75"
+      ]
+    },
+    {
+      "object_name": "spraying action",
+      "event_ids": [
+        "spraying_action_6_7_7_5",
+        "spraying_action_10_0_10_5"
+      ]
+    },
+    {
+      "object_name": "mist",
+      "event_ids": [
+        "mist_6_7_7_5",
+        "mist_10_0_10_5"
+      ]
+    },
+    {
+      "object_name": "background foliage",
+      "event_ids": [
+        "background_foliage_0_0_11_75"
+      ]
+    },
+    {
+      "object_name": "background lights",
+      "event_ids": [
+        "background_lights_0_0_11_75"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

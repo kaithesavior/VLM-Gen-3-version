@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 2.mp4",
+    "generated_at": "2026-01-05T23:35:45.626068",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "lemon_scent_01",
+      "evidence_ref": {
+        "object_name": "lemon",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.5
+        },
+        "proximity": null
+      },
+      "odor_source": {
+        "material_part": "fruit flesh and peel",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Terpenes"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of lemon"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as lemon. Applying generic label.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assumed lemon scent based on object identity, ignoring state changes and specific actions."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "lemon",
+      "event_ids": [
+        "lemon_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

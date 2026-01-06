@@ -1,0 +1,668 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 14.mp4",
+    "generated_at": "2026-01-06T03:11:34.818085",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "dh_event_01",
+      "evidence_ref": {
+        "object_name": "Durian Husk",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.65,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "inner fibrous membrane, outer husk (freshly cut surface), partially revealed pulp",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiols",
+          "Esters",
+          "Sulfides",
+          "Ketones"
+        ],
+        "secondary_trace": [
+          "Aldehydes",
+          "Alcohols"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "pungent",
+          "sulfuric",
+          "fruity",
+          "creamy",
+          "gassy"
+        ],
+        "descriptor_shift": "Initial release of dominant durian compounds as the husk is actively pried open, exposing fresh surfaces and inner membranes.",
+        "shift_type": "add, intensify"
+      },
+      "reasoning": "The act of actively prying open the durian husk creates fresh rupture sites on the fibrous membrane and exposes the pulp to air, facilitating the rapid release and dispersion of characteristic durian volatile compounds. The medium activity further aids dispersion.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dh_event_02",
+      "evidence_ref": {
+        "object_name": "Durian Husk",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.65,
+          "frame_coverage_end": 0.69,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "inner fibrous membrane, exposed pulp surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.4,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiols",
+          "Esters",
+          "Sulfides",
+          "Ketones"
+        ],
+        "secondary_trace": [
+          "Aldehydes",
+          "Alcohols",
+          "Indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "strong",
+          "sulfuric",
+          "creamy",
+          "fruity",
+          "gassy",
+          "slightly sweet"
+        ],
+        "descriptor_shift": "Continued presence and moderate intensity as the husk is widely open, allowing sustained volatile release from the exposed pulp and inner membranes. Shift from 'intense' to 'strong' reflecting a plateau rather than a peak.",
+        "shift_type": "soften, continue"
+      },
+      "reasoning": "The husk remains widely open for an extended period, providing maximal, stable exposure of the pulp and inner surfaces. While initial rupture volatility peaked, the sustained exposure maintains a significant, but less intensely changing, release of compounds. Low activity prevents rapid dispersion spikes.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dh_event_03",
+      "evidence_ref": {
+        "object_name": "Durian Husk",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.69,
+          "frame_coverage_end": 0.7,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "inner fibrous membrane, exposed pulp surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.4,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiols",
+          "Esters",
+          "Sulfides",
+          "Ketones"
+        ],
+        "secondary_trace": [
+          "Aldehydes",
+          "Alcohols",
+          "Indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "strong",
+          "sulfuric",
+          "creamy",
+          "fruity",
+          "gassy",
+          "slightly sweet"
+        ],
+        "descriptor_shift": "Temporal continuation of the previous stable state, maintaining stable descriptors and intensity just before pulp removal begins.",
+        "shift_type": "continue"
+      },
+      "reasoning": "This brief interval represents the immediate continuation of the widely opened state, maintaining a stable olfactory profile as no visual state changes or new activities are observed for the husk.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dh_event_04",
+      "evidence_ref": {
+        "object_name": "Durian Husk",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.7,
+          "frame_coverage_end": 0.65,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "inner fibrous membrane, exposed pulp surfaces (remaining segments), residual material from removed segment",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiols",
+          "Esters",
+          "Sulfides",
+          "Ketones"
+        ],
+        "secondary_trace": [
+          "Aldehydes",
+          "Alcohols",
+          "Indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "sulfuric",
+          "creamy",
+          "fruity",
+          "sweet",
+          "gassy"
+        ],
+        "descriptor_shift": "Intensity slightly decreases and descriptors soften as the overall source of the husk recedes and one major contributing pulp segment is removed, reducing the total active emitting surface.",
+        "shift_type": "soften, distance-fade"
+      },
+      "reasoning": "The removal of a pulp segment, while potentially creating new micro-exposure sites, generally reduces the total volume of actively emitting pulp within the husk. The 'receding' proximity trend for the husk itself further contributes to a gradual reduction in perceived intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dps_event_01",
+      "evidence_ref": {
+        "object_name": "Durian Pulp Segment",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 2.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.3,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "pulp surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.175,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Esters",
+          "Sulfides",
+          "Thiols",
+          "Ketones"
+        ],
+        "secondary_trace": [
+          "Alcohols",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "fruity",
+          "creamy",
+          "sweet",
+          "mild sulfuric",
+          "buttery"
+        ],
+        "descriptor_shift": "Initial release as the pulp is gradually exposed and approaches the viewer, with increasing notes of fruitiness and creaminess becoming discernible.",
+        "shift_type": "add, intensify"
+      },
+      "reasoning": "As the husk opens, the pulp segment becomes more exposed to air, increasing the surface area from which volatile compounds can be released. The 'approaching' visual trend supports a ramp-up in perceived intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dps_event_02",
+      "evidence_ref": {
+        "object_name": "Durian Pulp Segment",
+        "interval_time": {
+          "start_s": 2.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "pulp surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Esters",
+          "Sulfides",
+          "Thiols",
+          "Ketones",
+          "Volatile Fatty Acids"
+        ],
+        "secondary_trace": [
+          "Alcohols",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "fruity",
+          "creamy",
+          "sweet",
+          "sulfuric",
+          "rich"
+        ],
+        "descriptor_shift": "Sustained, stable release of pulp volatiles as it remains fully exposed. Descriptors become more defined and less faint compared to the initial exposure, reaching a stable level.",
+        "shift_type": "intensify, stabilize"
+      },
+      "reasoning": "The pulp segment is fully exposed and remains stationary within the opened husk, allowing for a steady, continuous release of its volatile compounds. The stable visual state and proximity maintain a plateau in olfactory intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dps_event_03",
+      "evidence_ref": {
+        "object_name": "Durian Pulp Segment",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.32,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "pulp surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Esters",
+          "Sulfides",
+          "Thiols",
+          "Ketones",
+          "Volatile Fatty Acids"
+        ],
+        "secondary_trace": [
+          "Alcohols",
+          "Aldehydes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "fruity",
+          "creamy",
+          "sweet",
+          "sulfuric",
+          "rich"
+        ],
+        "descriptor_shift": "Temporal continuation, maintaining stable descriptors and intensity just before the pulp segment begins to be lifted.",
+        "shift_type": "continue"
+      },
+      "reasoning": "This short interval confirms the continuation of the stable, fully exposed state of the pulp segment right before it is actively moved, maintaining a consistent olfactory profile.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "dps_event_04",
+      "evidence_ref": {
+        "object_name": "Durian Pulp Segment",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.25,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "entire pulp surface (now fully exposed from all sides, including previously attached part)",
+        "exposure_mode": "exposed, agitated"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.49,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Esters",
+          "Thiols",
+          "Sulfides",
+          "Ketones",
+          "Volatile Fatty Acids"
+        ],
+        "secondary_trace": [
+          "Alcohols",
+          "Aldehydes",
+          "Indole"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "pungent",
+          "sweet",
+          "creamy",
+          "sulfuric",
+          "strong",
+          "lingering"
+        ],
+        "descriptor_shift": "Initial surge of volatile release due to agitation and fresh separation, creating new exposure sites, followed by a decrease as the object recedes. The high activity temporarily enhances dispersion before distance attenuation dominates.",
+        "shift_type": "intensify, then distance-fade"
+      },
+      "reasoning": "The act of lifting and separating the pulp segment from the husk creates new rupture points and exposes previously unexposed surfaces. The high activity level during movement actively disperses the volatile compounds, initially increasing perceived intensity. However, as the object recedes, the perceived intensity naturally decreases despite the initial boost.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Durian Husk",
+      "event_ids": [
+        "dh_event_01",
+        "dh_event_02",
+        "dh_event_03",
+        "dh_event_04"
+      ]
+    },
+    {
+      "object_name": "Durian Pulp Segment",
+      "event_ids": [
+        "dps_event_01",
+        "dps_event_02",
+        "dps_event_03",
+        "dps_event_04"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "dh_event_01",
+        "dps_event_01"
+      ],
+      "interpolated_intensity": 0.5375,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "sulfuric",
+        "fruity",
+        "gassy"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "dh_event_01",
+        "dps_event_01"
+      ],
+      "interpolated_intensity": 0.5375,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "sulfuric",
+        "fruity",
+        "gassy"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "dh_event_01",
+        "dps_event_01"
+      ],
+      "interpolated_intensity": 0.5375,
+      "dominant_descriptors": [
+        "intense",
+        "pungent",
+        "sulfuric",
+        "fruity",
+        "gassy"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "dh_event_02",
+        "dps_event_02"
+      ],
+      "interpolated_intensity": 0.305,
+      "dominant_descriptors": [
+        "strong",
+        "creamy",
+        "fruity",
+        "sulfuric",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "dh_event_02",
+        "dps_event_02"
+      ],
+      "interpolated_intensity": 0.305,
+      "dominant_descriptors": [
+        "strong",
+        "creamy",
+        "fruity",
+        "sulfuric",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "dh_event_02",
+        "dps_event_02"
+      ],
+      "interpolated_intensity": 0.305,
+      "dominant_descriptors": [
+        "strong",
+        "creamy",
+        "fruity",
+        "sulfuric",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "dh_event_02",
+        "dps_event_02"
+      ],
+      "interpolated_intensity": 0.305,
+      "dominant_descriptors": [
+        "strong",
+        "creamy",
+        "fruity",
+        "sulfuric",
+        "sweet"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "dh_event_04",
+        "dps_event_04"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "distinct",
+        "pungent",
+        "sweet",
+        "creamy",
+        "sulfuric"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "dh_event_04",
+        "dps_event_04"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "distinct",
+        "pungent",
+        "sweet",
+        "creamy",
+        "sulfuric"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "dh_event_04",
+        "dps_event_04"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "distinct",
+        "pungent",
+        "sweet",
+        "creamy",
+        "sulfuric"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "dh_event_04",
+        "dps_event_04"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "distinct",
+        "pungent",
+        "sweet",
+        "creamy",
+        "sulfuric"
+      ]
+    }
+  ]
+}

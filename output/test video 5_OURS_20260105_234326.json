@@ -1,0 +1,877 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 5.mp4",
+    "generated_at": "2026-01-05T23:45:49.807038",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "AE_001",
+      "evidence_ref": {
+        "object_name": "African elephant",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 1.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.33,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin, excretions",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "short-chain fatty acids",
+          "ammonia",
+          "indoles",
+          "phenols"
+        ],
+        "secondary_trace": [
+          "musk compounds",
+          "sulfur compounds"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "animalic",
+          "earthy",
+          "musky",
+          "damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The elephant's large size, exposed skin, and consistent movement through the environment contribute to a noticeable animalic scent profile. Contact with tall grass may contribute minor vegetative notes, but the primary source is the animal itself.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Elephant skin and metabolic processes produce typical animalic scent compounds."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "AE_002",
+      "evidence_ref": {
+        "object_name": "African elephant",
+        "interval_time": {
+          "start_s": 1.5,
+          "end_s": 5.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.33,
+          "frame_coverage_end": 0.25,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin, excretions",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "short-chain fatty acids",
+          "ammonia",
+          "indoles",
+          "phenols"
+        ],
+        "secondary_trace": [
+          "musk compounds",
+          "sulfur compounds"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "animalic",
+          "earthy",
+          "musky"
+        ],
+        "descriptor_shift": "Intensity begins to soften due to increasing distance as the elephant recedes.",
+        "shift_type": "soften"
+      },
+      "reasoning": "As the elephant recedes from the viewer, the perceived intensity of its natural animalic odor begins to diminish due to increased atmospheric diffusion, although the core molecular profile remains.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Scent compounds diffuse predictably in open air environments."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "AE_003",
+      "evidence_ref": {
+        "object_name": "African elephant",
+        "interval_time": {
+          "start_s": 5.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin, excretions",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "short-chain fatty acids",
+          "ammonia",
+          "indoles",
+          "phenols"
+        ],
+        "secondary_trace": [
+          "musk compounds"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "animalic",
+          "earthy"
+        ],
+        "descriptor_shift": "Continued softening of intensity as the elephant moves further away, with some trace compounds becoming less distinct.",
+        "shift_type": "soften"
+      },
+      "reasoning": "The ongoing recession of the elephant further decreases the perceived odor intensity, consistent with atmospheric dispersion over distance. Only the more robust molecular components remain easily detectable.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Scent compounds diffuse predictably in open air environments."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "AE_004",
+      "evidence_ref": {
+        "object_name": "African elephant",
+        "interval_time": {
+          "start_s": 8.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.08,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin, excretions",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.15,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "short-chain fatty acids",
+          "ammonia"
+        ],
+        "secondary_trace": [
+          "indoles"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "animalic",
+          "distant"
+        ],
+        "descriptor_shift": "Transition to far proximity significantly reduces perceived intensity and simplifies the observable molecular profile to basic animalic notes.",
+        "shift_type": "distance-fade"
+      },
+      "reasoning": "As the elephant moves into the far proximity, its odor becomes much fainter. Only the most prominent and persistent volatile compounds from its skin and excretions remain subtly perceptible.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Only the most robust and concentrated compounds are detectable at far distances in an open environment."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "WB_001",
+      "evidence_ref": {
+        "object_name": "white bird",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 1.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.005,
+          "frame_coverage_end": 0.004,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.0225,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "fatty acids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "barely perceptible",
+          "faint"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The white bird is very small and relatively distant, with minimal activity, resulting in a negligible release of volatiles. Its scent is likely overpowered by the elephant and disturbed grass.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Small, intact birds have very low intrinsic scent output, especially in open, airy environments."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Scent is negligible due to small size, low activity, distance, and being overshadowed by stronger sources."
+      }
+    },
+    {
+      "event_id": "WB_002",
+      "evidence_ref": {
+        "object_name": "white bird",
+        "interval_time": {
+          "start_s": 1.5,
+          "end_s": 5.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.004,
+          "frame_coverage_end": 0.003,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.0225,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "fatty acids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "barely perceptible",
+          "faint"
+        ],
+        "descriptor_shift": "Continued negligible presence, likely still overpowered.",
+        "shift_type": "continue"
+      },
+      "reasoning": "The bird's negligible scent output continues, remaining undetectable amidst the stronger environmental odors as it recedes.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The relative contribution of the bird's scent remains insignificant."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Scent remains negligible and likely undetectable as bird recedes, overshadowed."
+      }
+    },
+    {
+      "event_id": "WB_003",
+      "evidence_ref": {
+        "object_name": "white bird",
+        "interval_time": {
+          "start_s": 5.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.003,
+          "frame_coverage_end": 0.002,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.0225,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "fatty acids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "barely perceptible",
+          "trace"
+        ],
+        "descriptor_shift": "Further reduced potential for detection due to continued recession.",
+        "shift_type": "soften"
+      },
+      "reasoning": "The bird's scent output remains negligible and likely undetectable due to further recession and low intrinsic output.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The extremely low frame coverage and distant proximity ensure undetectable scent."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Scent remains negligible and likely undetectable as bird recedes further."
+      }
+    },
+    {
+      "event_id": "WB_004",
+      "evidence_ref": {
+        "object_name": "white bird",
+        "interval_time": {
+          "start_s": 8.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.002,
+          "frame_coverage_end": 0.001,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "feathers, skin",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.0225,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "fatty acids"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "undetectable"
+        ],
+        "descriptor_shift": "Scent is now beyond detection threshold given the extreme distance and minimal source.",
+        "shift_type": "remove"
+      },
+      "reasoning": "At this far distance, any potential scent from the small bird is considered effectively undetectable, merging with ambient background odors.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "At far distances, a small, low-activity source's scent will not register."
+        ]
+      },
+      "null_scent": {
+        "is_negligible": true,
+        "note": "Scent is considered undetectable due to extreme distance and small source."
+      }
+    },
+    {
+      "event_id": "TG_001",
+      "evidence_ref": {
+        "object_name": "tall grass",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 1.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.18,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "freshly crushed stems and leaves",
+        "exposure_mode": "ruptured, exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.56,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "leaf aldehydes (C6-C9)",
+          "alcohols",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "cis-3-hexenol",
+          "sabinene",
+          "green notes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "vivid",
+          "grassy",
+          "fresh",
+          "green",
+          "damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The elephant actively pushing and rustling the tall green grass causes physical rupture of plant cell walls, releasing characteristic 'green' volatile organic compounds into the air. The open environment facilitates immediate diffusion.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Physical disruption of fresh plant matter releases characteristic green leaf volatiles."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "TG_002",
+      "evidence_ref": {
+        "object_name": "tall grass",
+        "interval_time": {
+          "start_s": 1.5,
+          "end_s": 5.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.18,
+          "frame_coverage_end": 0.12,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "freshly crushed stems and leaves",
+        "exposure_mode": "ruptured, exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.56,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "leaf aldehydes (C6-C9)",
+          "alcohols",
+          "terpenes"
+        ],
+        "secondary_trace": [
+          "cis-3-hexenol",
+          "green notes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "grassy",
+          "fresh",
+          "green"
+        ],
+        "descriptor_shift": "Intensity softens due to increasing distance, but continued disturbance maintains a noticeable green note.",
+        "shift_type": "soften"
+      },
+      "reasoning": "As the elephant continues to move, it disturbs new grass, ensuring ongoing volatile release. However, the receding distance leads to a decrease in the overall perceived intensity of the green odor.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ongoing physical disturbance ensures continuous release of green leaf volatiles."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "TG_003",
+      "evidence_ref": {
+        "object_name": "tall grass",
+        "interval_time": {
+          "start_s": 5.0,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.12,
+          "frame_coverage_end": 0.08,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "freshly crushed stems and leaves",
+        "exposure_mode": "ruptured, exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.4,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "leaf aldehydes (C6-C9)",
+          "alcohols"
+        ],
+        "secondary_trace": [
+          "terpenes",
+          "green notes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "grassy",
+          "green"
+        ],
+        "descriptor_shift": "Continued softening of intensity as the disturbed grass recedes further.",
+        "shift_type": "soften"
+      },
+      "reasoning": "The continuous physical disturbance of grass combined with increasing distance results in a sustained but decreasing odor intensity. The primary green notes remain discernible.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "The main volatile compounds from grass remain consistently released during disturbance."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "TG_004",
+      "evidence_ref": {
+        "object_name": "tall grass",
+        "interval_time": {
+          "start_s": 8.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.04,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "freshly crushed stems and leaves",
+        "exposure_mode": "ruptured, exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.24,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "leaf aldehydes (C6-C9)"
+        ],
+        "secondary_trace": [
+          "alcohols",
+          "green notes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "grassy",
+          "distant"
+        ],
+        "descriptor_shift": "Transition to far proximity reduces perceived intensity to faint notes.",
+        "shift_type": "distance-fade"
+      },
+      "reasoning": "As the elephant and the disturbed grass recede into the far distance, the overall concentration of released volatiles diminishes significantly, resulting in a faint and diffuse green odor.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Only the strongest green leaf volatiles are detectable at this distance."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "African elephant",
+      "event_ids": [
+        "AE_001",
+        "AE_002",
+        "AE_003",
+        "AE_004"
+      ]
+    },
+    {
+      "object_name": "white bird",
+      "event_ids": [
+        "WB_001",
+        "WB_002",
+        "WB_003",
+        "WB_004"
+      ]
+    },
+    {
+      "object_name": "tall grass",
+      "event_ids": [
+        "TG_001",
+        "TG_002",
+        "TG_003",
+        "TG_004"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "AE_001",
+        "TG_001"
+      ],
+      "interpolated_intensity": 1.06,
+      "dominant_descriptors": [
+        "distinct",
+        "animalic",
+        "earthy",
+        "grassy",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "AE_001",
+        "TG_001"
+      ],
+      "interpolated_intensity": 1.06,
+      "dominant_descriptors": [
+        "distinct",
+        "animalic",
+        "earthy",
+        "grassy",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "AE_002",
+        "TG_002"
+      ],
+      "interpolated_intensity": 1.06,
+      "dominant_descriptors": [
+        "noticeable",
+        "animalic",
+        "earthy",
+        "grassy",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "AE_002",
+        "TG_002"
+      ],
+      "interpolated_intensity": 1.06,
+      "dominant_descriptors": [
+        "noticeable",
+        "animalic",
+        "earthy",
+        "grassy",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "AE_002",
+        "TG_002"
+      ],
+      "interpolated_intensity": 1.06,
+      "dominant_descriptors": [
+        "noticeable",
+        "animalic",
+        "earthy",
+        "grassy",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "AE_003",
+        "TG_003"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "distinct",
+        "animalic",
+        "earthy",
+        "noticeable",
+        "grassy",
+        "green"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "AE_003",
+        "TG_003"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "distinct",
+        "animalic",
+        "earthy",
+        "noticeable",
+        "grassy",
+        "green"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "AE_003",
+        "TG_003"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "distinct",
+        "animalic",
+        "earthy",
+        "noticeable",
+        "grassy",
+        "green"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "AE_003",
+        "TG_003"
+      ],
+      "interpolated_intensity": 0.75,
+      "dominant_descriptors": [
+        "distinct",
+        "animalic",
+        "earthy",
+        "noticeable",
+        "grassy",
+        "green"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "AE_004",
+        "TG_004"
+      ],
+      "interpolated_intensity": 0.39,
+      "dominant_descriptors": [
+        "faint",
+        "animalic",
+        "distant",
+        "grassy",
+        "green"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "AE_004",
+        "TG_004"
+      ],
+      "interpolated_intensity": 0.39,
+      "dominant_descriptors": [
+        "faint",
+        "animalic",
+        "distant",
+        "grassy",
+        "green"
+      ]
+    }
+  ]
+}

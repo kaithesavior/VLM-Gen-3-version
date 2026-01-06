@@ -1,0 +1,998 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 2.mp4",
+    "generated_at": "2026-01-05T23:31:32.596774",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "WL_001",
+      "evidence_ref": {
+        "object_name": "whole lemon",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.08,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "peel, surface",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.075,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Gamma-terpinene",
+          "Alpha-pinene"
+        ],
+        "secondary_trace": [
+          "Beta-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "green",
+          "zesty",
+          "subtle",
+          "wax-like"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The whole lemon, with its intact peel, has minimal volatile release. Its mid-range proximity and small frame coverage further diminish the perceived intensity. The state remains stable.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "WL_002",
+      "evidence_ref": {
+        "object_name": "whole lemon",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 8.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.08,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "peel, surface",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.075,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Gamma-terpinene",
+          "Alpha-pinene"
+        ],
+        "secondary_trace": [
+          "Beta-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "green",
+          "zesty",
+          "subtle",
+          "wax-like"
+        ],
+        "descriptor_shift": "Temporal continuation; the object's state and environmental conditions remain unchanged, leading to a stable olfactory profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The whole lemon continues in a stable, intact state, maintaining minimal and consistent volatile release. The mid-range proximity and small frame coverage keep intensity low.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "WL_003",
+      "evidence_ref": {
+        "object_name": "whole lemon",
+        "interval_time": {
+          "start_s": 8.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.08,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "peel, surface",
+        "exposure_mode": "enclosed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.075,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Gamma-terpinene",
+          "Alpha-pinene"
+        ],
+        "secondary_trace": [
+          "Beta-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "green",
+          "zesty",
+          "subtle",
+          "wax-like"
+        ],
+        "descriptor_shift": "Temporal continuation; the object's state and environmental conditions remain unchanged, leading to a stable olfactory profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The whole lemon maintains its stable, intact state, resulting in a consistent low-level volatile release. Proximity and coverage remain unchanged.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "SSB_001",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 3.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "internal surface, headspace",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.2,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "neutral",
+          "metallic",
+          "faint",
+          "clean"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The empty, open stainless steel bottle exposes its interior and headspace. Though near, the lack of contents and low activity results in a low, primarily metallic or neutral scent profile from the material itself.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "SSB_002",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 3.25,
+          "end_s": 7.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface (lemon juice), wet metal surface",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.4,
+        "trend": "plateau",
+        "justification": "Initial ramp up from previous state, then plateaus as juice reception continues."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "citrus",
+          "zesty",
+          "juicy",
+          "tart"
+        ],
+        "descriptor_shift": "The introduction of lemon juice causes a significant shift from metallic/neutral to distinct citrus notes. 'Metallic' and 'clean' are removed as they are overshadowed.",
+        "shift_type": "add, remove"
+      },
+      "reasoning": "The bottle is actively receiving lemon juice, creating an exposed liquid surface with medium activity. Near proximity leads to a noticeable release of lemon volatiles from the juice, overpowering any prior metallic scent.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "cut lemon half",
+          "weight": 0.9
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "stainless steel bottle",
+          "weight": 0.1
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "SSB_003",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 7.25,
+          "end_s": 9.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface (lemon juice), wet metal surface",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.4,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "citrus",
+          "zesty",
+          "juicy",
+          "tart"
+        ],
+        "descriptor_shift": "Temporal continuation; the continuous inflow of lemon juice maintains the olfactory profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "Continued active receipt of lemon juice maintains the exposed liquid surface and volatile release, resulting in a consistent medium intensity lemon scent from the bottle's opening.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "cut lemon half",
+          "weight": 0.9
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "stainless steel bottle",
+          "weight": 0.1
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "SSB_004",
+      "evidence_ref": {
+        "object_name": "stainless steel bottle",
+        "interval_time": {
+          "start_s": 9.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.2,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid surface (lemon juice), headspace",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.24,
+        "trend": "ramp_down",
+        "justification": "Squeezing activity has ceased, reducing agitation of the liquid surface."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "citrus",
+          "fresh",
+          "slightly tart",
+          "mellow"
+        ],
+        "descriptor_shift": "The cessation of active squeezing reduces overall volatile release, softening the descriptors from intense to noticeable and introducing a 'mellow' quality.",
+        "shift_type": "soften"
+      },
+      "reasoning": "The bottle now contains lemon juice, but the active squeezing has stopped, reducing agitation and volatile release from the liquid surface. The scent becomes less intense, moving from medium to low categorical level.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "cut lemon half",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CLH_001",
+      "evidence_ref": {
+        "object_name": "cut lemon half",
+        "interval_time": {
+          "start_s": 1.25,
+          "end_s": 1.75
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.03,
+          "frame_coverage_end": 0.05,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed flesh, pulp",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.075,
+        "trend": "ramp_up",
+        "justification": "The lemon is approaching the scene, leading to an increasing perceived intensity."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Beta-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "citrus",
+          "fresh",
+          "zesty",
+          "distant"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The lemon is newly cut, exposing its aromatic flesh. However, its 'far' proximity and low frame coverage result in a faint perceived scent. The 'approaching' trend causes a ramp-up in intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CLH_002",
+      "evidence_ref": {
+        "object_name": "cut lemon half",
+        "interval_time": {
+          "start_s": 1.75,
+          "end_s": 3.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.08,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed flesh, pulp",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.175,
+        "trend": "ramp_up",
+        "justification": "The lemon moves closer, increasing perceived intensity."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Beta-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "citrus",
+          "fresh",
+          "zesty",
+          "slightly tart"
+        ],
+        "descriptor_shift": "As the lemon moves closer, descriptors are intensified from 'faint' to 'noticeable', and 'slightly tart' is added to reflect a more pronounced aroma.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "The cut lemon half continues to approach the scene, moving from 'far' to 'mid' proximity, which increases the perceived intensity of the volatile release from its exposed flesh.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CLH_003",
+      "evidence_ref": {
+        "object_name": "cut lemon half",
+        "interval_time": {
+          "start_s": 3.25,
+          "end_s": 6.25
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.08,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured flesh, juice",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.425,
+        "trend": "plateau",
+        "justification": "Initial ramp up due to squeezing, then plateaus as squeezing continues at a high level."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene",
+          "Alpha-pinene"
+        ],
+        "secondary_trace": [
+          "Beta-pinene",
+          "Linalool",
+          "Geraniol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "vivid",
+          "sharp",
+          "sour",
+          "citrus",
+          "juicy",
+          "pungent"
+        ],
+        "descriptor_shift": "The active squeezing causes cell rupture, drastically increasing volatile release. Descriptors become much more potent, reflecting the heightened intensity and fresh acidic notes.",
+        "shift_type": "intensify, add"
+      },
+      "reasoning": "Active squeezing physically ruptures the lemon's cells, exposing vast surface area of juice and pulp, leading to a significant and rapid increase in volatile release. The 'mid' proximity ensures this intense scent is clearly noticeable.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CLH_004",
+      "evidence_ref": {
+        "object_name": "cut lemon half",
+        "interval_time": {
+          "start_s": 6.25,
+          "end_s": 9.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.08,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured flesh, juice",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.425,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene",
+          "Alpha-pinene"
+        ],
+        "secondary_trace": [
+          "Beta-pinene",
+          "Linalool",
+          "Geraniol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "vivid",
+          "sharp",
+          "sour",
+          "citrus",
+          "juicy",
+          "pungent"
+        ],
+        "descriptor_shift": "Temporal continuation; active squeezing is maintained, leading to a stable, highly intense olfactory profile.",
+        "shift_type": "stable"
+      },
+      "reasoning": "The active squeezing continues, ensuring a sustained high rate of volatile release from the ruptured lemon flesh and juice. This maintains the high perceived intensity at 'mid' proximity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CLH_005",
+      "evidence_ref": {
+        "object_name": "cut lemon half",
+        "interval_time": {
+          "start_s": 9.0,
+          "end_s": 10.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.05,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed flesh, residual juice",
+        "exposure_mode": "exposed, wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.245,
+        "trend": "ramp_down",
+        "justification": "Squeezing activity has significantly reduced, and the object is receding, causing a sharp drop in perceived intensity."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Beta-pinene",
+          "Linalool"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "zesty",
+          "tart",
+          "mellow",
+          "citrus",
+          "receding"
+        ],
+        "descriptor_shift": "With the reduction in squeezing and the object receding, the intensity decreases. Descriptors soften to 'distinct' and 'mellow', and 'receding' is added to indicate diminishing presence.",
+        "shift_type": "soften, distance-fade"
+      },
+      "reasoning": "Squeezing activity diminishes, reducing the rate of volatile release. Concurrently, the lemon begins to recede from the 'mid' proximity, leading to a noticeable ramp-down in perceived intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "CLH_006",
+      "evidence_ref": {
+        "object_name": "cut lemon half",
+        "interval_time": {
+          "start_s": 10.0,
+          "end_s": 11.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.01,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed flesh, residual juice",
+        "exposure_mode": "exposed, damp"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.09,
+        "trend": "ramp_down",
+        "justification": "The lemon moves further away, becoming 'far' in proximity and almost exiting the frame."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Limonene",
+          "Citral",
+          "Gamma-terpinene"
+        ],
+        "secondary_trace": [
+          "Alpha-pinene",
+          "Beta-pinene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "trace",
+          "lingering",
+          "subtle citrus",
+          "vanishing"
+        ],
+        "descriptor_shift": "Further receding of the object significantly reduces the perceived intensity to a 'faint' or 'trace' level. 'Lingering' and 'vanishing' descriptors emphasize its diminishing presence.",
+        "shift_type": "distance-fade"
+      },
+      "reasoning": "The squeezed lemon continues to recede, moving to 'far' proximity and with very low frame coverage. The combination of reduced surface emission and increased distance causes the perceived scent to significantly ramp down to a trace level.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "whole lemon",
+      "event_ids": [
+        "WL_001",
+        "WL_002",
+        "WL_003"
+      ]
+    },
+    {
+      "object_name": "stainless steel bottle",
+      "event_ids": [
+        "SSB_001",
+        "SSB_002",
+        "SSB_003",
+        "SSB_004"
+      ]
+    },
+    {
+      "object_name": "cut lemon half",
+      "event_ids": [
+        "CLH_001",
+        "CLH_002",
+        "CLH_003",
+        "CLH_004",
+        "CLH_005",
+        "CLH_006"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "WL_001",
+        "SSB_001"
+      ],
+      "interpolated_intensity": 0.2,
+      "dominant_descriptors": [
+        "neutral",
+        "metallic",
+        "faint",
+        "clean"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "WL_001",
+        "SSB_001"
+      ],
+      "interpolated_intensity": 0.2,
+      "dominant_descriptors": [
+        "neutral",
+        "metallic",
+        "faint",
+        "clean"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "WL_001",
+        "SSB_001",
+        "CLH_002"
+      ],
+      "interpolated_intensity": 0.2,
+      "dominant_descriptors": [
+        "neutral",
+        "metallic",
+        "faint",
+        "clean"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "WL_001",
+        "SSB_001",
+        "CLH_002"
+      ],
+      "interpolated_intensity": 0.2,
+      "dominant_descriptors": [
+        "neutral",
+        "metallic",
+        "faint",
+        "clean"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "WL_002",
+        "SSB_002",
+        "CLH_003"
+      ],
+      "interpolated_intensity": 0.425,
+      "dominant_descriptors": [
+        "intense",
+        "vivid",
+        "sharp",
+        "sour",
+        "citrus",
+        "juicy",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "WL_002",
+        "SSB_002",
+        "CLH_003"
+      ],
+      "interpolated_intensity": 0.425,
+      "dominant_descriptors": [
+        "intense",
+        "vivid",
+        "sharp",
+        "sour",
+        "citrus",
+        "juicy",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "WL_002",
+        "SSB_002",
+        "CLH_003"
+      ],
+      "interpolated_intensity": 0.425,
+      "dominant_descriptors": [
+        "intense",
+        "vivid",
+        "sharp",
+        "sour",
+        "citrus",
+        "juicy",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "WL_002",
+        "SSB_002",
+        "CLH_004"
+      ],
+      "interpolated_intensity": 0.425,
+      "dominant_descriptors": [
+        "intense",
+        "vivid",
+        "sharp",
+        "sour",
+        "citrus",
+        "juicy",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "WL_003",
+        "SSB_003",
+        "CLH_004"
+      ],
+      "interpolated_intensity": 0.425,
+      "dominant_descriptors": [
+        "intense",
+        "vivid",
+        "sharp",
+        "sour",
+        "citrus",
+        "juicy",
+        "pungent"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "WL_003",
+        "SSB_004",
+        "CLH_005"
+      ],
+      "interpolated_intensity": 0.245,
+      "dominant_descriptors": [
+        "distinct",
+        "zesty",
+        "tart",
+        "mellow",
+        "citrus",
+        "receding"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "WL_003",
+        "SSB_004",
+        "CLH_006"
+      ],
+      "interpolated_intensity": 0.24,
+      "dominant_descriptors": [
+        "noticeable",
+        "citrus",
+        "fresh",
+        "slightly tart",
+        "mellow"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "WL_003",
+        "SSB_004",
+        "CLH_006"
+      ],
+      "interpolated_intensity": 0.24,
+      "dominant_descriptors": [
+        "noticeable",
+        "citrus",
+        "fresh",
+        "slightly tart",
+        "mellow"
+      ]
+    }
+  ]
+}

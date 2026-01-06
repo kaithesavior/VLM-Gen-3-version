@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 15.mp4",
+    "generated_at": "2026-01-06T03:21:04.263771",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "perfume_bottle_scent_01",
+      "evidence_ref": {
+        "object_name": "Perfume bottle",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 11.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "liquid contents",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Terpenes",
+          "Esters",
+          "Aldehydes",
+          "Musks",
+          "Phenols",
+          "Lactones"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Smell of Perfume bottle"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as Perfume bottle. Applying generic label.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Applying generic scent profile for the object type.",
+          "Assuming a consistent medium intensity throughout the duration."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Perfume bottle",
+      "event_ids": [
+        "perfume_bottle_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

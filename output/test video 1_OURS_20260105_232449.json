@@ -1,0 +1,836 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 1.mp4",
+    "generated_at": "2026-01-05T23:26:56.632128",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "onion_main_0-3.75",
+      "evidence_ref": {
+        "object_name": "red onion (main piece)",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 3.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.3,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.7,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Diallyl disulfide",
+          "Dipropyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "intense",
+          "sharp",
+          "pungent",
+          "sulfuric",
+          "irritating",
+          "fresh"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Initial slicing causes cellular rupture, releasing alliinase enzymes that produce volatile sulfur compounds, leading to a rapid increase in perceived intensity. The high activity level and close proximity further amplify this effect.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "onion_main_3.75-7.5",
+      "evidence_ref": {
+        "object_name": "red onion (main piece)",
+        "interval_time": {
+          "start_s": 3.75,
+          "end_s": 7.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.25,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.56,
+        "trend": "ramp_down",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Diallyl disulfide",
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "sharp",
+          "pungent",
+          "sulfuric",
+          "irritating",
+          "distinct"
+        ],
+        "descriptor_shift": "Overall intensity softens from 'intense' to 'moderate' due to the main piece receding slightly and its decreasing visible size, even as internal breakdown continues. 'Fresh' is removed due to prolonged exposure and more complex sulfur compounds.",
+        "shift_type": "soften"
+      },
+      "reasoning": "Further dicing continues to rupture cells in the diminishing main piece. However, the receding nature of the object and reduced frame coverage cause a slight decrease in the perceived intensity from this specific source, as the emphasis shifts to the accumulating diced pieces.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "onion_main_7.5-11.25",
+      "evidence_ref": {
+        "object_name": "red onion (main piece)",
+        "interval_time": {
+          "start_s": 7.5,
+          "end_s": 11.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.2,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.595,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Diallyl disulfide",
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide",
+          "Methyl trisulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "sharp",
+          "pungent",
+          "sulfuric",
+          "irritating",
+          "volatile",
+          "distinct"
+        ],
+        "descriptor_shift": "The scent from the rapidly dwindling main piece remains moderate, characterized by increasing volatility as its structure is almost fully compromised. 'Volatile' is added to reflect rapid release.",
+        "shift_type": "add"
+      },
+      "reasoning": "The continuous, aggressive dicing of the remaining main onion piece maximizes cellular rupture, leading to sustained volatile release. While the diminishing size prevents further intensity increases from this specific source, the receding proximity maintains a stable perceived effect.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "onion_main_11.25-15.0",
+      "evidence_ref": {
+        "object_name": "red onion (main piece)",
+        "interval_time": {
+          "start_s": 11.25,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.63,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Diallyl disulfide",
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide",
+          "Methyl trisulfide",
+          "Propenyl disulfides"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate",
+          "sharp",
+          "pungent",
+          "sulfuric",
+          "irritating",
+          "volatile",
+          "trace"
+        ],
+        "descriptor_shift": "As the main piece is almost completely consumed, its individual contribution becomes 'trace' amidst the overall dicing activity, while maintaining its characteristic profile.",
+        "shift_type": "add"
+      },
+      "reasoning": "With the main piece almost entirely diced, its contribution as a distinct source diminishes significantly. The high activity maintains a steady but ultimately minor emission from the remaining fragments, blending into the larger pile of diced pieces.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "diced_onion_0-3.75",
+      "evidence_ref": {
+        "object_name": "diced red onion pieces",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 3.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.15,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed interior flesh fragments",
+        "exposure_mode": "wet"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.2,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide"
+        ],
+        "secondary_trace": [
+          "Allyl methyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint",
+          "mildly pungent",
+          "green",
+          "fresh",
+          "aqueous"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Newly diced pieces provide an accumulating source with increased surface area, leading to a low but rising emission. The moist state facilitates volatile release into the immediate headspace, while increasing frame coverage drives the ramp_up trend.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "diced_onion_3.75-7.5",
+      "evidence_ref": {
+        "object_name": "diced red onion pieces",
+        "interval_time": {
+          "start_s": 3.75,
+          "end_s": 7.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.25,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed interior flesh fragments",
+        "exposure_mode": "wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.35,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Allyl methyl disulfide",
+          "Diallyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "noticeable",
+          "pungent",
+          "sulfuric",
+          "fresh",
+          "green",
+          "diffused"
+        ],
+        "descriptor_shift": "Intensity increases as the pile grows. 'Sulfuric' notes stronger volatile release, and 'diffused' reflects the spread of the odor. The transition from 'faint' to 'noticeable' marks this intensity change.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "The continuous accumulation of diced onion fragments significantly increases the total exposed surface area, amplifying the release of volatile compounds. The increasing frame coverage and approaching proximity contribute to a rising perceived intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "diced_onion_7.5-11.25",
+      "evidence_ref": {
+        "object_name": "diced red onion pieces",
+        "interval_time": {
+          "start_s": 7.5,
+          "end_s": 11.25
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.35,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed interior flesh fragments",
+        "exposure_mode": "wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.6,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Allyl methyl disulfide",
+          "Diallyl disulfide",
+          "Dipropyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "distinct",
+          "strong",
+          "pungent",
+          "sulfuric",
+          "irritating",
+          "penetrating"
+        ],
+        "descriptor_shift": "The large pile results in a 'stronger' and 'penetrating' odor as the volumetric source increases and proximity modifier is maximized. This represents a significant intensity increase from the previous 'noticeable' level.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "The ongoing process of dicing converts the entire onion into a large pile of small pieces. This maximizes the collective exposed cellular surface area, resulting in a distinct and strong olfactory presence as the bulk of the onion's volatiles are continuously emitted.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "diced_onion_11.25-15.0",
+      "evidence_ref": {
+        "object_name": "diced red onion pieces",
+        "interval_time": {
+          "start_s": 11.25,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.45,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "exposed interior flesh fragments",
+        "exposure_mode": "wet"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.65,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Thiosulfinates",
+          "Propanethial S-oxide",
+          "Alkyl sulfides"
+        ],
+        "secondary_trace": [
+          "Allyl methyl disulfide",
+          "Diallyl disulfide",
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "vivid",
+          "intense",
+          "sharp",
+          "pungent",
+          "sulfuric",
+          "irritating",
+          "lingering"
+        ],
+        "descriptor_shift": "Peak intensity is reached, described as 'vivid' and 'intense' due to the maximal accumulation of diced pieces. 'Lingering' replaces 'penetrating' as active dicing ceases and the odor persists in the air.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "The completion of the dicing process results in a very large, stable pile of diced onion. This represents the maximum potential for volatile emission from this preparation method, leading to a sustained high-level olfactory event as compounds continue to evaporate from the extensive exposed surface.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient temperature for volatile release.",
+          "Typical red onion molecular composition."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "red onion (main piece)",
+      "event_ids": [
+        "onion_main_0-3.75",
+        "onion_main_3.75-7.5",
+        "onion_main_7.5-11.25",
+        "onion_main_11.25-15.0"
+      ]
+    },
+    {
+      "object_name": "diced red onion pieces",
+      "event_ids": [
+        "diced_onion_0-3.75",
+        "diced_onion_3.75-7.5",
+        "diced_onion_7.5-11.25",
+        "diced_onion_11.25-15.0"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.0,
+      "linked_event_ids": [
+        "onion_main_0-3.75",
+        "diced_onion_0-3.75"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "intense",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "fresh",
+        "faint",
+        "mildly pungent",
+        "green",
+        "aqueous"
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "linked_event_ids": [
+        "onion_main_0-3.75",
+        "diced_onion_0-3.75"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "intense",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "fresh",
+        "faint",
+        "mildly pungent",
+        "green",
+        "aqueous"
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "linked_event_ids": [
+        "onion_main_0-3.75",
+        "diced_onion_0-3.75"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "intense",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "fresh",
+        "faint",
+        "mildly pungent",
+        "green",
+        "aqueous"
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "linked_event_ids": [
+        "onion_main_0-3.75",
+        "diced_onion_0-3.75"
+      ],
+      "interpolated_intensity": 0.9,
+      "dominant_descriptors": [
+        "intense",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "fresh",
+        "faint",
+        "mildly pungent",
+        "green",
+        "aqueous"
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "linked_event_ids": [
+        "onion_main_3.75-7.5",
+        "diced_onion_3.75-7.5"
+      ],
+      "interpolated_intensity": 0.91,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "distinct",
+        "noticeable",
+        "fresh",
+        "green",
+        "diffused"
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "linked_event_ids": [
+        "onion_main_3.75-7.5",
+        "diced_onion_3.75-7.5"
+      ],
+      "interpolated_intensity": 0.91,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "distinct",
+        "noticeable",
+        "fresh",
+        "green",
+        "diffused"
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "linked_event_ids": [
+        "onion_main_3.75-7.5",
+        "diced_onion_3.75-7.5"
+      ],
+      "interpolated_intensity": 0.91,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "distinct",
+        "noticeable",
+        "fresh",
+        "green",
+        "diffused"
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "linked_event_ids": [
+        "onion_main_3.75-7.5",
+        "diced_onion_3.75-7.5"
+      ],
+      "interpolated_intensity": 0.91,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "distinct",
+        "noticeable",
+        "fresh",
+        "green",
+        "diffused"
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "linked_event_ids": [
+        "onion_main_7.5-11.25",
+        "diced_onion_7.5-11.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "distinct",
+        "strong",
+        "penetrating"
+      ]
+    },
+    {
+      "t_s": 9.0,
+      "linked_event_ids": [
+        "onion_main_7.5-11.25",
+        "diced_onion_7.5-11.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "distinct",
+        "strong",
+        "penetrating"
+      ]
+    },
+    {
+      "t_s": 10.0,
+      "linked_event_ids": [
+        "onion_main_7.5-11.25",
+        "diced_onion_7.5-11.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "distinct",
+        "strong",
+        "penetrating"
+      ]
+    },
+    {
+      "t_s": 11.0,
+      "linked_event_ids": [
+        "onion_main_7.5-11.25",
+        "diced_onion_7.5-11.25"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "distinct",
+        "strong",
+        "penetrating"
+      ]
+    },
+    {
+      "t_s": 12.0,
+      "linked_event_ids": [
+        "onion_main_11.25-15.0",
+        "diced_onion_11.25-15.0"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "trace",
+        "vivid",
+        "intense",
+        "lingering"
+      ]
+    },
+    {
+      "t_s": 13.0,
+      "linked_event_ids": [
+        "onion_main_11.25-15.0",
+        "diced_onion_11.25-15.0"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "trace",
+        "vivid",
+        "intense",
+        "lingering"
+      ]
+    },
+    {
+      "t_s": 14.0,
+      "linked_event_ids": [
+        "onion_main_11.25-15.0",
+        "diced_onion_11.25-15.0"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "trace",
+        "vivid",
+        "intense",
+        "lingering"
+      ]
+    },
+    {
+      "t_s": 15.0,
+      "linked_event_ids": [
+        "onion_main_11.25-15.0",
+        "diced_onion_11.25-15.0"
+      ],
+      "interpolated_intensity": 1.0,
+      "dominant_descriptors": [
+        "moderate",
+        "sharp",
+        "pungent",
+        "sulfuric",
+        "irritating",
+        "volatile",
+        "trace",
+        "vivid",
+        "intense",
+        "lingering"
+      ]
+    }
+  ]
+}

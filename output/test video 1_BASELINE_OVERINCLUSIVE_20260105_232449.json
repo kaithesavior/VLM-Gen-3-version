@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 1.mp4",
+    "generated_at": "2026-01-05T23:28:34.110597",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "wood_board_0-15",
+      "evidence_ref": {
+        "object_name": "Wooden cutting board",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.6,
+          "frame_coverage_end": 0.6,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface wood fibers",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "alpha-Pinene",
+          "Camphene",
+          "Cedrol",
+          "Guaiacol",
+          "Vanillin",
+          "Isoeugenol",
+          "alpha-Humulene"
+        ],
+        "secondary_trace": [
+          "beta-Phellandrene",
+          "delta-Cadinene",
+          "Formic acid",
+          "Acetic acid",
+          "Furfural"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "earthy",
+          "woody",
+          "resinous",
+          "warm",
+          "dry",
+          "sweet",
+          "musty",
+          "camphoraceous",
+          "piney",
+          "slightly acidic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Wooden cutting board is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Wooden cutting board",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "red_onion_large_0-6.5",
+      "evidence_ref": {
+        "object_name": "Red onion (large piece being cut)",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.15,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "freshly cut interior flesh",
+        "exposure_mode": "exposed, wet, crushed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide",
+          "Dimethyl trisulfide",
+          "Propanethial S-oxide",
+          "Thiopropanal S-oxide",
+          "1-Propanethiol",
+          "2-Propenyl disulfide",
+          "Di-2-propenyl disulfide"
+        ],
+        "secondary_trace": [
+          "Methyl allyl disulfide",
+          "Allyl methyl thiosulfinate",
+          "Sulfuric acid (trace)",
+          "Pyruvic acid (precursor)",
+          "Amino acids (precursor)",
+          "Fructose (sweet note)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "pungent",
+          "sharp",
+          "sulfurous",
+          "acrid",
+          "freshly cut",
+          "irritating",
+          "earthy",
+          "sweet-allium",
+          "spicy",
+          "raw"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Red onion (large piece being cut) is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Red onion (large piece being cut)",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "red_onion_medium_6.5-12",
+      "evidence_ref": {
+        "object_name": "Red onion (medium piece being cut)",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 12.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.08,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "freshly cut interior flesh",
+        "exposure_mode": "exposed, wet, crushed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide",
+          "Dimethyl trisulfide",
+          "Propanethial S-oxide",
+          "Thiopropanal S-oxide",
+          "1-Propanethiol",
+          "2-Propenyl disulfide",
+          "Di-2-propenyl disulfide"
+        ],
+        "secondary_trace": [
+          "Methyl allyl disulfide",
+          "Allyl methyl thiosulfinate",
+          "Sulfuric acid (trace)",
+          "Pyruvic acid (precursor)",
+          "Amino acids (precursor)",
+          "Fructose (sweet note)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "pungent",
+          "sharp",
+          "sulfurous",
+          "acrid",
+          "freshly cut",
+          "irritating",
+          "earthy",
+          "sweet-allium",
+          "spicy",
+          "raw"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Red onion (medium piece being cut) is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Red onion (medium piece being cut)",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "red_onion_small_12-15",
+      "evidence_ref": {
+        "object_name": "Red onion (small remnants being chopped)",
+        "interval_time": {
+          "start_s": 12.0,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.03,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "minced onion fragments",
+        "exposure_mode": "exposed, wet, crushed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide",
+          "Dimethyl trisulfide",
+          "Propanethial S-oxide",
+          "Thiopropanal S-oxide",
+          "1-Propanethiol",
+          "2-Propenyl disulfide",
+          "Di-2-propenyl disulfide"
+        ],
+        "secondary_trace": [
+          "Methyl allyl disulfide",
+          "Allyl methyl thiosulfinate",
+          "Sulfuric acid (trace)",
+          "Pyruvic acid (precursor)",
+          "Amino acids (precursor)",
+          "Fructose (sweet note)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "pungent",
+          "sharp",
+          "sulfurous",
+          "acrid",
+          "freshly cut",
+          "irritating",
+          "earthy",
+          "sweet-allium",
+          "spicy",
+          "raw"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Red onion (small remnants being chopped) is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Red onion (small remnants being chopped)",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "diced_onion_0-15",
+      "evidence_ref": {
+        "object_name": "Diced red onion pieces",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.35,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "accumulated diced fragments",
+        "exposure_mode": "exposed, wet, piled"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "ramp_up",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Dipropyl disulfide",
+          "Methyl propyl disulfide",
+          "Dimethyl trisulfide",
+          "Propanethial S-oxide",
+          "Thiopropanal S-oxide",
+          "1-Propanethiol",
+          "2-Propenyl disulfide",
+          "Di-2-propenyl disulfide"
+        ],
+        "secondary_trace": [
+          "Methyl allyl disulfide",
+          "Allyl methyl thiosulfinate",
+          "Sulfuric acid (trace)",
+          "Pyruvic acid (precursor)",
+          "Amino acids (precursor)",
+          "Fructose (sweet note)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "pungent",
+          "sharp",
+          "sulfurous",
+          "acrid",
+          "freshly cut",
+          "irritating",
+          "earthy",
+          "sweet-allium",
+          "spicy",
+          "raw"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Diced red onion pieces is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Diced red onion pieces",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "gloved_hand_0-15",
+      "evidence_ref": {
+        "object_name": "Gloved hand",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "synthetic glove material",
+        "exposure_mode": "enclosed, static"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "2-Mercaptobenzothiazole",
+          "Tetramethylthiuram disulfide",
+          "Zinc diethyldithiocarbamate",
+          "N,N-diphenylguanidine",
+          "Stearic acid",
+          "Diethanolamine"
+        ],
+        "secondary_trace": [
+          "Titanium dioxide (filler)",
+          "Talc (lubricant)",
+          "Residual monomers (e.g., styrene)",
+          "Plasticizers (phthalates)",
+          "Antioxidants (BHT)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "rubbery",
+          "chemical",
+          "synthetic",
+          "clean",
+          "faint",
+          "industrial",
+          "plastic-like",
+          "processed",
+          "mildewy (from storage)",
+          "sterile"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Gloved hand is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Gloved hand",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "chefs_knife_0-15",
+      "evidence_ref": {
+        "object_name": "Chef's knife",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 15.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.25,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "stainless steel blade",
+        "exposure_mode": "exposed, metallic friction"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "1-Octen-3-one",
+          "Iron pentacarbonyl",
+          "Hexanal",
+          "Nonanal",
+          "2-Ethyl-1-hexanol",
+          "Hydrocarbons (trace from manufacturing oils)",
+          "Chromium oxides (trace)"
+        ],
+        "secondary_trace": [
+          "Sulfur compounds (trace impurities)",
+          "Carbon dioxide (surface reaction)",
+          "Organic residues (food particles)",
+          "Water vapor (surface humidity)",
+          "Nickel compounds (trace)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "metallic",
+          "cold",
+          "sharp",
+          "bloody (ironic)",
+          "industrial",
+          "neutral",
+          "clean",
+          "steely",
+          "mineral",
+          "oily (residual manufacturing)"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object Chef's knife is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "Chef's knife",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "All visible objects emit scent regardless of physical factors."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "Wooden cutting board",
+      "event_ids": [
+        "wood_board_0-15"
+      ]
+    },
+    {
+      "object_name": "Red onion (large piece being cut)",
+      "event_ids": [
+        "red_onion_large_0-6.5"
+      ]
+    },
+    {
+      "object_name": "Red onion (medium piece being cut)",
+      "event_ids": [
+        "red_onion_medium_6.5-12"
+      ]
+    },
+    {
+      "object_name": "Red onion (small remnants being chopped)",
+      "event_ids": [
+        "red_onion_small_12-15"
+      ]
+    },
+    {
+      "object_name": "Diced red onion pieces",
+      "event_ids": [
+        "diced_onion_0-15"
+      ]
+    },
+    {
+      "object_name": "Gloved hand",
+      "event_ids": [
+        "gloved_hand_0-15"
+      ]
+    },
+    {
+      "object_name": "Chef's knife",
+      "event_ids": [
+        "chefs_knife_0-15"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

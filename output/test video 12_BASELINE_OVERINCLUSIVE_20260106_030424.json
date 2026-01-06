@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 12.mp4",
+    "generated_at": "2026-01-06T03:06:29.618548",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "flower_0-10.5",
+      "evidence_ref": {
+        "object_name": "foreground white gardenia flower",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.45,
+          "frame_coverage_end": 0.45,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals, whole flower",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Benzyl acetate",
+          "Methyl benzoate",
+          "Phenethyl acetate",
+          "cis-3-Hexenol",
+          "Eugenol",
+          "Indole",
+          "Gardenia lactone"
+        ],
+        "secondary_trace": [
+          "Hexanal",
+          "Nerolidol",
+          "Coumarin",
+          "Jasmone",
+          "Farnesene",
+          "Geraniol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Sweet",
+          "Floral",
+          "Creamy",
+          "Exotic",
+          "Green",
+          "Indolic",
+          "Heavy",
+          "Intoxicating",
+          "Rich",
+          "Waxy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object foreground white gardenia flower is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "foreground white gardenia flower",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "leaves_0-10.5",
+      "evidence_ref": {
+        "object_name": "gardenia leaves",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "leaf surface, stems",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "cis-3-Hexenol",
+          "Hexanal",
+          "Linalool",
+          "beta-Caryophyllene",
+          "Limonene",
+          "Methyl salicylate",
+          "Alpha-Pinene",
+          "Ocimene"
+        ],
+        "secondary_trace": [
+          "Sabinene",
+          "Nonanal",
+          "Undecane",
+          "Caryophyllene oxide",
+          "Myrcene",
+          "Phellandrene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Green",
+          "Fresh",
+          "Leafy",
+          "Earthy",
+          "Herbaceous",
+          "Waxy",
+          "Slightly bitter",
+          "Vegetal",
+          "Damp",
+          "Woody"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object gardenia leaves is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "gardenia leaves",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "background_flower_0-10.5",
+      "evidence_ref": {
+        "object_name": "background white gardenia flower",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "far",
+          "frame_coverage_start": 0.15,
+          "frame_coverage_end": 0.15,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "petals, whole flower",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Linalool",
+          "Benzyl acetate",
+          "Methyl benzoate",
+          "Phenethyl acetate",
+          "cis-3-Hexenol",
+          "Eugenol",
+          "Indole",
+          "Gardenia lactone"
+        ],
+        "secondary_trace": [
+          "Hexanal",
+          "Nerolidol",
+          "Coumarin",
+          "Jasmone",
+          "Farnesene",
+          "Geraniol"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Sweet",
+          "Floral",
+          "Creamy",
+          "Exotic",
+          "Green",
+          "Indolic",
+          "Heavy",
+          "Intoxicating",
+          "Rich",
+          "Waxy"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object background white gardenia flower is present in frame.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "background white gardenia flower",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "foreground white gardenia flower",
+      "event_ids": [
+        "flower_0-10.5"
+      ]
+    },
+    {
+      "object_name": "gardenia leaves",
+      "event_ids": [
+        "leaves_0-10.5"
+      ]
+    },
+    {
+      "object_name": "background white gardenia flower",
+      "event_ids": [
+        "background_flower_0-10.5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

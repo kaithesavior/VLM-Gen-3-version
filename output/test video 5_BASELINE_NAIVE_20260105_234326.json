@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 5.mp4",
+    "generated_at": "2026-01-05T23:47:46.641197",
+    "experiment_condition": "BASELINE 2 (Naive/Object-Based)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "elephant_scent_01",
+      "evidence_ref": {
+        "object_name": "elephant",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.25,
+          "frame_coverage_end": 0.25,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "body",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "medium",
+        "numeric_level": 0.5,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Animalic compounds",
+          "Fatty acid derivatives"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "animalic",
+          "earthy",
+          "musky",
+          "mammalian"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Main object identified as elephant. Applying generic label.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "elephant",
+          "weight": 1.0
+        }
+      ],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": []
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "elephant",
+      "event_ids": [
+        "elephant_scent_01"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

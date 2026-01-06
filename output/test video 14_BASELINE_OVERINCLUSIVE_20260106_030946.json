@@ -1,0 +1,1283 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 14.mp4",
+    "generated_at": "2026-01-06T03:13:59.201966",
+    "experiment_condition": "BASELINE 1 (Over-Inclusive)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "evt_0",
+      "evidence_ref": {
+        "object_name": "durian husk",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.9,
+          "frame_coverage_end": 0.9,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "husk exterior",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Diethyl disulfide",
+          "Diethyl trisulfide",
+          "Methyl thioacetate",
+          "Ethanethiol",
+          "Ethyl propanoate",
+          "S-methyl propanethioate"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Ethyl acetate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Terpenes",
+          "Furanones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sulfurous",
+          "green",
+          "woody",
+          "earthy",
+          "rubbery",
+          "garlicky",
+          "vegetal",
+          "slightly sweet",
+          "damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian husk is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_1",
+      "evidence_ref": {
+        "object_name": "durian husk",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.9,
+          "frame_coverage_end": 0.8,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "husk exterior",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Diethyl disulfide",
+          "Diethyl trisulfide",
+          "Methyl thioacetate",
+          "Ethanethiol",
+          "Ethyl propanoate",
+          "S-methyl propanethioate"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Ethyl acetate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Terpenes",
+          "Furanones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sulfurous",
+          "green",
+          "woody",
+          "earthy",
+          "rubbery",
+          "garlicky",
+          "vegetal",
+          "slightly sweet",
+          "damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian husk is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_2",
+      "evidence_ref": {
+        "object_name": "durian husk",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.8,
+          "frame_coverage_end": 0.8,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "husk exterior",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Diethyl disulfide",
+          "Diethyl trisulfide",
+          "Methyl thioacetate",
+          "Ethanethiol",
+          "Ethyl propanoate",
+          "S-methyl propanethioate"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Ethyl acetate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Terpenes",
+          "Furanones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sulfurous",
+          "green",
+          "woody",
+          "earthy",
+          "rubbery",
+          "garlicky",
+          "vegetal",
+          "slightly sweet",
+          "damp"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian husk is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_3",
+      "evidence_ref": {
+        "object_name": "durian flesh (inside husk)",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.5,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Propyl disulfide",
+          "3-Hydroxy-2-butanone",
+          "Hydrogen sulfide",
+          "Methanethiol"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Dimethyl sulfoxide",
+          "Furanones",
+          "2-Methylpropanoic acid",
+          "Esters (general fruity)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sweet",
+          "creamy",
+          "sulfurous",
+          "fruity",
+          "onion-like",
+          "savory",
+          "custardy",
+          "fermented",
+          "rotten-onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian flesh (inside husk) is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_4",
+      "evidence_ref": {
+        "object_name": "durian flesh (inside husk)",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.5,
+          "frame_coverage_end": 0.4,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Propyl disulfide",
+          "3-Hydroxy-2-butanone",
+          "Hydrogen sulfide",
+          "Methanethiol"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Dimethyl sulfoxide",
+          "Furanones",
+          "2-Methylpropanoic acid",
+          "Esters (general fruity)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sweet",
+          "creamy",
+          "sulfurous",
+          "fruity",
+          "onion-like",
+          "savory",
+          "custardy",
+          "fermented",
+          "rotten-onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian flesh (inside husk) is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_5",
+      "evidence_ref": {
+        "object_name": "durian flesh (inside husk)",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.4,
+          "frame_coverage_end": 0.4,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "interior flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Propyl disulfide",
+          "3-Hydroxy-2-butanone",
+          "Hydrogen sulfide",
+          "Methanethiol"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Dimethyl sulfoxide",
+          "Furanones",
+          "2-Methylpropanoic acid",
+          "Esters (general fruity)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sweet",
+          "creamy",
+          "sulfurous",
+          "fruity",
+          "onion-like",
+          "savory",
+          "custardy",
+          "fermented",
+          "rotten-onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian flesh (inside husk) is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_6",
+      "evidence_ref": {
+        "object_name": "person's hands",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface (post-interaction)",
+        "exposure_mode": "absorbed/exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Short-chain fatty acids",
+          "Ethyl 2-methylbutyrate (absorbed)",
+          "Ethanethiol (absorbed)",
+          "Diethyl disulfide (absorbed)",
+          "Pyrazines (skin microflora)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Dimethyl sulfoxide (absorbed)",
+          "Squalene (skin oils)",
+          "Metallic ions (touch)",
+          "Acetaldehyde (absorbed)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent (absorbed)",
+          "sulfurous (absorbed)",
+          "fruity (absorbed)",
+          "sweet (absorbed)",
+          "metallic",
+          "fatty",
+          "salty",
+          "faint",
+          "skin-like",
+          "perspiring"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object person's hands is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_7",
+      "evidence_ref": {
+        "object_name": "person's hands",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.3,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface (post-interaction)",
+        "exposure_mode": "absorbed/exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Short-chain fatty acids",
+          "Ethyl 2-methylbutyrate (absorbed)",
+          "Ethanethiol (absorbed)",
+          "Diethyl disulfide (absorbed)",
+          "Pyrazines (skin microflora)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Dimethyl sulfoxide (absorbed)",
+          "Squalene (skin oils)",
+          "Metallic ions (touch)",
+          "Acetaldehyde (absorbed)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent (absorbed)",
+          "sulfurous (absorbed)",
+          "fruity (absorbed)",
+          "sweet (absorbed)",
+          "metallic",
+          "fatty",
+          "salty",
+          "faint",
+          "skin-like",
+          "perspiring"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object person's hands is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_8",
+      "evidence_ref": {
+        "object_name": "person's hands",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.3,
+          "frame_coverage_end": 0.2,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface (post-interaction)",
+        "exposure_mode": "absorbed/exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Short-chain fatty acids",
+          "Ethyl 2-methylbutyrate (absorbed)",
+          "Ethanethiol (absorbed)",
+          "Diethyl disulfide (absorbed)",
+          "Pyrazines (skin microflora)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Dimethyl sulfoxide (absorbed)",
+          "Squalene (skin oils)",
+          "Metallic ions (touch)",
+          "Acetaldehyde (absorbed)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent (absorbed)",
+          "sulfurous (absorbed)",
+          "fruity (absorbed)",
+          "sweet (absorbed)",
+          "metallic",
+          "fatty",
+          "salty",
+          "faint",
+          "skin-like",
+          "perspiring"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object person's hands is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_9",
+      "evidence_ref": {
+        "object_name": "person's hands",
+        "interval_time": {
+          "start_s": 8.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "exiting",
+          "frame_coverage_start": 0.2,
+          "frame_coverage_end": 0.1,
+          "trend": "exiting"
+        }
+      },
+      "odor_source": {
+        "material_part": "skin surface (post-interaction)",
+        "exposure_mode": "absorbed/exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Lactic acid",
+          "Urea",
+          "Short-chain fatty acids",
+          "Ethyl 2-methylbutyrate (absorbed)",
+          "Ethanethiol (absorbed)",
+          "Diethyl disulfide (absorbed)",
+          "Pyrazines (skin microflora)"
+        ],
+        "secondary_trace": [
+          "Ammonia",
+          "Acetone",
+          "Dimethyl sulfoxide (absorbed)",
+          "Squalene (skin oils)",
+          "Metallic ions (touch)",
+          "Acetaldehyde (absorbed)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent (absorbed)",
+          "sulfurous (absorbed)",
+          "fruity (absorbed)",
+          "sweet (absorbed)",
+          "metallic",
+          "fatty",
+          "salty",
+          "faint",
+          "skin-like",
+          "perspiring"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object person's hands is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_10",
+      "evidence_ref": {
+        "object_name": "durian segment",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.05,
+          "frame_coverage_end": 0.1,
+          "trend": "approaching"
+        }
+      },
+      "odor_source": {
+        "material_part": "detached flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Propyl disulfide",
+          "3-Hydroxy-2-butanone",
+          "Hydrogen sulfide",
+          "Methanethiol"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Dimethyl sulfoxide",
+          "Furanones",
+          "2-Methylpropanoic acid",
+          "Esters (general fruity)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sweet",
+          "creamy",
+          "sulfurous",
+          "fruity",
+          "onion-like",
+          "savory",
+          "custardy",
+          "fermented",
+          "rotten-onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian segment is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_11",
+      "evidence_ref": {
+        "object_name": "durian segment",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.08,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "detached flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Propyl disulfide",
+          "3-Hydroxy-2-butanone",
+          "Hydrogen sulfide",
+          "Methanethiol"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Dimethyl sulfoxide",
+          "Furanones",
+          "2-Methylpropanoic acid",
+          "Esters (general fruity)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sweet",
+          "creamy",
+          "sulfurous",
+          "fruity",
+          "onion-like",
+          "savory",
+          "custardy",
+          "fermented",
+          "rotten-onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian segment is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_12",
+      "evidence_ref": {
+        "object_name": "durian segment",
+        "interval_time": {
+          "start_s": 8.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "exiting",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.0,
+          "trend": "exiting"
+        }
+      },
+      "odor_source": {
+        "material_part": "detached flesh",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Propyl disulfide",
+          "3-Hydroxy-2-butanone",
+          "Hydrogen sulfide",
+          "Methanethiol"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Dimethyl sulfoxide",
+          "Furanones",
+          "2-Methylpropanoic acid",
+          "Esters (general fruity)"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Pungent",
+          "sweet",
+          "creamy",
+          "sulfurous",
+          "fruity",
+          "onion-like",
+          "savory",
+          "custardy",
+          "fermented",
+          "rotten-onion"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian segment is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_13",
+      "evidence_ref": {
+        "object_name": "durian peeling action",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 4.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.9,
+          "frame_coverage_end": 0.9,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "disturbed air/particulates",
+        "exposure_mode": "aerosolized"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Hydrogen sulfide",
+          "Ethanethiol",
+          "Methyl thioacetate",
+          "3-Hydroxy-2-butanone"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Furanones",
+          "Dimethyl sulfoxide",
+          "Terpenes",
+          "Propyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intensified",
+          "dispersed",
+          "transient",
+          "sulfurous",
+          "sweet",
+          "fruity",
+          "pungent",
+          "gaseous",
+          "active",
+          "mixed"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian peeling action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_14",
+      "evidence_ref": {
+        "object_name": "durian segment extraction action",
+        "interval_time": {
+          "start_s": 4.5,
+          "end_s": 6.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.9,
+          "frame_coverage_end": 0.8,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "disturbed air/particulates",
+        "exposure_mode": "aerosolized"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Hydrogen sulfide",
+          "Ethanethiol",
+          "Methyl thioacetate",
+          "3-Hydroxy-2-butanone"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Furanones",
+          "Dimethyl sulfoxide",
+          "Terpenes",
+          "Propyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intensified",
+          "dispersed",
+          "transient",
+          "sulfurous",
+          "sweet",
+          "fruity",
+          "pungent",
+          "gaseous",
+          "active",
+          "mixed"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object durian segment extraction action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_15",
+      "evidence_ref": {
+        "object_name": "holding extracted durian segment action",
+        "interval_time": {
+          "start_s": 6.5,
+          "end_s": 8.5
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.1,
+          "frame_coverage_end": 0.08,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "disturbed air/particulates",
+        "exposure_mode": "aerosolized"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Hydrogen sulfide",
+          "Ethanethiol",
+          "Methyl thioacetate",
+          "3-Hydroxy-2-butanone"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Furanones",
+          "Dimethyl sulfoxide",
+          "Terpenes",
+          "Propyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intensified",
+          "dispersed",
+          "transient",
+          "sulfurous",
+          "sweet",
+          "fruity",
+          "pungent",
+          "gaseous",
+          "active",
+          "mixed"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object holding extracted durian segment action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "evt_16",
+      "evidence_ref": {
+        "object_name": "moving extracted durian segment action",
+        "interval_time": {
+          "start_s": 8.5,
+          "end_s": 10.5
+        },
+        "proximity": {
+          "category": "exiting",
+          "frame_coverage_start": 0.08,
+          "frame_coverage_end": 0.0,
+          "trend": "exiting"
+        }
+      },
+      "odor_source": {
+        "material_part": "disturbed air/particulates",
+        "exposure_mode": "aerosolized"
+      },
+      "intensity": {
+        "categorical_level": "high",
+        "numeric_level": 0.9,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "Ethyl 2-methylbutyrate",
+          "1-(Ethylsulfanyl)ethanethiol",
+          "Diethyl disulfide",
+          "Ethyl propanoate",
+          "Hydrogen sulfide",
+          "Ethanethiol",
+          "Methyl thioacetate",
+          "3-Hydroxy-2-butanone"
+        ],
+        "secondary_trace": [
+          "Acetone",
+          "Acetaldehyde",
+          "Furanones",
+          "Dimethyl sulfoxide",
+          "Terpenes",
+          "Propyl disulfide"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "Intensified",
+          "dispersed",
+          "transient",
+          "sulfurous",
+          "sweet",
+          "fruity",
+          "pungent",
+          "gaseous",
+          "active",
+          "mixed"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Object moving extracted durian segment action is present in frame.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Assuming full chemical profile knowledge for all object states."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "durian husk",
+      "event_ids": [
+        "evt_0",
+        "evt_1",
+        "evt_2"
+      ]
+    },
+    {
+      "object_name": "durian flesh (inside husk)",
+      "event_ids": [
+        "evt_3",
+        "evt_4",
+        "evt_5"
+      ]
+    },
+    {
+      "object_name": "person's hands",
+      "event_ids": [
+        "evt_6",
+        "evt_7",
+        "evt_8",
+        "evt_9"
+      ]
+    },
+    {
+      "object_name": "durian segment",
+      "event_ids": [
+        "evt_10",
+        "evt_11",
+        "evt_12"
+      ]
+    },
+    {
+      "object_name": "durian peeling action",
+      "event_ids": [
+        "evt_13"
+      ]
+    },
+    {
+      "object_name": "durian segment extraction action",
+      "event_ids": [
+        "evt_14"
+      ]
+    },
+    {
+      "object_name": "holding extracted durian segment action",
+      "event_ids": [
+        "evt_15"
+      ]
+    },
+    {
+      "object_name": "moving extracted durian segment action",
+      "event_ids": [
+        "evt_16"
+      ]
+    }
+  ],
+  "frame_scent_sampling": null
+}

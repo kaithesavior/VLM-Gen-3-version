@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "source_video": "test_videos/test video 6.mp4",
+    "generated_at": "2026-01-05T23:51:44.533015",
+    "experiment_condition": "OURS (System-generated Plan)"
+  },
+  "olfactory_events": [
+    {
+      "event_id": "pizza_0_0_0_75",
+      "evidence_ref": {
+        "object_name": "pizza",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 0.75
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of baked crust and toppings",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "furans",
+          "esters",
+          "fatty acids"
+        ],
+        "secondary_trace": [
+          "lactones"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "savory",
+          "baked",
+          "cheesy",
+          "tomatoey",
+          "warm"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "The freshly baked pizza, exposed to the air, releases aroma compounds characteristic of cooked dough, melted cheese, and tomato sauce. The 'mid' proximity with relatively high frame coverage results in a noticeable but not intense scent.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient room temperature facilitates steady volatile release.",
+          "Standard cooking conditions for baked pizza."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "pizza_1_1_0_75_4_75",
+      "evidence_ref": {
+        "object_name": "pizza",
+        "interval_time": {
+          "start_s": 0.75,
+          "end_s": 4.75
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of baked crust and toppings, mixed with fresh basil leaves",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "furans",
+          "eugenol",
+          "linalool",
+          "esters"
+        ],
+        "secondary_trace": [
+          "limonene",
+          "fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "savory",
+          "baked",
+          "cheesy",
+          "tomatoey",
+          "mildly herbal",
+          "fresh"
+        ],
+        "descriptor_shift": "Addition of fresh basil introduces new herbal and green notes, subtly shifting the overall profile.",
+        "shift_type": "add"
+      },
+      "reasoning": "The pizza's base aroma remains stable. The visual evidence of basil leaves being added to the pizza indicates that basil's volatiles begin to contribute to the overall scent profile, enriching it with herbal notes. This is a subtle ambient influence from the active basil.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "pizza",
+          "weight": 0.8
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "basil leaves",
+          "weight": 0.2
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient room temperature facilitates steady volatile release.",
+          "Basil volatiles passively diffuse to combine with pizza aroma."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "pizza_1_2_4_75_8_75",
+      "evidence_ref": {
+        "object_name": "pizza",
+        "interval_time": {
+          "start_s": 4.75,
+          "end_s": 8.75
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of baked crust and toppings, increasingly topped with fresh basil leaves",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "furans",
+          "eugenol",
+          "linalool",
+          "methyl chavicol"
+        ],
+        "secondary_trace": [
+          "limonene",
+          "fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "savory",
+          "baked",
+          "cheesy",
+          "tomatoey",
+          "herbal",
+          "fresh",
+          "green"
+        ],
+        "descriptor_shift": "Continued presence of basil and ongoing nearby manipulation maintains and slightly intensifies the herbal aspect of the pizza's aroma.",
+        "shift_type": "intensify"
+      },
+      "reasoning": "The pizza remains a stable base. The increasing amount of basil physically placed on it, even if the pizza itself is static, contributes to a more pronounced herbal influence in the overall scent, maintained by ambient transfer from the highly active basil.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "pizza",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "basil leaves",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient room temperature facilitates steady volatile release.",
+          "Basil volatiles passively diffuse to combine with pizza aroma."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "pizza_1_3_8_75_9_5",
+      "evidence_ref": {
+        "object_name": "pizza",
+        "interval_time": {
+          "start_s": 8.75,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.35,
+          "frame_coverage_end": 0.35,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "surface of baked crust and toppings, fully topped with fresh basil leaves",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "pyrazines",
+          "furans",
+          "eugenol",
+          "linalool",
+          "methyl chavicol"
+        ],
+        "secondary_trace": [
+          "limonene",
+          "fatty acids"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "savory",
+          "baked",
+          "cheesy",
+          "tomatoey",
+          "herbal",
+          "fresh",
+          "aromatic"
+        ],
+        "descriptor_shift": "With basil fully distributed and activity ceased, the integrated herbal notes reach a stable, aromatic contribution to the pizza's scent profile.",
+        "shift_type": "integrate"
+      },
+      "reasoning": "The pizza with fully incorporated basil settles into a stable state. The odor profile reflects the combined, static presence of the cooked pizza and the fresh, undisturbed basil leaves.",
+      "mixture_attribution": [
+        {
+          "source_object_id": null,
+          "source_object_name": "pizza",
+          "weight": 0.7
+        },
+        {
+          "source_object_id": null,
+          "source_object_name": "basil leaves",
+          "weight": 0.3
+        }
+      ],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Ambient room temperature facilitates steady volatile release.",
+          "Basil volatiles passively diffuse to combine with pizza aroma."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_0_0_0_75",
+      "evidence_ref": {
+        "object_name": "basil leaves",
+        "interval_time": {
+          "start_s": 0.0,
+          "end_s": 0.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "whole leaves, intact surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.06,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "linalool",
+          "eugenol",
+          "methyl chavicol"
+        ],
+        "secondary_trace": [
+          "limonene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint herbal",
+          "green",
+          "sweet",
+          "aromatic"
+        ],
+        "descriptor_shift": null,
+        "shift_type": null
+      },
+      "reasoning": "Fresh, intact basil leaves, though held near, release a subtle amount of volatiles. The low activity level and small exposed surface area contribute to a faint but discernible herbal scent.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "medium",
+        "assumptions": [
+          "Leaves are fully hydrated and fresh.",
+          "Minor micro-abrasions from handling allow some initial volatile release."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_1_0_75_4_0",
+      "evidence_ref": {
+        "object_name": "basil leaves",
+        "interval_time": {
+          "start_s": 0.75,
+          "end_s": 4.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.008,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured cells and exposed leaf interior",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.21,
+        "trend": "ramp_down",
+        "justification": "Initial increase due to active manipulation and cell rupture, followed by reduction due to receding proximity and diminishing physical source volume."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "linalool",
+          "eugenol",
+          "methyl chavicol",
+          "limonene"
+        ],
+        "secondary_trace": [
+          "terpenes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "moderate herbal",
+          "vivid green",
+          "sweet-spicy",
+          "aromatic",
+          "fresh"
+        ],
+        "descriptor_shift": "Active separation and slight crushing of leaves significantly increases the release of volatile compounds, making the herbal scent more pronounced and vivid, but the receding proximity causes a slight fade.",
+        "shift_type": "intensify, distance-fade"
+      },
+      "reasoning": "The 'high' activity level due to active separation and placement of basil leaves causes rupture of plant cells, leading to a significant increase in volatile release. However, the receding proximity and decreasing frame coverage cause the perceived intensity to ramp down.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Physical manipulation of plant tissue leads to cell rupture and volatile release.",
+          "Airflow due to motion dissipates some volatiles."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_2_4_0_7_0",
+      "evidence_ref": {
+        "object_name": "basil leaves",
+        "interval_time": {
+          "start_s": 4.0,
+          "end_s": 7.0
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.008,
+          "frame_coverage_end": 0.005,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured cells and exposed leaf interior",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.105,
+        "trend": "ramp_down",
+        "justification": "Continued recession and diminishing volume of basil in hand causes the scent to further recede and become fainter, despite sustained activity."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "linalool",
+          "eugenol",
+          "methyl chavicol",
+          "limonene"
+        ],
+        "secondary_trace": [
+          "terpenes"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "faint herbal",
+          "green",
+          "sweet-spicy",
+          "aromatic",
+          "fresh"
+        ],
+        "descriptor_shift": "Continued recession and diminishing volume of basil in hand causes the scent to further recede and become fainter, despite sustained activity.",
+        "shift_type": "distance-fade"
+      },
+      "reasoning": "Sustained high activity maintains volatile release, but the continued receding proximity and the visible reduction in the physical volume of the basil clump lead to a decrease in perceived intensity.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Physical manipulation of plant tissue leads to cell rupture and volatile release.",
+          "Airflow due to motion dissipates some volatiles."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_3_7_0_8_75",
+      "evidence_ref": {
+        "object_name": "basil leaves",
+        "interval_time": {
+          "start_s": 7.0,
+          "end_s": 8.75
+        },
+        "proximity": {
+          "category": "near",
+          "frame_coverage_start": 0.005,
+          "frame_coverage_end": 0.003,
+          "trend": "receding"
+        }
+      },
+      "odor_source": {
+        "material_part": "ruptured cells from remaining leaf material",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.105,
+        "trend": "ramp_down",
+        "justification": "As the last few leaves are separated and the source nearly depleted, the basil scent becomes barely perceptible, a lingering trace of its prior intensity."
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "linalool",
+          "eugenol",
+          "methyl chavicol"
+        ],
+        "secondary_trace": [
+          "limonene"
+        ],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "trace herbal",
+          "subtle green",
+          "sweet-spicy"
+        ],
+        "descriptor_shift": "As the last few leaves are separated and the source nearly depleted, the basil scent becomes barely perceptible, a lingering trace of its prior intensity.",
+        "shift_type": "distance-fade"
+      },
+      "reasoning": "The final stages of active manipulation of the basil clump, combined with its decreasing physical presence and receding proximity, result in a very faint and fading herbal aroma.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Physical manipulation of plant tissue leads to cell rupture and volatile release.",
+          "Airflow due to motion dissipates some volatiles."
+        ]
+      },
+      "null_scent": null
+    },
+    {
+      "event_id": "basil_4_8_75_9_5",
+      "evidence_ref": {
+        "object_name": "basil leaves",
+        "interval_time": {
+          "start_s": 8.75,
+          "end_s": 9.5
+        },
+        "proximity": {
+          "category": "mid",
+          "frame_coverage_start": 0.01,
+          "frame_coverage_end": 0.01,
+          "trend": "stable"
+        }
+      },
+      "odor_source": {
+        "material_part": "whole leaves, distributed on pizza surface",
+        "exposure_mode": "exposed"
+      },
+      "intensity": {
+        "categorical_level": "low",
+        "numeric_level": 0.03,
+        "trend": "plateau",
+        "justification": null
+      },
+      "molecular_profile": {
+        "primary_volatiles": [
+          "linalool",
+          "eugenol",
+          "methyl chavicol"
+        ],
+        "secondary_trace": [],
+        "heat_reaction_products": []
+      },
+      "descriptors": {
+        "list": [
+          "very faint herbal",
+          "subtle green",
+          "mild sweet"
+        ],
+        "descriptor_shift": "Basil leaves are now static on the pizza, ceasing the active volatile release. The remaining scent is very faint and stable, integrated with the pizza.",
+        "shift_type": "soften, integrate"
+      },
+      "reasoning": "The basil leaves are now static and distributed on the pizza. The cessation of active manipulation and the small frame coverage (relative to being near) significantly reduce the individual basil scent, contributing to the pizza's overall aroma.",
+      "mixture_attribution": [],
+      "uncertainty": {
+        "confidence": "high",
+        "assumptions": [
+          "Cessation of physical manipulation drastically reduces volatile release from basil leaves.",
+          "The pizza's dominant aroma partially masks the subtle basil notes."
+        ]
+      },
+      "null_scent": null
+    }
+  ],
+  "object_tracks": [
+    {
+      "object_name": "pizza",
+      "event_ids": [
+        "pizza_0_0_0_75",
+        "pizza_1_1_0_75_4_75",
+        "pizza_1_2_4_75_8_75",
+        "pizza_1_3_8_75_9_5"
+      ]
+    },
+    {
+      "object_name": "basil leaves",
+      "event_ids": [
+        "basil_0_0_0_75",
+        "basil_1_0_75_4_0",
+        "basil_2_4_0_7_0",
+        "basil_3_7_0_8_75",
+        "basil_4_8_75_9_5"
+      ]
+    }
+  ],
+  "frame_scent_sampling": [
+    {
+      "t_s": 0.5,
+      "linked_event_ids": [
+        "pizza_0_0_0_75",
+        "basil_0_0_0_75"
+      ],
+      "interpolated_intensity": 0.27,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "cheesy",
+        "tomatoey",
+        "faint herbal",
+        "green"
+      ]
+    },
+    {
+      "t_s": 1.5,
+      "linked_event_ids": [
+        "pizza_1_1_0_75_4_75",
+        "basil_1_0_75_4_0"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "herbal",
+        "vivid green",
+        "cheesy",
+        "tomatoey",
+        "fresh"
+      ]
+    },
+    {
+      "t_s": 2.5,
+      "linked_event_ids": [
+        "pizza_1_1_0_75_4_75",
+        "basil_1_0_75_4_0"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "herbal",
+        "vivid green",
+        "cheesy",
+        "tomatoey",
+        "fresh"
+      ]
+    },
+    {
+      "t_s": 3.5,
+      "linked_event_ids": [
+        "pizza_1_1_0_75_4_75",
+        "basil_1_0_75_4_0"
+      ],
+      "interpolated_intensity": 0.42,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "herbal",
+        "vivid green",
+        "cheesy",
+        "tomatoey",
+        "fresh"
+      ]
+    },
+    {
+      "t_s": 4.5,
+      "linked_event_ids": [
+        "pizza_1_2_4_75_8_75",
+        "basil_2_4_0_7_0"
+      ],
+      "interpolated_intensity": 0.315,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "herbal",
+        "cheesy",
+        "tomatoey",
+        "faint green"
+      ]
+    },
+    {
+      "t_s": 5.5,
+      "linked_event_ids": [
+        "pizza_1_2_4_75_8_75",
+        "basil_2_4_0_7_0"
+      ],
+      "interpolated_intensity": 0.315,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "herbal",
+        "cheesy",
+        "tomatoey",
+        "faint green"
+      ]
+    },
+    {
+      "t_s": 6.5,
+      "linked_event_ids": [
+        "pizza_1_2_4_75_8_75",
+        "basil_2_4_0_7_0"
+      ],
+      "interpolated_intensity": 0.315,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "herbal",
+        "cheesy",
+        "tomatoey",
+        "faint green"
+      ]
+    },
+    {
+      "t_s": 7.5,
+      "linked_event_ids": [
+        "pizza_1_2_4_75_8_75",
+        "basil_3_7_0_8_75"
+      ],
+      "interpolated_intensity": 0.315,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "cheesy",
+        "tomatoey",
+        "trace herbal",
+        "subtle green"
+      ]
+    },
+    {
+      "t_s": 8.5,
+      "linked_event_ids": [
+        "pizza_1_2_4_75_8_75",
+        "basil_3_7_0_8_75"
+      ],
+      "interpolated_intensity": 0.315,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "cheesy",
+        "tomatoey",
+        "trace herbal",
+        "subtle green"
+      ]
+    },
+    {
+      "t_s": 9.5,
+      "linked_event_ids": [
+        "pizza_1_3_8_75_9_5",
+        "basil_4_8_75_9_5"
+      ],
+      "interpolated_intensity": 0.24,
+      "dominant_descriptors": [
+        "savory",
+        "baked",
+        "cheesy",
+        "tomatoey",
+        "aromatic",
+        "very faint herbal"
+      ]
+    }
+  ]
+}
