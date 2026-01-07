@@ -1,0 +1,156 @@
+You are an expert Video Understanding Engine.
+
+I provide you with a sequence of video frames sampled at {fps} FPS.
+The TOTAL video duration is exactly {estimated_duration:.2f} seconds.
+
+────────────────────────────────
+STAGE-1 OBJECTIVE (NAIVE, SINGLE-FOCUS)
+────────────────────────────────
+Your task is NOT to infer smells.
+
+Your task is to extract a simplified semantic summary of the video
+by identifying the MOST SALIENT visual entity or action and tracking it
+over the video timeline.
+
+This baseline assumes that a single dominant object or action
+captures the core semantic content of the video.
+
+The goal is to produce a minimal, coarse-grained representation
+without detailed contextual reasoning or fine-grained state modeling.
+
+────────────────────────────────
+ENTITY SELECTION STRATEGY (CRITICAL)
+────────────────────────────────
+You MUST select ONE primary semantic focus for the entire video.
+
+The primary focus may be:
+- the most visually salient object, OR
+- the most frequently occurring object, OR
+- the most prominent action repeatedly observed.
+
+Selection criteria may include (use your best judgment):
+- visual prominence (size, centrality, contrast),
+- frequency of appearance,
+- repeated interaction by an actor.
+
+Once selected:
+- ALL other objects, actions, and actors MUST be ignored.
+
+────────────────────────────────
+TEMPORAL ASSUMPTION (SIMPLIFIED)
+────────────────────────────────
+This baseline treats the video as a largely uniform semantic segment.
+
+You MAY:
+- represent the entire video as a single continuous interval, OR
+- split into a small number of coarse intervals if a major change
+  in the selected entity is visually obvious.
+
+Fine-grained temporal segmentation is NOT required.
+
+────────────────────────────────
+VISUAL STATE REPRESENTATION (COARSE)
+────────────────────────────────
+For the selected primary entity, describe its state using
+high-level, generic descriptors.
+
+Allowed visual_state descriptions include:
+- general appearance (present, active, visible),
+- coarse interaction (being used, being handled),
+- broad condition (unchanged, active, idle).
+
+Do NOT model:
+- detailed physical state transitions,
+- exposure vs enclosure,
+- material transformations,
+- subtle surface or thermal cues.
+
+This baseline intentionally avoids fine-grained state distinctions.
+
+────────────────────────────────
+STATE CHANGE DETECTION (MINIMAL)
+────────────────────────────────
+A state_change may be recorded ONLY if:
+- there is an obvious, large-scale change involving the selected entity
+  (e.g., object appears vs disappears; action starts vs ends).
+
+Minor changes, repeated motions, or gradual transitions
+SHOULD be ignored.
+
+────────────────────────────────
+INTERVAL REPRESENTATION RULES
+────────────────────────────────
+- Prefer ONE long interval covering most or all of the video.
+- Use additional intervals only if the primary entity
+  clearly changes in a major way.
+
+Avoid detailed interval segmentation.
+
+────────────────────────────────
+RATIONALE REQUIREMENT
+────────────────────────────────
+Each interval MUST include a rationale explaining:
+1) Why this entity was selected as the primary focus.
+2) What is generally observable about it during this interval.
+
+Rationales should be simple and descriptive.
+They do NOT need to justify relevance to any downstream task.
+
+────────────────────────────────
+OUTPUT FORMAT
+────────────────────────────────
+You MUST output two components:
+
+A. visual_timeline (PRIMARY OUTPUT)
+
+A minimal list containing ONLY the selected primary entity.
+
+Each entry MUST contain:
+- entity_type: "object" | "action"
+- entity_name: concise noun or verb phrase
+- time: continuous interval (e.g., "0.0s - 12.0s")
+- visual_state: high-level description
+- state_change: true | false
+- rationale: explanation for selection and interval division
+
+B. frame_log
+- One entry roughly every 1.0 second (MANDATORY).
+- Content can be repetitive (e.g., "Main object visible").
+
+{extra_requirements}
+
+────────────────────────────────
+ILLUSTRATIVE EXAMPLES
+────────────────────────────────
+
+EXAMPLE 1: Cooking video
+
+{{
+  "entity_type": "object",
+  "entity_name": "cooking pot",
+  "time": "0.0s - 15.0s",
+  "visual_state": "pot present and actively involved throughout the scene",
+  "state_change": false,
+  "rationale": "The cooking pot is the most visually prominent and repeatedly interacted object."
+}}
+
+EXAMPLE 2: Cutting action
+
+{{
+  "entity_type": "action",
+  "entity_name": "cutting",
+  "time": "3.0s - 7.0s",
+  "visual_state": "repeated cutting motion visible",
+  "state_change": true,
+  "rationale": "Cutting is the dominant repeated action in the video."
+}}
+
+────────────────────────────────
+FINAL CONSTRAINTS
+────────────────────────────────
+- Do NOT infer smells.
+- Do NOT include multiple objects or actions.
+- Do NOT apply fine-grained temporal or physical state reasoning.
+- Favor simplicity, saliency, and minimal structure.
+
+

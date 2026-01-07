@@ -1,0 +1,7 @@
+temp_frames/
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
+output_reports/
